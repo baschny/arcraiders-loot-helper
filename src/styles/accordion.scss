@@ -298,6 +298,30 @@
   }
 }
 
+.accordion-item-stash-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: #3c3c3c;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #e53935;
+    border-color: #e53935;
+    color: white;
+    transform: scale(1.1);
+  }
+}
+
 .accordion-item-header-content {
   display: flex;
   align-items: center;
@@ -524,4 +548,105 @@
   font-weight: 600;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+// Stash section styles
+.accordion-stash-section {
+  margin: 16px 8px 8px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.accordion-stash-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #242424;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #2a2a2a;
+  }
+}
+
+.accordion-stash-title {
+  @include urbanist-title;
+  font-size: 16px;
+  color: #888;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.accordion-stash-toggle {
+  font-size: 24px;
+  font-weight: 300;
+  color: #888;
+  user-select: none;
+}
+
+.accordion-stash-items {
+  padding: 8px;
+}
+
+.accordion-stash-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #242424;
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  transition: background 0.2s;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background: #2a2a2a;
+  }
+}
+
+.accordion-stash-item-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.accordion-stash-item-name {
+  @include urbanist-title;
+  font-size: 14px;
+  color: #888;
+}
+
+.accordion-stash-item-restore-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: #3c3c3c;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #4caf50;
+    border-color: #4caf50;
+    color: white;
+    transform: scale(1.1);
+  }
 }

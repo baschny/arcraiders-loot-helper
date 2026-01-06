@@ -10,20 +10,29 @@ interface AccordionListProps {
   itemsMap: ItemsMap;
   goalItemIds: string[];
   reverseMap: ReverseMap;
+  stashItemIds: Set<string>;
+  onToggleStashItem: (itemId: string) => void;
 }
 
-export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionListProps) {
+export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds, onToggleStashItem }: AccordionListProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedItemId, setExpandedItemId] = useState<string | null>(null);
   const [enabledTypes, setEnabledTypes] = useState<Set<string>>(new Set());
   const [enabledRarities, setEnabledRarities] = useState<Set<ItemRarity>>(new Set());
+  const [stashSectionExpanded, setStashSectionExpanded] = useState(false);
   const itemRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   // Get all items that are in the reverse map (i.e., needed for crafting)
-  // Exclude goal items from the list
+  // Exclude goal items and stash items from the list
   const requiredItemIds = Array.from(reverseMap.keys()).filter(
-    (id) => !goalItemIds.includes(id)
+    (id) => !goalItemIds.includes(id) && !stashItemIds.has(id)
   );
+
+  // Get items that are in stash and were previously needed
+  const stashItems = Array.from(stashItemIds)
+    .map((id) => itemsMap[id])
+    .filter((item) => item !== undefined)
+    .sort((a, b) => a.name.en.localeCompare(b.name.en));
 
   // Get items and sort alphabetically
   const sortedItems = requiredItemIds
@@ -160,14 +169,6 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
     saveEnabledRarities(emptySet);
   };
 
-  if (sortedItems.length === 0) {
-    return (
-      <div className="accordion-list-empty">
-        No items needed for your goals.
-      </div>
-    );
-  }
-
   return (
     <>
       <div className="filters-section">
@@ -257,7 +258,9 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
       </div>
 
       <div className="accordion-items">
-        {filteredItems.length === 0 ? (
+        {sortedItems.length === 0 ? (
+          <div className="accordion-no-results">No items needed for your goals.</div>
+        ) : filteredItems.length === 0 ? (
           <div className="accordion-no-results">No items found matching "{searchTerm}"</div>
         ) : (
           filteredItems.map((item) => {
@@ -308,6 +311,18 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
                     {isGoal && <span className="accordion-item-goal-badge">Goal</span>}
                   </div>
                   <div className="accordion-item-header-right">
+                    {!isGoal && (
+                      <button
+                        className="accordion-item-stash-button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onToggleStashItem(item.id);
+                        }}
+                        title="I have already enough of this material"
+                      >
+                        −
+                      </button>
+                    )}
                     {goalCount > 0 && (
                       <span className={`accordion-item-goal-count priority-${priorityLevel}`}>
                         ×{goalCount}
@@ -333,6 +348,44 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
           })
         )}
       </div>
+
+      {stashItems.length > 0 && (
+        <div className="accordion-stash-section">
+          <div
+            className="accordion-stash-header"
+            onClick={() => setStashSectionExpanded(!stashSectionExpanded)}
+          >
+            <h3 className="accordion-stash-title">Already Enough in Stash</h3>
+            <span className="accordion-stash-toggle">{stashSectionExpanded ? '−' : '+'}</span>
+          </div>
+
+          {stashSectionExpanded && (
+            <div className="accordion-stash-items">
+              {stashItems.map((item) => (
+                <div key={item.id} className="accordion-stash-item">
+                  <div className="accordion-stash-item-content">
+                    {item.imageFilename && (
+                      <ItemIconWithInfo
+                        item={item}
+                        itemsMap={itemsMap}
+                        className={`accordion-item-icon ${getRarityClass(item.rarity)}`}
+                      />
+                    )}
+                    <span className="accordion-stash-item-name">{item.name.en}</span>
+                  </div>
+                  <button
+                    className="accordion-stash-item-restore-button"
+                    onClick={() => onToggleStashItem(item.id)}
+                    title="Add back to required materials"
+                  >
+                    +
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </>
   );
 }

@@ -28,7 +28,8 @@ export type ReverseMap = Map<string, UsageInfo[]>;
 export function buildCraftingTree(
   goalItemId: string,
   itemsMap: ItemsMap,
-  goalItemIds: string[]
+  goalItemIds: string[],
+  stashItemIds: Set<string> = new Set()
 ): CraftingTree {
   const visited = new Set<string>();
   
@@ -36,6 +37,11 @@ export function buildCraftingTree(
     const item = itemsMap[itemId];
     if (!item) {
       console.warn(`Item not found: ${itemId}`);
+      return { itemId, quantity, children: [] };
+    }
+
+    // If item is in stash, treat it as a leaf node (we already have it)
+    if (stashItemIds.has(itemId)) {
       return { itemId, quantity, children: [] };
     }
 
@@ -63,7 +69,8 @@ export function buildCraftingTree(
         const salvageableSources = findSalvageableSources(
           ingredientId,
           itemsMap,
-          goalItemIds
+          goalItemIds,
+          stashItemIds
         );
         if (salvageableSources.length > 0) {
           childNode.salvageableFrom = salvageableSources;
@@ -80,12 +87,13 @@ export function buildCraftingTree(
 
 /**
  * Find items that can be salvaged/recycled to produce the target material
- * Excludes Basic Materials, goal items, weapons, and modifications
+ * Excludes Basic Materials, goal items, weapons, modifications, and stash items
  */
 function findSalvageableSources(
   targetMaterialId: string,
   itemsMap: ItemsMap,
-  goalItemIds: string[]
+  goalItemIds: string[],
+  stashItemIds: Set<string> = new Set()
 ): { itemId: string; method: 'salvage' | 'recycle' }[] {
   const sources: { itemId: string; method: 'salvage' | 'recycle' }[] = [];
   
@@ -104,6 +112,11 @@ function findSalvageableSources(
 
     // Skip if this item is in the goal items list
     if (goalItemIds.includes(item.id)) {
+      continue;
+    }
+    
+    // Skip if this item is in the stash
+    if (stashItemIds.has(item.id)) {
       continue;
     }
     
@@ -173,7 +186,8 @@ export function combineCraftingTrees(trees: CraftingTree[]): Map<string, number>
  */
 export function buildReverseMap(
   trees: CraftingTree[],
-  _itemsMap: ItemsMap
+  _itemsMap: ItemsMap,
+  stashItemIds: Set<string> = new Set()
 ): ReverseMap {
   const reverseMap: ReverseMap = new Map();
   const itemsUsedInRecipes = new Set<string>(); // Track items used directly in recipes
@@ -185,6 +199,11 @@ export function buildReverseMap(
     relationship: 'recipe' | 'salvage' | 'recycle',
     goalItemId: string
   ) {
+    // Skip items in stash
+    if (stashItemIds.has(itemId)) {
+      return;
+    }
+
     if (!reverseMap.has(itemId)) {
       reverseMap.set(itemId, []);
     }
@@ -250,6 +269,33 @@ export function buildReverseMap(
 
     traverse(tree.root);
   });
+
+  // Third pass: remove orphaned items
+  // An item is orphaned if ALL its parent items are stashed (not just in stash, but actually stashed)
+  // AND the item itself is not directly used in any active crafting path
+  let hasChanges = true;
+  while (hasChanges) {
+    hasChanges = false;
+    const itemsToRemove: string[] = [];
+
+    for (const [itemId, usages] of reverseMap.entries()) {
+      // An item should be removed if ALL of its parent items are stashed
+      // This means there's no valid path to any goal item
+      const allParentsStashed = usages.length > 0 && usages.every((usage) => {
+        return stashItemIds.has(usage.parentItemId);
+      });
+
+      if (allParentsStashed) {
+        itemsToRemove.push(itemId);
+        hasChanges = true;
+      }
+    }
+
+    // Remove orphaned items
+    for (const itemId of itemsToRemove) {
+      reverseMap.delete(itemId);
+    }
+  }
 
   return reverseMap;
 }

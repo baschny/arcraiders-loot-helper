@@ -4,7 +4,7 @@ import { Footer } from './components/Footer';
 import { Sidebar } from './components/Sidebar';
 import { AccordionList } from './components/AccordionList';
 import { loadAllItems } from './utils/dataLoader';
-import { loadGoalItems, saveGoalItems, loadDisabledItems, saveDisabledItems } from './utils/storage';
+import { loadGoalItems, saveGoalItems, loadDisabledItems, saveDisabledItems, loadStashItems, saveStashItems } from './utils/storage';
 import { buildCraftingTree, buildReverseMap } from './utils/craftingChain';
 import type { ItemsMap } from './types/item';
 import type { ReverseMap } from './utils/craftingChain';
@@ -14,7 +14,8 @@ import './styles/accordion.scss';
 function App() {
   const [itemsMap, setItemsMap] = useState<ItemsMap | null>(null);
   const [goalItemIds, setGoalItemIds] = useState<string[]>([]);
-  const [disabledItemIds, setDisabledItemIds] = useState<Set<string>>(new Set());
+  const [disabledGoalItemIds, setDisabledGoalItemIds] = useState<Set<string>>(new Set());
+  const [stashItemIds, setStashItemIds] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [reverseMap, setReverseMap] = useState<ReverseMap>(new Map());
@@ -25,7 +26,8 @@ function App() {
       .then((items) => {
         setItemsMap(items);
         setGoalItemIds(loadGoalItems());
-        setDisabledItemIds(loadDisabledItems());
+        setDisabledGoalItemIds(loadDisabledItems());
+        setStashItemIds(loadStashItems());
         setLoading(false);
       })
       .catch((err) => {
@@ -43,7 +45,7 @@ function App() {
     }
 
     // Build crafting trees only for enabled goal items
-    const enabledGoalIds = goalItemIds.filter((id) => !disabledItemIds.has(id));
+    const enabledGoalIds = goalItemIds.filter((id) => !disabledGoalItemIds.has(id));
     
     if (enabledGoalIds.length === 0) {
       setReverseMap(new Map());
@@ -51,13 +53,13 @@ function App() {
     }
 
     const trees = enabledGoalIds.map((itemId) =>
-      buildCraftingTree(itemId, itemsMap, goalItemIds)
+      buildCraftingTree(itemId, itemsMap, goalItemIds, stashItemIds)
     );
 
     // Build reverse map for accordion display
-    const reverseMapData = buildReverseMap(trees, itemsMap);
+    const reverseMapData = buildReverseMap(trees, itemsMap, stashItemIds);
     setReverseMap(reverseMapData);
-  }, [itemsMap, goalItemIds, disabledItemIds]);
+  }, [itemsMap, goalItemIds, disabledGoalItemIds, stashItemIds]);
 
   const handleAddGoalItem = (itemId: string) => {
     if (!goalItemIds.includes(itemId)) {
@@ -73,20 +75,20 @@ function App() {
     saveGoalItems(updated);
     
     // Also remove from disabled set
-    const newDisabled = new Set(disabledItemIds);
+    const newDisabled = new Set(disabledGoalItemIds);
     newDisabled.delete(itemId);
-    setDisabledItemIds(newDisabled);
+    setDisabledGoalItemIds(newDisabled);
     saveDisabledItems(newDisabled);
   };
 
   const handleToggleGoalItem = (itemId: string) => {
-    const newDisabled = new Set(disabledItemIds);
+    const newDisabled = new Set(disabledGoalItemIds);
     if (newDisabled.has(itemId)) {
       newDisabled.delete(itemId);
     } else {
       newDisabled.add(itemId);
     }
-    setDisabledItemIds(newDisabled);
+    setDisabledGoalItemIds(newDisabled);
     saveDisabledItems(newDisabled);
   };
 
@@ -97,14 +99,30 @@ function App() {
 
   const handleEnableAllGoalItems = () => {
     const newDisabled = new Set<string>();
-    setDisabledItemIds(newDisabled);
+    setDisabledGoalItemIds(newDisabled);
     saveDisabledItems(newDisabled);
   };
 
   const handleDisableAllGoalItems = () => {
     const newDisabled = new Set(goalItemIds);
-    setDisabledItemIds(newDisabled);
+    setDisabledGoalItemIds(newDisabled);
     saveDisabledItems(newDisabled);
+  };
+
+  const handleToggleStashItem = (itemId: string) => {
+    // Prevent goal items from being added to stash
+    if (goalItemIds.includes(itemId)) {
+      return;
+    }
+
+    const newStash = new Set(stashItemIds);
+    if (newStash.has(itemId)) {
+      newStash.delete(itemId);
+    } else {
+      newStash.add(itemId);
+    }
+    setStashItemIds(newStash);
+    saveStashItems(newStash);
   };
 
 
@@ -169,7 +187,7 @@ function App() {
         <Sidebar
           itemsMap={itemsMap}
           goalItemIds={goalItemIds}
-          disabledItemIds={disabledItemIds}
+          disabledItemIds={disabledGoalItemIds}
           onAddGoalItem={handleAddGoalItem}
           onRemoveGoalItem={handleRemoveGoalItem}
           onToggleGoalItem={handleToggleGoalItem}
@@ -185,8 +203,10 @@ function App() {
           ) : (
             <AccordionList
               itemsMap={itemsMap}
-              goalItemIds={goalItemIds.filter((id) => !disabledItemIds.has(id))}
+              goalItemIds={goalItemIds.filter((id) => !disabledGoalItemIds.has(id))}
               reverseMap={reverseMap}
+              stashItemIds={stashItemIds}
+              onToggleStashItem={handleToggleStashItem}
             />
           )}
         </div>

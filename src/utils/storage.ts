@@ -1,5 +1,6 @@
 const GOAL_ITEMS_KEY = 'what-to-loot-goal-items';
 const DISABLED_ITEMS_KEY = 'what-to-loot-disabled-items';
+const STASH_ITEMS_KEY = 'what-to-loot-stash-items';
 
 export function loadGoalItems(): string[] {
   try {
@@ -90,5 +91,23 @@ export function saveEnabledRarities(enabledRarities: Set<string>): void {
     localStorage.setItem(ENABLED_RARITIES_KEY, JSON.stringify(Array.from(enabledRarities)));
   } catch (error) {
     console.error('Failed to save enabled rarities to localStorage:', error);
+  }
+}
+
+export function loadStashItems(): Set<string> {
+  try {
+    const stored = localStorage.getItem(STASH_ITEMS_KEY);
+    return stored ? new Set(JSON.parse(stored)) : new Set();
+  } catch (error) {
+    console.error('Failed to load stash items from localStorage:', error);
+    return new Set();
+  }
+}
+
+export function saveStashItems(stashIds: Set<string>): void {
+  try {
+    localStorage.setItem(STASH_ITEMS_KEY, JSON.stringify(Array.from(stashIds)));
+  } catch (error) {
+    console.error('Failed to save stash items to localStorage:', error);
   }
 }
