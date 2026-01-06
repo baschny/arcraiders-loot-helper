@@ -235,9 +235,8 @@
 }
 
 .accordion-item-name {
-  font-family: $font-heading;
-  font-size: 15px;
-  font-weight: 500;
+  @include urbanist-title;
+  font-size: 18px;
   color: #e0e0e0;
 }
 
@@ -387,15 +386,18 @@
 }
 
 .hierarchy-item-name {
-  font-family: $font-heading;
-  color: #e0e0e0;
+  @include urbanist-title;
   font-size: 14px;
+  color: #e0e0e0;
 }
 
 .hierarchy-item-quantity {
-  color: #4fc3f7;
-  font-size: 13px;
+  font-size: 0.875rem;
   font-weight: 600;
+  color: $text-secondary;
+  padding: 2px 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
 }
 
 .hierarchy-nested {

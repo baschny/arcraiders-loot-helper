@@ -172,9 +172,9 @@
     }
 
     &-name {
-      font-family: $font-heading;
+      @include urbanist-title;
       flex: 1;
-      font-size: $font-md;
+      font-size: 13px;
       color: $text-primary;
     }
 
@@ -295,9 +295,9 @@
     }
 
     &-name {
-      font-family: $font-heading;
+      @include urbanist-title;
       flex: 1;
-      font-size: $font-md;
+      font-size: 13px;
       color: $text-primary;
     }
 
