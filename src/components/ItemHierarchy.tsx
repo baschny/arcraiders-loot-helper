@@ -1,5 +1,6 @@
 import type { Item, ItemsMap } from '../types/item';
 import type { ReverseMap } from '../utils/craftingChain';
+import { ItemIconWithInfo } from './ItemIconWithInfo';
 import { getRarityClass } from '../utils/dataLoader';
 import { Recycle, Wrench } from 'lucide-react';
 
@@ -121,9 +122,9 @@ export function ItemHierarchy({
                     onClick={() => onNavigateToItem(usage.parentItemId)}
                   >
                     {parentItem.imageFilename && (
-                      <img
-                        src={parentItem.imageFilename}
-                        alt={parentItem.name.en}
+                      <ItemIconWithInfo
+                        item={parentItem}
+                        itemsMap={itemsMap}
                         className={`hierarchy-item-icon ${getRarityClass(parentItem.rarity)}`}
                       />
                     )}

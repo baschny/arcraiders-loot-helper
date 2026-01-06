@@ -4,8 +4,14 @@
     "name": {
       "en": "Acoustic Guitar"
     },
+    "description": {
+      "en": "A playable acoustic guitar used to attract ARC's attention, and impress other Raiders."
+    },
     "type": "Quick Use",
     "rarity": "Legendary",
+    "value": 7000,
+    "weightKg": 1,
+    "stackSize": 1,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -19,8 +25,14 @@
     "name": {
       "en": "Adrenaline Shot"
     },
+    "description": {
+      "en": "A serum that fully restores stamina and temporarily increases stamina regeneration."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 300,
+    "weightKg": 0.2,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1,
       "plastic_parts": 1
@@ -42,8 +54,14 @@
     "name": {
       "en": "Advanced ARC Powercell"
     },
+    "description": {
+      "en": "Very valuable resource that drops from certain ARC enemies."
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 5,
     "recyclesInto": {
       "arc_powercell": 2
     },
@@ -59,8 +77,14 @@
     "name": {
       "en": "Advanced Electrical Components"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)"
+    },
     "type": "Refined Material",
     "rarity": "Rare",
+    "value": 1750,
+    "weightKg": 1,
+    "stackSize": 5,
     "recyclesInto": {
       "electrical_components": 1,
       "wires": 1
@@ -82,8 +106,14 @@
     "name": {
       "en": "Advanced Mechanical Components"
     },
+    "description": {
+      "en": "Used to craft advanced weapons. Can be recycled into crafting materials. Used to craft: Torrente, Venator, Osprey, Renegade, Bettina"
+    },
     "type": "Refined Material",
     "rarity": "Rare",
+    "value": 1750,
+    "weightKg": 1,
+    "stackSize": 5,
     "recyclesInto": {
       "mechanical_components": 1,
       "wires": 1
@@ -103,8 +133,14 @@
     "name": {
       "en": "Agave"
     },
+    "description": {
+      "en": "A piece of an agave leaf. Can be used to regain a small amount of health."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": 10,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -118,8 +154,14 @@
     "name": {
       "en": "Air Freshener"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -133,8 +175,14 @@
     "name": {
       "en": "Alarm Clock"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 6,
       "processor": 1
@@ -153,8 +201,14 @@
     "name": {
       "en": "Angled Grip I"
     },
+    "description": {
+      "en": "Slightly reduces horizontal recoil. Compatible with: Tempest, Arpeggio, Kettle, Ferro, Hullcracker"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "plastic_parts": 6,
@@ -171,8 +225,14 @@
     "name": {
       "en": "Angled Grip II Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces horizontal recoil. Compatible with: Arpeggio, Ferro, Il Toro, Stitcher"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -186,8 +246,14 @@
     "name": {
       "en": "Angled Grip II"
     },
+    "description": {
+      "en": "Moderately reduces horizontal recoil. Compatible with: Arpeggio, Ferro, Il Toro, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "duct_tape": 1
@@ -207,8 +273,14 @@
     "name": {
       "en": "Angled Grip III Blueprint"
     },
+    "description": {
+      "en": "Significantly reduces horizontal recoil. Compatible with: Arpeggio, Ferro, Venator, Il Toro, Stitcher"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -222,8 +294,14 @@
     "name": {
       "en": "Angled Grip III"
     },
+    "description": {
+      "en": "Significantly reduces horizontal recoil. Compatible with: Arpeggio, Ferro, Venator, Il Toro, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "duct_tape": 2
@@ -243,8 +321,14 @@
     "name": {
       "en": "Antiseptic"
     },
+    "description": {
+      "en": "Used to craft medical supplies. Can be recycled into chemicals. Used to craft: Sterilized Bandage, Vita Spray, Vita Shot"
+    },
     "type": "Refined Material",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 10
     },
@@ -263,8 +347,14 @@
     "name": {
       "en": "Anvil Blueprint"
     },
+    "description": {
+      "en": "Has high damage output and headshot damage, but slow handling."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -278,8 +368,14 @@
     "name": {
       "en": "Anvil I"
     },
+    "description": {
+      "en": "Single-action hand cannon with high damage and headshot damage, but slow handling."
+    },
     "type": "Hand Cannon",
     "rarity": "Uncommon",
+    "value": 5000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 2,
       "simple_gun_parts": 2
@@ -301,8 +397,14 @@
     "name": {
       "en": "Anvil II"
     },
+    "description": {
+      "en": "Single-action hand cannon with high damage and headshot damage, but slow handling."
+    },
     "type": "Hand Cannon",
     "rarity": "Uncommon",
+    "value": 7000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 3,
       "simple_gun_parts": 3
@@ -324,8 +426,14 @@
     "name": {
       "en": "Anvil III"
     },
+    "description": {
+      "en": "Single-action hand cannon with high damage and headshot damage, but slow handling."
+    },
     "type": "Hand Cannon",
     "rarity": "Uncommon",
+    "value": 10000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 4,
       "simple_gun_parts": 4
@@ -347,8 +455,14 @@
     "name": {
       "en": "Anvil IV"
     },
+    "description": {
+      "en": "Single-action hand cannon with high damage and headshot damage, but slow handling."
+    },
     "type": "Hand Cannon",
     "rarity": "Uncommon",
+    "value": 13000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 5,
       "simple_gun_parts": 5
@@ -370,8 +484,14 @@
     "name": {
       "en": "Anvil Splitter"
     },
+    "description": {
+      "en": "Tech mod for the Anvil that replaces its bullets with ones that split into 4 weaker projectiles."
+    },
     "type": "Modification",
     "rarity": "Legendary",
+    "value": 7000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "processor": 1
@@ -388,8 +508,14 @@
     "name": {
       "en": "Aphelion Blueprint"
     },
+    "description": {
+      "en": "An experimental ARC beam weapon powered by a Matriarch Reactor."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -403,8 +529,14 @@
     "name": {
       "en": "Aphelion"
     },
+    "description": {
+      "en": "An experimental ARC beam weapon powered by a Matriarch Reactor."
+    },
     "type": "Special",
     "rarity": "Legendary",
+    "value": 27500,
+    "weightKg": 14,
+    "stackSize": null,
     "recyclesInto": {
       "magnetic_accelerator": 2,
       "complex_gun_parts": 1
@@ -427,8 +559,14 @@
     "name": {
       "en": "Apricot"
     },
+    "description": {
+      "en": "A sun ripe apricot. Can be consumed for a small amount of stamina."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 3
     },
@@ -444,8 +582,14 @@
     "name": {
       "en": "ARC Alloy"
     },
+    "description": {
+      "en": "Obtained from ARC enemies or activities, or by recycling certain ARC parts. Used to craft components. Used to craft: Light Shield, ARC Motion Core, ARC Circuitry"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 200,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -461,8 +605,14 @@
     "name": {
       "en": "ARC Circuitry"
     },
+    "description": {
+      "en": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy. Used to craft: Medium Shield, Power Rod"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "arc_alloy": 2
     },
@@ -480,8 +630,14 @@
     "name": {
       "en": "ARC Coolant"
     },
+    "description": {
+      "en": "Obtained from ARC enemies or activities. Can be recycled into chemicals."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 16
     },
@@ -499,8 +655,14 @@
     "name": {
       "en": "ARC Flex Rubber"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 16
     },
@@ -518,8 +680,14 @@
     "name": {
       "en": "ARC Motion Core"
     },
+    "description": {
+      "en": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy. Used to craft: Magnetic Accelerator"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "arc_alloy": 2
     },
@@ -537,8 +705,14 @@
     "name": {
       "en": "ARC Performance Steel"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 12
     },
@@ -556,8 +730,14 @@
     "name": {
       "en": "ARC Powercell"
     },
+    "description": {
+      "en": "Valuable resource that drops from all ARC enemies. Used to craft: Shield Recharger Can be used to repair shields."
+    },
     "type": "Topside Material",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.5,
+    "stackSize": 5,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -571,8 +751,14 @@
     "name": {
       "en": "ARC Synthetic Resin"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 14
     },
@@ -590,8 +776,14 @@
     "name": {
       "en": "ARC Thermo Lining"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 16
     },
@@ -609,8 +801,14 @@
     "name": {
       "en": "Arpeggio I"
     },
+    "description": {
+      "en": "Has decent damage output and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Uncommon",
+    "value": 5500,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mechanical_components": 6,
@@ -627,8 +825,14 @@
     "name": {
       "en": "Arpeggio II"
     },
+    "description": {
+      "en": "Has decent damage output and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Uncommon",
+    "value": 8000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -645,8 +849,14 @@
     "name": {
       "en": "Arpeggio III"
     },
+    "description": {
+      "en": "Has decent damage output and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Uncommon",
+    "value": 11500,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -663,8 +873,14 @@
     "name": {
       "en": "Arpeggio IV"
     },
+    "description": {
+      "en": "Has decent damage output and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Uncommon",
+    "value": 15000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 5,
       "simple_gun_parts": 5
@@ -684,8 +900,14 @@
     "name": {
       "en": "Assorted Seeds"
     },
+    "description": {
+      "en": "A handful of seeds. Celeste might be looking for these."
+    },
     "type": "Nature",
     "rarity": "Common",
+    "value": 100,
+    "weightKg": 0.05,
+    "stackSize": 100,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -699,8 +921,14 @@
     "name": {
       "en": "Backpack (Black Hiker Color)"
     },
+    "description": {
+      "en": "Cosmetic Backpack"
+    },
     "type": "Cosmetic",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -714,8 +942,14 @@
     "name": {
       "en": "Banana"
     },
+    "description": {
+      "en": "A new cosmetic will be added to your collection."
+    },
     "type": "Backpack Charm",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -729,8 +963,14 @@
     "name": {
       "en": "Bandage"
     },
+    "description": {
+      "en": "A medical item that gradually restores health over time."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 250,
+    "weightKg": 0.1,
+    "stackSize": 5,
     "recyclesInto": {
       "fabric": 2
     },
@@ -748,8 +988,14 @@
     "name": {
       "en": "Barricade Kit Blueprint"
     },
+    "description": {
+      "en": "A deployable cover that can block incoming damage until it breaks."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -763,8 +1009,14 @@
     "name": {
       "en": "Barricade Kit"
     },
+    "description": {
+      "en": "A deployable cover that can block incoming damage until it breaks."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.4,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 4
     },
@@ -782,8 +1034,14 @@
     "name": {
       "en": "Bastion Cell"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 2,
       "advanced_mechanical_components": 2
@@ -802,8 +1060,14 @@
     "name": {
       "en": "Battery"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into scrap metal. Used to craft: Energy Clip, Medium Shield, Jolt Mine"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 250,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -821,8 +1085,14 @@
     "name": {
       "en": "Bettina Blueprint"
     },
+    "description": {
+      "en": "Has slow fire rate and high damage output."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -836,8 +1106,14 @@
     "name": {
       "en": "Bettina I"
     },
+    "description": {
+      "en": "Has slow fire rate and high damage output."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 8000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "advanced_mechanical_components": 3,
@@ -855,8 +1131,14 @@
     "name": {
       "en": "Bettina II"
     },
+    "description": {
+      "en": "Has slow fire rate and high damage output."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 11000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -873,8 +1155,14 @@
     "name": {
       "en": "Bettina III"
     },
+    "description": {
+      "en": "Has slow fire rate and high damage output."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 14000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -891,8 +1179,14 @@
     "name": {
       "en": "Bettina IV"
     },
+    "description": {
+      "en": "Has slow fire rate and high damage output."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 17000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -909,8 +1203,14 @@
     "name": {
       "en": "Bicycle Pump"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "canister": 4,
       "metal_parts": 10
@@ -929,8 +1229,14 @@
     "name": {
       "en": "Binoculars"
     },
+    "description": {
+      "en": "A basic pair of binoculars with two levels of magnification."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "rubber_parts": 2,
       "plastic_parts": 4
@@ -950,8 +1256,14 @@
     "name": {
       "en": "Blaze Grenade Blueprint"
     },
+    "description": {
+      "en": "A grenade that detonates on impact, covering an area in fire that deals damage over time."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -965,8 +1277,14 @@
     "name": {
       "en": "Blaze Grenade Trap"
     },
+    "description": {
+      "en": "A laser trip wire that detonates a Blaze Grenade."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": {
       "blaze_grenade": 1,
@@ -983,8 +1301,14 @@
     "name": {
       "en": "Blaze Grenade"
     },
+    "description": {
+      "en": "A grenade that detonates on impact, covering an area in fire that deals damage over time."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1600,
+    "weightKg": 0.2,
+    "stackSize": 5,
     "recyclesInto": {
       "oil": 2,
       "metal_parts": 4
@@ -1004,8 +1328,14 @@
     "name": {
       "en": "Bloated Tuna Can"
     },
+    "description": {
+      "en": "Something tells you that you don't want to open this... Can (reluctantly) be consumed to restore small amounts of stamina."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": 15,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1019,8 +1349,14 @@
     "name": {
       "en": "Blue Gate Cellar Key"
     },
+    "description": {
+      "en": "A key to the cellar in Blue Gate."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1034,8 +1370,14 @@
     "name": {
       "en": "Blue Gate Communication Tower Key"
     },
+    "description": {
+      "en": "Unlocks a door by the Communication Tower near the Blue Gate"
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1049,8 +1391,14 @@
     "name": {
       "en": "Blue Gate Confiscation Room Key"
     },
+    "description": {
+      "en": "Unlocks a door to the confiscated goods area within the Blue Gate tunnels"
+    },
     "type": "Key",
     "rarity": "Epic",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1064,8 +1412,14 @@
     "name": {
       "en": "Blue Gate Village Key"
     },
+    "description": {
+      "en": "A key to areas within Blue Gate Village."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1079,8 +1433,14 @@
     "name": {
       "en": "Blue Light Stick Blueprint"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1094,8 +1454,14 @@
     "name": {
       "en": "Blue Light Stick"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 150,
+    "weightKg": 0.75,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1
     },
@@ -1113,8 +1479,14 @@
     "name": {
       "en": "Blue (Radio Renegade Color)"
     },
+    "description": {
+      "en": "A new cosmetic variant will be added to your collection."
+    },
     "type": "Cosmetic",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1128,8 +1500,14 @@
     "name": {
       "en": "Bobcat Blueprint"
     },
+    "description": {
+      "en": "Fully automatic SMG with high fire rate but low accuracy."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1143,8 +1521,14 @@
     "name": {
       "en": "Bobcat I"
     },
+    "description": {
+      "en": "Fully automatic SMG with high fire rate but low accuracy."
+    },
     "type": "SMG",
     "rarity": "Epic",
+    "value": 13000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "light_gun_parts": 2,
       "advanced_mechanical_components": 2
@@ -1167,8 +1551,14 @@
     "name": {
       "en": "Bobcat II"
     },
+    "description": {
+      "en": "Fully automatic SMG with high fire rate but low accuracy."
+    },
     "type": "SMG",
     "rarity": "Epic",
+    "value": 17000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "light_gun_parts": 3,
       "advanced_mechanical_components": 3
@@ -1190,8 +1580,14 @@
     "name": {
       "en": "Bobcat III"
     },
+    "description": {
+      "en": "Fully automatic SMG with high fire rate but low accuracy."
+    },
     "type": "SMG",
     "rarity": "Epic",
+    "value": 22000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "light_gun_parts": 4,
       "advanced_mechanical_components": 4
@@ -1213,8 +1609,14 @@
     "name": {
       "en": "Bobcat IV"
     },
+    "description": {
+      "en": "Fully automatic SMG with high fire rate but low accuracy."
+    },
     "type": "SMG",
     "rarity": "Epic",
+    "value": 27000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "light_gun_parts": 4,
       "advanced_mechanical_components": 5
@@ -1236,8 +1638,14 @@
     "name": {
       "en": "Bombardier Cell"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "arc_alloy": 2
@@ -1254,8 +1662,14 @@
     "name": {
       "en": "Breathtaking Snow Globe"
     },
+    "description": {
+      "en": "The envy of every Speranzan. Proof that this world was once thriving and magical."
+    },
     "type": "Trinket",
     "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.2,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1269,8 +1683,14 @@
     "name": {
       "en": "Broken Flashlight"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "battery": 2,
       "metal_parts": 6
@@ -1289,8 +1709,14 @@
     "name": {
       "en": "Broken Guidance System"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "processor": 4
     },
@@ -1308,8 +1734,14 @@
     "name": {
       "en": "Broken Handheld Radio"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "sensors": 3,
       "wires": 2
@@ -1326,8 +1758,14 @@
     "name": {
       "en": "Broken Taser"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "battery": 2,
       "wires": 2
@@ -1344,8 +1782,14 @@
     "name": {
       "en": "Burgerboy"
     },
+    "description": {
+      "en": "A new cosmetic will be added to your collection."
+    },
     "type": "Backpack Charm",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1359,8 +1803,14 @@
     "name": {
       "en": "Buried City Hospital Key"
     },
+    "description": {
+      "en": "A key to areas within the Buried City Hospital."
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1374,8 +1824,14 @@
     "name": {
       "en": "Buried City JKV Employee Access Card"
     },
+    "description": {
+      "en": "An employee access card for JKV facilities in Buried City."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1389,8 +1845,14 @@
     "name": {
       "en": "Buried City Residential Master Key"
     },
+    "description": {
+      "en": "A master key for residential areas in Buried City."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1404,8 +1866,14 @@
     "name": {
       "en": "Buried City Town Hall Key"
     },
+    "description": {
+      "en": "Unlocks the door to the Town Hall in Buried City"
+    },
     "type": "Key",
     "rarity": "Epic",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -1419,8 +1887,14 @@
     "name": {
       "en": "Burletta Blueprint"
     },
+    "description": {
+      "en": "A blueprint to craft the Burletta weapon."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1434,8 +1908,14 @@
     "name": {
       "en": "Burletta I"
     },
+    "description": {
+      "en": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    },
     "type": "Pistol",
     "rarity": "Uncommon",
+    "value": 2900,
+    "weightKg": 4,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "simple_gun_parts": 2
@@ -1455,8 +1935,14 @@
     "name": {
       "en": "Burletta II"
     },
+    "description": {
+      "en": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    },
     "type": "Pistol",
     "rarity": "Uncommon",
+    "value": 5000,
+    "weightKg": 4,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 2,
       "simple_gun_parts": 2
@@ -1476,8 +1962,14 @@
     "name": {
       "en": "Burletta III"
     },
+    "description": {
+      "en": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    },
     "type": "Pistol",
     "rarity": "Uncommon",
+    "value": 7000,
+    "weightKg": 4,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 3,
       "simple_gun_parts": 3
@@ -1497,8 +1989,14 @@
     "name": {
       "en": "Burletta IV"
     },
+    "description": {
+      "en": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    },
     "type": "Pistol",
     "rarity": "Uncommon",
+    "value": 10000,
+    "weightKg": 4,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 4,
       "simple_gun_parts": 4
@@ -1518,8 +2016,14 @@
     "name": {
       "en": "Burned Arc Circuitry"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": 5,
     "recyclesInto": {
       "arc_alloy": 2
     },
@@ -1537,8 +2041,14 @@
     "name": {
       "en": "Burnt-Out Candles"
     },
+    "description": {
+      "en": "After the grid fell candles became the preferred source of light for many. Unlike electricity, a good old candle will never fail you. Unless it's windy. Or raining. Or..."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 15,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1552,8 +2062,14 @@
     "name": {
       "en": "Camera Lens"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 5,
     "recyclesInto": {
       "plastic_parts": 8
     },
@@ -1571,8 +2087,14 @@
     "name": {
       "en": "Candle Holder"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -1590,8 +2112,14 @@
     "name": {
       "en": "Candleberries"
     },
+    "description": {
+      "en": "A waxy berry that grows only during a small window each year. People have depended on them to make candles, foods and medicine for ages."
+    },
     "type": "Nature",
     "rarity": "Rare",
+    "value": 460,
+    "weightKg": 0.5,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 2
     },
@@ -1607,8 +2135,14 @@
     "name": {
       "en": "Canister"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into plastic. Used to craft: Bettina, Vita Spray, Heavy Fuze Grenade, Smoke Grenade"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "plastic_parts": 3
     },
@@ -1624,8 +2158,14 @@
     "name": {
       "en": "Cans Backpack Attachment"
     },
+    "description": {
+      "en": "Cosmetic Backpack Attachment"
+    },
     "type": "Cosmetic",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1639,8 +2179,14 @@
     "name": {
       "en": "Cat Bed"
     },
+    "description": {
+      "en": "At least a tiny bit more comfortable than your face."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.5,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -1654,8 +2200,14 @@
     "name": {
       "en": "Celeste's Journal"
     },
+    "description": {
+      "en": "Battered and torn, you can see the faint outline of doodles along the edges."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1669,8 +2221,14 @@
     "name": {
       "en": "Cheer"
     },
+    "description": {
+      "en": "A new cosmetic will be added to your collection."
+    },
     "type": "Cosmetic",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1684,8 +2242,14 @@
     "name": {
       "en": "Chemicals"
     },
+    "description": {
+      "en": "Used to craft medical supplies, explosives, and utility items. Used to craft: Heavy Ammo, Medium Ammo, Shotgun Ammo, Light Ammo, Light Impact Grenade"
+    },
     "type": "Basic Material",
     "rarity": "Common",
+    "value": 50,
+    "weightKg": 0.15,
+    "stackSize": 50,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1699,8 +2263,14 @@
     "name": {
       "en": "Coffee Pot"
     },
+    "description": {
+      "en": "The power to face a new day, one cup at a time."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -1714,8 +2284,14 @@
     "name": {
       "en": "Combat Mk. 1"
     },
+    "description": {
+      "en": "Basic combat augment. Supports stronger shields, but with limited backpack capacity and Quick Use slots."
+    },
     "type": "Augment",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 3,
       "rubber_parts": 3
@@ -1735,8 +2311,14 @@
     "name": {
       "en": "Combat Mk. 2"
     },
+    "description": {
+      "en": "A Combat augment more focused on maneuverability than absorbing damage."
+    },
     "type": "Augment",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "magnet": 1,
       "electrical_components": 1
@@ -1756,8 +2338,14 @@
     "name": {
       "en": "Combat Mk. 3 (Aggressive) Blueprint"
     },
+    "description": {
+      "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1771,8 +2359,14 @@
     "name": {
       "en": "Combat Mk. 3 (Aggressive)"
     },
+    "description": {
+      "en": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades."
+    },
     "type": "Augment",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "processor": 1
@@ -1792,8 +2386,14 @@
     "name": {
       "en": "Combat Mk. 3 (Flanking) Blueprint"
     },
+    "description": {
+      "en": "An improved version of the Combat II augment. Designed for flanking maneuvers with enhanced mobility."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1807,8 +2407,14 @@
     "name": {
       "en": "Combat Mk. 3 (Flanking)"
     },
+    "description": {
+      "en": "An improved version of the Combat II augment. Designed for flanking maneuvers with enhanced mobility."
+    },
     "type": "Augment",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "processor": 1
@@ -1828,8 +2434,14 @@
     "name": {
       "en": "Compensator I"
     },
+    "description": {
+      "en": "Slightly reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 5
     },
@@ -1850,8 +2462,14 @@
     "name": {
       "en": "Compensator II Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces per-shot dispersion."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1865,8 +2483,14 @@
     "name": {
       "en": "Compensator II"
     },
+    "description": {
+      "en": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "wires": 1
@@ -1886,8 +2510,14 @@
     "name": {
       "en": "Compensator III Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1901,8 +2531,14 @@
     "name": {
       "en": "Compensator III"
     },
+    "description": {
+      "en": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "wires": 2
@@ -1922,8 +2558,14 @@
     "name": {
       "en": "Complex Gun Parts Blueprint"
     },
+    "description": {
+      "en": "Used to craft advanced weapons."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -1937,8 +2579,14 @@
     "name": {
       "en": "Complex Gun Parts"
     },
+    "description": {
+      "en": "Used to craft advanced weapons. Used to craft: Equalizer, Jupiter"
+    },
     "type": "Topside Material",
     "rarity": "Epic",
+    "value": 3000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "simple_gun_parts": 3
     },
@@ -1958,8 +2606,14 @@
     "name": {
       "en": "Coolant"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 5,
       "oil": 2
@@ -1978,8 +2632,14 @@
     "name": {
       "en": "Cooling Coil"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 6,
       "steel_spring": 2
@@ -1996,8 +2656,14 @@
     "name": {
       "en": "Cooling Fan"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 14,
       "wires": 4
@@ -2014,8 +2680,14 @@
     "name": {
       "en": "Cracked Bioscanner"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 3,
       "battery": 3
@@ -2032,8 +2704,14 @@
     "name": {
       "en": "Crude Explosives"
     },
+    "description": {
+      "en": "Used to craft explosives. Can be recycled into crafting materials. Used to craft: Launcher Ammo, Explosive Compound, Snap Blast Grenade, Shrapnel Grenade, Trigger 'Nade"
+    },
     "type": "Refined Material",
     "rarity": "Uncommon",
+    "value": 270,
+    "weightKg": 0.5,
+    "stackSize": 10,
     "recyclesInto": {
       "chemicals": 3
     },
@@ -2053,8 +2731,14 @@
     "name": {
       "en": "Crumpled Plastic Bottle"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 270,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 4
     },
@@ -2072,8 +2756,14 @@
     "name": {
       "en": "Dam Control Tower Key"
     },
+    "description": {
+      "en": "Unlocks a door to the Control Tower on Dam Battlegrounds."
+    },
     "type": "Key",
     "rarity": "Epic",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2087,8 +2777,14 @@
     "name": {
       "en": "Dam Staff Room Key"
     },
+    "description": {
+      "en": "A key to the staff room in The Dam."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2102,8 +2798,14 @@
     "name": {
       "en": "Dam Surveillance Key"
     },
+    "description": {
+      "en": "Unlocks a door in the Water Treatment Control building on Dam Battlegrounds."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2117,8 +2819,14 @@
     "name": {
       "en": "Dam Testing Annex Key"
     },
+    "description": {
+      "en": "Unlocks a door in the Testing Annex on Dam Battlegrounds."
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2132,8 +2840,14 @@
     "name": {
       "en": "Dam Utility Key"
     },
+    "description": {
+      "en": "A key for utility access in The Dam."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2147,8 +2861,14 @@
     "name": {
       "en": "Damaged ARC Motion Core"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": 5,
     "recyclesInto": {
       "arc_alloy": 2
     },
@@ -2166,8 +2886,14 @@
     "name": {
       "en": "Damaged ARC Powercell"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 293,
+    "weightKg": 0.25,
+    "stackSize": 5,
     "recyclesInto": {
       "arc_alloy": 1
     },
@@ -2185,8 +2911,14 @@
     "name": {
       "en": "Damaged Fireball Burner"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 1
     },
@@ -2202,8 +2934,14 @@
     "name": {
       "en": "Damaged Heat Sink"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 6,
       "wires": 2
@@ -2222,8 +2960,14 @@
     "name": {
       "en": "Damaged Hornet Driver"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 2
     },
@@ -2241,8 +2985,14 @@
     "name": {
       "en": "Damaged Rocketeer Driver"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 2000,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 3
     },
@@ -2258,8 +3008,14 @@
     "name": {
       "en": "Damaged Snitch Scanner"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 659,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2273,8 +3029,14 @@
     "name": {
       "en": "Damaged Tick Pod"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.083,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 1
     },
@@ -2292,8 +3054,14 @@
     "name": {
       "en": "Damaged Wasp Driver"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 1
     },
@@ -2311,8 +3079,14 @@
     "name": {
       "en": "Dart Board"
     },
+    "description": {
+      "en": "Some Raiders use it to practice dexterity. Others just like throwing things at other things."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2326,8 +3100,14 @@
     "name": {
       "en": "Deadline Blueprint"
     },
+    "description": {
+      "en": "Unlocks the ability to craft Deadline mines at the explosives bench."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2341,8 +3121,14 @@
     "name": {
       "en": "Deadline"
     },
+    "description": {
+      "en": "A mine that deals damage to anything within its radius once the timer runs out."
+    },
     "type": "Quick Use",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": 1,
     "recyclesInto": {
       "explosive_compound": 1
     },
@@ -2361,8 +3147,14 @@
     "name": {
       "en": "Defibrillator Blueprint"
     },
+    "description": {
+      "en": "An injection that quickly revives downed raiders and restores some health."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2376,8 +3168,14 @@
     "name": {
       "en": "Defibrillator"
     },
+    "description": {
+      "en": "An injection that quickly revives downed raiders and restores some health."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.75,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 1,
       "moss": 1
@@ -2397,8 +3195,14 @@
     "name": {
       "en": "Deflated Football"
     },
+    "description": {
+      "en": "Just by looking at this, you too start to feel slightly deflated."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 15
     },
@@ -2416,8 +3220,14 @@
     "name": {
       "en": "Degraded ARC Rubber"
     },
+    "description": {
+      "en": "Obtained from ARC enemies or activities. Can be recycled into rubber."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 11
     },
@@ -2435,8 +3245,14 @@
     "name": {
       "en": "Diving Goggles"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 12
     },
@@ -2452,8 +3268,14 @@
     "name": {
       "en": "Dog Collar"
     },
+    "description": {
+      "en": "After all this time, you can still smell the goodness."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 8,
       "metal_parts": 1
@@ -2472,8 +3294,14 @@
     "name": {
       "en": "Door Blocker"
     },
+    "description": {
+      "en": "A locking mechanism that can be placed on large metal doors to limit access."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -2492,8 +3320,14 @@
     "name": {
       "en": "Dried-Out ARC Resin"
     },
+    "description": {
+      "en": "Obtained from ARC enemies or activities. Can be recycled into plastic."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 9
     },
@@ -2509,8 +3343,14 @@
     "name": {
       "en": "Duct Tape"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "fabric": 3
     },
@@ -2526,8 +3366,14 @@
     "name": {
       "en": "Durable Cloth"
     },
+    "description": {
+      "en": "Used to craft medical supplies. Used to craft: Herbal Bandage, Sterilized Bandage"
+    },
     "type": "Refined Material",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": 10,
     "recyclesInto": {
       "fabric": 6
     },
@@ -2545,8 +3391,14 @@
     "name": {
       "en": "Electrical Components"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade"
+    },
     "type": "Refined Material",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 10,
     "recyclesInto": {
       "plastic_parts": 3,
       "rubber_parts": 3
@@ -2568,8 +3420,14 @@
     "name": {
       "en": "Empty Wine Bottle"
     },
+    "description": {
+      "en": "Yes, it really is empty."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": 5,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2583,8 +3441,14 @@
     "name": {
       "en": "Energy Clip"
     },
+    "description": {
+      "en": "Compatible with: Equalizer, Jupiter"
+    },
     "type": "Ammunition",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": null,
     "recipe": {
       "advanced_arc_powercell": 1,
@@ -2601,8 +3465,14 @@
     "name": {
       "en": "Equalizer Blueprint"
     },
+    "description": {
+      "en": "A high capacity experimental beam rifle."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2616,8 +3486,14 @@
     "name": {
       "en": "Equalizer"
     },
+    "description": {
+      "en": "A high capacity experimental beam rifle."
+    },
     "type": "LMG",
     "rarity": "Legendary",
+    "value": 27500,
+    "weightKg": 14,
+    "stackSize": null,
     "recyclesInto": {
       "magnetic_accelerator": 2,
       "complex_gun_parts": 1
@@ -2640,8 +3516,14 @@
     "name": {
       "en": "ESR Analyzer"
     },
+    "description": {
+      "en": "A portable analyzer from the world before, complete with several spare tubes."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2655,8 +3537,14 @@
     "name": {
       "en": "Exodus Modules"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Used to craft: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook"
+    },
     "type": "Topside Material",
     "rarity": "Epic",
+    "value": 2750,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "magnet": 2,
       "processor": 2
@@ -2675,8 +3563,14 @@
     "name": {
       "en": "Experimental Seed Sample"
     },
+    "description": {
+      "en": "A cryogenically frozen research sample of an experimental crop."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2690,8 +3584,14 @@
     "name": {
       "en": "Expired Pasta"
     },
+    "description": {
+      "en": "Way pasta its prime. Can (reluctantly) be consumed to restore small amounts of health."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.1,
+    "stackSize": 15,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2705,8 +3605,14 @@
     "name": {
       "en": "Expired Respirator"
     },
+    "description": {
+      "en": "The filters are clogged with sand and noxious fumes. Long past its lifespan."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 8,
       "fabric": 4
@@ -2725,8 +3631,14 @@
     "name": {
       "en": "Explosive Compound"
     },
+    "description": {
+      "en": "Used to craft explosives. Used to craft: Wolfpack, Explosive Mine, Blaze Grenade, Heavy Fuze Grenade"
+    },
     "type": "Refined Material",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "crude_explosives": 2
     },
@@ -2747,8 +3659,14 @@
     "name": {
       "en": "Explosive Mine Blueprint"
     },
+    "description": {
+      "en": "A proximity-triggered explosive device that detonates when enemies approach."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2762,8 +3680,14 @@
     "name": {
       "en": "Explosive Mine"
     },
+    "description": {
+      "en": "A proximity-triggered explosive device that detonates when enemies approach."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1500,
+    "weightKg": 0.5,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 1,
       "sensors": 1
@@ -2783,8 +3707,14 @@
     "name": {
       "en": "Extended Barrel Blueprint"
     },
+    "description": {
+      "en": "Moderately increases bullet velocity. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2798,8 +3728,14 @@
     "name": {
       "en": "Extended Barrel"
     },
+    "description": {
+      "en": "Moderately increases bullet velocity. Compatible with: Tempest, Arpeggio, Ferro, Renegade, Anvil"
+    },
     "type": "Modification",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "wires": 1
@@ -2819,8 +3755,14 @@
     "name": {
       "en": "Extended Light Mag I"
     },
+    "description": {
+      "en": "Slightly extends the ammo capacity of compatible weapons that use light ammo. Compatible with: Kettle, Burletta, Hairpin, Bobcat, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 6
     },
@@ -2841,8 +3783,14 @@
     "name": {
       "en": "Extended Light Mag II Blueprint"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of compatible weapons that use light ammo."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2856,8 +3804,14 @@
     "name": {
       "en": "Extended Light Mag II"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of compatible weapons that use light ammo. Compatible with: Stitcher, Kettle, Burletta, Hairpin, Bobcat"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "steel_spring": 1,
       "mechanical_components": 1
@@ -2877,8 +3831,14 @@
     "name": {
       "en": "Extended Light Mag III Blueprint"
     },
+    "description": {
+      "en": "Significantly extends the ammo capacity of compatible weapons that use light ammo."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2892,8 +3852,14 @@
     "name": {
       "en": "Extended Light Mag III"
     },
+    "description": {
+      "en": "Significantly extends the ammo capacity of compatible weapons that use light ammo."
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "steel_spring": 2
@@ -2913,8 +3879,14 @@
     "name": {
       "en": "Extended Medium Mag I"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "plastic_parts": 6,
@@ -2931,8 +3903,14 @@
     "name": {
       "en": "Extended Medium Mag II Blueprint"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2946,8 +3924,14 @@
     "name": {
       "en": "Extended Medium Mag II"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mechanical_components": 2,
@@ -2964,8 +3948,14 @@
     "name": {
       "en": "Extended Medium Mag III Blueprint"
     },
+    "description": {
+      "en": "Significantly extends the ammo capacity of compataible weapons that use medium ammo."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -2979,8 +3969,14 @@
     "name": {
       "en": "Extended Medium Mag III"
     },
+    "description": {
+      "en": "Significantly extends the ammo capacity of compatible weapons that use medium ammo. Compatible with: Arpeggio, Renegade, Venator, Tempest, Torrente"
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "steel_spring": 2
@@ -3000,8 +3996,14 @@
     "name": {
       "en": " Extended Shotgun Mag I"
     },
+    "description": {
+      "en": "Slightly extends the ammo capacity of shotguns. Compatible with: Il Toro, Vulcano"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 6
     },
@@ -3020,8 +4022,14 @@
     "name": {
       "en": "Extended Shotgun Mag II Blueprint"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of shotguns."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3035,8 +4043,14 @@
     "name": {
       "en": "Extended Shotgun Mag II"
     },
+    "description": {
+      "en": "Moderately extends the ammo capacity of shotguns. Compatible with: Il Toro, Vulcano"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mechanical_components": 2,
@@ -3053,8 +4067,14 @@
     "name": {
       "en": "Extended Shotgun Mag III Blueprint"
     },
+    "description": {
+      "en": "Significantly extends the ammo capacity of shotguns."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3068,8 +4088,14 @@
     "name": {
       "en": "Extended Shotgun Mag III"
     },
+    "description": {
+      "en": "Significantly extends the ammo capacity of shotguns. Compatible with: Il Toro, Vulcano"
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3086,8 +4112,14 @@
     "name": {
       "en": "Fabric"
     },
+    "description": {
+      "en": "Used to craft medical supplies and shields. Can be used to slowly restore small amounts of health."
+    },
     "type": "Basic Material",
     "rarity": "Common",
+    "value": 50,
+    "weightKg": 0.1,
+    "stackSize": 50,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -3101,8 +4133,14 @@
     "name": {
       "en": "Faded Photograph"
     },
+    "description": {
+      "en": "A snapshot of the world before, faded by sunlight and time."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.3,
+    "stackSize": 15,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -3116,8 +4154,14 @@
     "name": {
       "en": "Ferro I"
     },
+    "description": {
+      "en": "Packs a punch, but must be reloaded between every shot."
+    },
     "type": "Battle Rifle",
     "rarity": "Common",
+    "value": 475,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 2,
       "rubber_parts": 1
@@ -3139,8 +4183,14 @@
     "name": {
       "en": "Ferro II"
     },
+    "description": {
+      "en": "Packs a punch, but must be reloaded between every shot."
+    },
     "type": "Battle Rifle",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 4,
       "rubber_parts": 3
@@ -3159,8 +4209,14 @@
     "name": {
       "en": "Ferro III"
     },
+    "description": {
+      "en": "Packs a punch, but must be reloaded between every shot."
+    },
     "type": "Battle Rifle",
     "rarity": "Common",
+    "value": 2000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 6,
       "simple_gun_parts": 1
@@ -3180,8 +4236,14 @@
     "name": {
       "en": "Ferro IV"
     },
+    "description": {
+      "en": "Packs a punch, but must be reloaded between every shot."
+    },
     "type": "Battle Rifle",
     "rarity": "Common",
+    "value": 2900,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "simple_gun_parts": 2
@@ -3203,8 +4265,14 @@
     "name": {
       "en": "Fertilizer"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": 5,
     "recyclesInto": {
       "assorted_seeds": 2
     },
@@ -3220,8 +4288,14 @@
     "name": {
       "en": "Film Reel"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -3235,8 +4309,14 @@
     "name": {
       "en": "Fine Wristwatch"
     },
+    "description": {
+      "en": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3250,8 +4330,14 @@
     "name": {
       "en": "Fireball Burner"
     },
+    "description": {
+      "en": "Can be recycled into ARC Alloy. Can be thrown to create small fires."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 1,
       "chemicals": 1
@@ -3268,8 +4354,14 @@
     "name": {
       "en": "Firecracker"
     },
+    "description": {
+      "en": "A device that sparks and pops in a pleasant manner."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.05,
+    "stackSize": 5,
     "recyclesInto": {
       "plastic_parts": 3
     },
@@ -3290,8 +4382,14 @@
     "name": {
       "en": "Fireworks Box Blueprint"
     },
+    "description": {
+      "en": "Unlocks the crafting blueprint for the Fireworks Box."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3305,8 +4403,14 @@
     "name": {
       "en": "Fireworks Box"
     },
+    "description": {
+      "en": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": 1,
     "recyclesInto": {
       "explosive_compound": 1
     },
@@ -3327,8 +4431,14 @@
     "name": {
       "en": "First Wave Compass"
     },
+    "description": {
+      "en": "Dusty but functional, these helped chart a course when all seemed lost."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3342,8 +4452,14 @@
     "name": {
       "en": "First Wave Rations"
     },
+    "description": {
+      "en": "Often heated above discreet fires, these meager provisions are said to have fueled a resistance."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3357,8 +4473,14 @@
     "name": {
       "en": "First Wave Tape"
     },
+    "description": {
+      "en": "An old tape found inside a battered old camcorder."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3372,8 +4494,14 @@
     "name": {
       "en": "Flame Spray"
     },
+    "description": {
+      "en": "A classic makeshift weapon, sure to leave scorch marks."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "air_freshener": 1,
@@ -3390,8 +4518,14 @@
     "name": {
       "en": "Flow Controller"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "sensors": 1
@@ -3408,8 +4542,14 @@
     "name": {
       "en": "Flushing Terminal Key"
     },
+    "description": {
+      "en": "This key is used for the quest The Stench of Corruption to activate the Flushing Terminal"
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 0,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3423,8 +4563,14 @@
     "name": {
       "en": "Fossilized Lightning"
     },
+    "description": {
+      "en": "An item that has a chance to spawn after lightning strikes."
+    },
     "type": "Topside Material",
     "rarity": "Epic",
+    "value": 4000,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": {
       "explosive_compound": 3
     },
@@ -3440,8 +4586,14 @@
     "name": {
       "en": "Free Loadout Augment"
     },
+    "description": {
+      "en": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity."
+    },
     "type": "Augment",
     "rarity": "Common",
+    "value": 100,
+    "weightKg": 1,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3455,8 +4607,14 @@
     "name": {
       "en": "Frequency Modulation Box"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "speaker_component": 1
@@ -3473,8 +4631,14 @@
     "name": {
       "en": "Fried Motherboard"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 5,
       "electrical_components": 2
@@ -3493,8 +4657,14 @@
     "name": {
       "en": "Fruit Mix"
     },
+    "description": {
+      "en": "A food item that moderately increases both health and stamina."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 1800,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": null,
     "recipe": {
       "lemon": 1,
@@ -3512,8 +4682,14 @@
     "name": {
       "en": "Frying Pan"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -3531,8 +4707,14 @@
     "name": {
       "en": "Garlic Press"
     },
+    "description": {
+      "en": "It'll press garlic, olives, and probably many other things."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 12
     },
@@ -3550,8 +4732,14 @@
     "name": {
       "en": "Gas Grenade Trap"
     },
+    "description": {
+      "en": "A laser trip wire that detonates a Gas Grenade."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": {
       "gas_grenade": 1,
@@ -3568,8 +4756,14 @@
     "name": {
       "en": "Gas Grenade"
     },
+    "description": {
+      "en": "A grenade that emits a lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 1,
       "rubber_parts": 1
@@ -3589,8 +4783,14 @@
     "name": {
       "en": "Gas Mine Blueprint"
     },
+    "description": {
+      "en": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3604,8 +4804,14 @@
     "name": {
       "en": "Gas Mine"
     },
+    "description": {
+      "en": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 1,
       "rubber_parts": 1
@@ -3625,8 +4831,14 @@
     "name": {
       "en": "Geiger Counter"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 3500,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "battery": 3,
       "exodus_modules": 1
@@ -3643,8 +4855,14 @@
     "name": {
       "en": "Great Mullein"
     },
+    "description": {
+      "en": "Used to craft medical supplies. Used to craft: Herbal Bandage, Antiseptic"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "assorted_seeds": 2
     },
@@ -3660,8 +4878,14 @@
     "name": {
       "en": "Green Light Stick Blueprint"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3675,8 +4899,14 @@
     "name": {
       "en": "Green Light Stick"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 150,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": null,
     "recipe": {
       "chemicals": 3
@@ -3692,8 +4922,14 @@
     "name": {
       "en": "Hairpin I"
     },
+    "description": {
+      "en": "Has a built-in silencer. Great for stealth, but tricky in combat."
+    },
     "type": "Pistol",
     "rarity": "Common",
+    "value": 450,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 2,
       "rubber_parts": 1
@@ -3715,8 +4951,14 @@
     "name": {
       "en": "Hairpin II"
     },
+    "description": {
+      "en": "Has a built-in silencer. Great for stealth, but tricky in combat."
+    },
     "type": "Pistol",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 4,
       "plastic_parts": 4
@@ -3737,8 +4979,14 @@
     "name": {
       "en": "Hairpin III"
     },
+    "description": {
+      "en": "Has a built-in silencer. Great for stealth, but tricky in combat."
+    },
     "type": "Pistol",
     "rarity": "Common",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 6,
       "simple_gun_parts": 1
@@ -3760,8 +5008,14 @@
     "name": {
       "en": "Hairpin IV"
     },
+    "description": {
+      "en": "Has a built-in silencer. Great for stealth, but tricky in combat."
+    },
     "type": "Pistol",
     "rarity": "Common",
+    "value": 2900,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "simple_gun_parts": 2
@@ -3783,8 +5037,14 @@
     "name": {
       "en": "Headphones"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 7,
       "speaker_component": 1
@@ -3801,8 +5061,14 @@
     "name": {
       "en": "Heavy Ammo"
     },
+    "description": {
+      "en": "Compatible with: Ferro, Anvil, Bettina"
+    },
     "type": "Ammunition",
     "rarity": "Common",
+    "value": 12,
+    "weightKg": 0.05,
+    "stackSize": 40,
     "recyclesInto": null,
     "recipe": {
       "metal_parts": 3,
@@ -3819,8 +5085,14 @@
     "name": {
       "en": "Heavy Fuze Grenade"
     },
+    "description": {
+      "en": "A grenade that detonates after a delay, dealing explosive damage in its radius."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1600,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "oil": 1,
       "rubber_parts": 2
@@ -3840,8 +5112,14 @@
     "name": {
       "en": "Heavy Gun Parts Blueprint"
     },
+    "description": {
+      "en": "Used to craft weapons."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3855,8 +5133,14 @@
     "name": {
       "en": "Heavy Gun Parts"
     },
+    "description": {
+      "en": "Used to craft weapons. Used to craft: Vulcano, Hullcracker, Bettina, Complex Gun Parts"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 700,
+    "weightKg": 0.5,
+    "stackSize": 5,
     "recyclesInto": {
       "simple_gun_parts": 2
     },
@@ -3874,8 +5158,14 @@
     "name": {
       "en": "Heavy Shield"
     },
+    "description": {
+      "en": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility."
+    },
     "type": "Shield",
     "rarity": "Epic",
+    "value": 5500,
+    "weightKg": 9,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "power_rod": 1,
@@ -3892,8 +5182,14 @@
     "name": {
       "en": "Herbal Bandage"
     },
+    "description": {
+      "en": "An improvised medical item that gradually restores health over time."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 900,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": {
       "assorted_seeds": 2,
       "fabric": 5
@@ -3913,8 +5209,14 @@
     "name": {
       "en": "Horizontal Grip Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces both vertical recoil and horizontal recoil."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -3928,8 +5230,14 @@
     "name": {
       "en": "Horizontal Grip"
     },
+    "description": {
+      "en": "Moderately reduces both vertical recoil and horizontal recoil."
+    },
     "type": "Modification",
     "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "duct_tape": 2
@@ -3951,8 +5259,14 @@
     "name": {
       "en": "Hornet Driver"
     },
+    "description": {
+      "en": "Can be thrown and will briefly stun nearby targets"
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.75,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 2,
       "electrical_components": 2
@@ -3971,8 +5285,14 @@
     "name": {
       "en": "Household Cleaner"
     },
+    "description": {
+      "en": "Can be recycled into chemicals."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 11
     },
@@ -3988,8 +5308,14 @@
     "name": {
       "en": "Hullcracker Blueprint"
     },
+    "description": {
+      "en": "Anti-ARC payloads used mainly by the Hullcracker."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4003,8 +5329,14 @@
     "name": {
       "en": "Hullcracker I"
     },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
     "type": "Special",
     "rarity": "Epic",
+    "value": 10000,
+    "weightKg": 7,
+    "stackSize": 1,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 2
@@ -4025,8 +5357,14 @@
     "name": {
       "en": "Hullcracker II"
     },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
     "type": "Special",
     "rarity": "Epic",
+    "value": 13000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 3
@@ -4048,8 +5386,14 @@
     "name": {
       "en": "Hullcracker III"
     },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
     "type": "Special",
     "rarity": "Epic",
+    "value": 17000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "heavy_gun_parts": 4
@@ -4071,8 +5415,14 @@
     "name": {
       "en": "Hullcracker IV"
     },
+    "description": {
+      "en": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
     "type": "Special",
     "rarity": "Epic",
+    "value": 22000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 4,
       "heavy_gun_parts": 5
@@ -4092,8 +5442,14 @@
     "name": {
       "en": "Humidifier"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "canister": 2,
       "wires": 2
@@ -4110,8 +5466,14 @@
     "name": {
       "en": "Ice Cream Scooper"
     },
+    "description": {
+      "en": "It is theorized that scooping things was a favorite pastime in the world before."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 7
     },
@@ -4129,8 +5491,14 @@
     "name": {
       "en": "Il Toro Blueprint"
     },
+    "description": {
+      "en": "Has a large bullet spread, sharp falloff, and high damage output."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4144,8 +5512,14 @@
     "name": {
       "en": "Il Toro I"
     },
+    "description": {
+      "en": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    },
     "type": "Shotgun",
     "rarity": "Uncommon",
+    "value": 5000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 2,
       "simple_gun_parts": 2
@@ -4165,8 +5539,14 @@
     "name": {
       "en": "Il Toro II"
     },
+    "description": {
+      "en": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    },
     "type": "Shotgun",
     "rarity": "Uncommon",
+    "value": 7000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4183,8 +5563,14 @@
     "name": {
       "en": "Il Toro III"
     },
+    "description": {
+      "en": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    },
     "type": "Shotgun",
     "rarity": "Uncommon",
+    "value": 10000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 4,
       "simple_gun_parts": 4
@@ -4204,8 +5590,14 @@
     "name": {
       "en": "Il Toro IV"
     },
+    "description": {
+      "en": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    },
     "type": "Shotgun",
     "rarity": "Uncommon",
+    "value": 13000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 5,
       "simple_gun_parts": 5
@@ -4225,8 +5617,14 @@
     "name": {
       "en": "Impure ARC Coolant"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.33,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 12
     },
@@ -4242,8 +5640,14 @@
     "name": {
       "en": "Industrial Battery"
     },
+    "description": {
+      "en": "A large, high-capacity battery for industrial equipment."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 7,
       "battery": 2
@@ -4262,8 +5666,14 @@
     "name": {
       "en": "Industrial Charger"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 5,
       "voltage_converter": 1
@@ -4282,8 +5692,14 @@
     "name": {
       "en": "Industrial Magnet"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "magnet": 2,
       "metal_parts": 4
@@ -4302,8 +5718,14 @@
     "name": {
       "en": "Ion Sputter"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 6000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "voltage_converter": 4,
       "exodus_modules": 1
@@ -4320,8 +5742,14 @@
     "name": {
       "en": "Jolt Mine Blueprint"
     },
+    "description": {
+      "en": "A proximity-triggered mine that pops up and stuns anything within its radius."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4335,8 +5763,14 @@
     "name": {
       "en": "Jolt Mine"
     },
+    "description": {
+      "en": "A proximity-triggered mine that pops up and stuns anything within its radius."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 850,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "battery": 1,
       "plastic_parts": 2
@@ -4356,8 +5790,14 @@
     "name": {
       "en": "Junior Outfit"
     },
+    "description": {
+      "en": "Cosmetic Outfit"
+    },
     "type": "Cosmetic",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4371,8 +5811,14 @@
     "name": {
       "en": "Jupiter Blueprint"
     },
+    "description": {
+      "en": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4386,8 +5832,14 @@
     "name": {
       "en": "Jupiter"
     },
+    "description": {
+      "en": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling."
+    },
     "type": "Sniper Rifle",
     "rarity": "Legendary",
+    "value": 27500,
+    "weightKg": 9,
+    "stackSize": null,
     "recyclesInto": {
       "magnetic_accelerator": 2,
       "complex_gun_parts": 1
@@ -4410,8 +5862,14 @@
     "name": {
       "en": "Kettle I"
     },
+    "description": {
+      "en": "Quick and accurate, but has low bullet velocity and takes a long time to reload."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 840,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 3,
       "rubber_parts": 2
@@ -4431,8 +5889,14 @@
     "name": {
       "en": "Kettle II"
     },
+    "description": {
+      "en": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 840,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 6,
       "rubber_parts": 6
@@ -4449,8 +5913,14 @@
     "name": {
       "en": "Kettle III"
     },
+    "description": {
+      "en": "Quick and accurate, but has low bullet velocity and takes a long time to reload."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 3000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4464,8 +5934,14 @@
     "name": {
       "en": "Kettle IV"
     },
+    "description": {
+      "en": "Quick and accurate, but has low bullet velocity and takes a long time to reload."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 5000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4479,8 +5955,14 @@
     "name": {
       "en": "Kinetic Converter"
     },
+    "description": {
+      "en": "Moderately increases fire rate. Compatible with: Arpeggio, Rattler, Kettle, Ferro, Renegade"
+    },
     "type": "Modification",
     "rarity": "Legendary",
+    "value": 7000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "duct_tape": 2
@@ -4497,8 +5979,14 @@
     "name": {
       "en": "Laboratory Reagents"
     },
+    "description": {
+      "en": "A set of chemical reagents used in laboratory experiments."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "chemicals": 2,
       "crude_explosives": 2
@@ -4515,8 +6003,14 @@
     "name": {
       "en": "Lance's Mixtape (5th Edition)"
     },
+    "description": {
+      "en": "Lance has personally planted a number of these around the Rust Belt, for some reason."
+    },
     "type": "Trinket",
     "rarity": "Epic",
+    "value": 10000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4530,8 +6024,14 @@
     "name": {
       "en": "Launcher Ammo"
     },
+    "description": {
+      "en": "Anti-ARC payloads used mainly by the Hullcracker. Compatible with: Hullcracker"
+    },
     "type": "Ammunition",
     "rarity": "Rare",
+    "value": 250,
+    "weightKg": 0.1,
+    "stackSize": 24,
     "recyclesInto": null,
     "recipe": {
       "arc_motion_core": 1,
@@ -4548,8 +6048,14 @@
     "name": {
       "en": "Leaper Pulse Unit"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials. Can be thrown to create a violent singularity."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "arc_alloy": 3
@@ -4566,8 +6072,14 @@
     "name": {
       "en": "Lemon"
     },
+    "description": {
+      "en": "Can be consumed for a small amount of stamina."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 3
     },
@@ -4583,8 +6095,14 @@
     "name": {
       "en": "Lidar Scanner"
     },
+    "description": {
+      "en": "A laser-based scanner used to detect the subtlest changes to the Earth's surface"
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4598,8 +6116,14 @@
     "name": {
       "en": "Light Ammo"
     },
+    "description": {
+      "en": "Light bullets used mainly with SMGs and light handguns. Compatible with: Burletta, Stitcher, Kettle, Hairpin, Bobcat"
+    },
     "type": "Ammunition",
     "rarity": "Common",
+    "value": 4,
+    "weightKg": 0.017,
+    "stackSize": 100,
     "recyclesInto": null,
     "recipe": {
       "metal_parts": 3,
@@ -4616,8 +6140,14 @@
     "name": {
       "en": "Light Bulb"
     },
+    "description": {
+      "en": "Without light, life underground would be impossible."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4631,8 +6161,14 @@
     "name": {
       "en": "Light Gun Parts Blueprint"
     },
+    "description": {
+      "en": "Assorted spare parts used for pistols and SMGs."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4646,8 +6182,14 @@
     "name": {
       "en": "Light Gun Parts"
     },
+    "description": {
+      "en": "Assorted spare parts used for pistols and SMGs. Used to craft: Bobcat, Complex Gun Parts"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 700,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "simple_gun_parts": 2
     },
@@ -4665,8 +6207,14 @@
     "name": {
       "en": "Light Impact Grenade"
     },
+    "description": {
+      "en": "A grenade that detonates on impact, dealing explosive damage in a small radius."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.1,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1,
       "plastic_parts": 1
@@ -4688,8 +6236,14 @@
     "name": {
       "en": "Light Shield"
     },
+    "description": {
+      "en": "A lightweight shield that blocks a small portion of incoming damage without impacting mobility."
+    },
     "type": "Shield",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 4
     },
@@ -4708,8 +6262,14 @@
     "name": {
       "en": "Lightweight Stock Blueprint"
     },
+    "description": {
+      "en": "Moderately improves ADS & draw speed."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4723,8 +6283,14 @@
     "name": {
       "en": "Lightweight Stock"
     },
+    "description": {
+      "en": "Moderately improves ADS & draw speed. Compatible with: Arpeggio, Kettle, Ferro, Renegade, Hullcracker"
+    },
     "type": "Modification",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -4741,8 +6307,14 @@
     "name": {
       "en": "Li'l Smoke Grenade"
     },
+    "description": {
+      "en": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 300,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1,
       "plastic_parts": 1
@@ -4762,8 +6334,14 @@
     "name": {
       "en": "Looting Mk. 1"
     },
+    "description": {
+      "en": "Basic looting augment. More backpack slots and weight capacity, but low defensive and tactical capability."
+    },
     "type": "Augment",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": null,
     "recyclesInto": {
       "rubber_parts": 3,
       "plastic_parts": 3
@@ -4783,8 +6361,14 @@
     "name": {
       "en": "Looting Mk. 2"
     },
+    "description": {
+      "en": "Significantly increases looting potential; adds slots for trinkets. Automatically throws off attached Ticks after 0.5s."
+    },
     "type": "Augment",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 2,
+    "stackSize": null,
     "recyclesInto": {
       "magnet": 1,
       "electrical_components": 1
@@ -4804,8 +6388,14 @@
     "name": {
       "en": "Looting Mk. 3 (Cautious)"
     },
+    "description": {
+      "en": "A looting augment that swaps some carry capacity to increase survivability. Upon Shield break, automatically administers a weak Adrenaline Shot. Has a fixed cooldown."
+    },
     "type": "Augment",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "advanced_electrical_components": 2,
@@ -4822,8 +6412,14 @@
     "name": {
       "en": "Looting Mk. 3 (Survivor) Blueprint"
     },
+    "description": {
+      "en": "A heavy-duty pack mule augment. Large weight capacity and large backpack space."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4837,8 +6433,14 @@
     "name": {
       "en": "Looting Mk. 3 (Survivor)"
     },
+    "description": {
+      "en": "A heavy-duty pack mule augment. Large weight capacity and large backpack space. While downed and stationary, health regenerates up to 75% of max downed health."
+    },
     "type": "Augment",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 4,
+    "stackSize": 1,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "processor": 1
@@ -4858,8 +6460,14 @@
     "name": {
       "en": "Lure Grenade Blueprint"
     },
+    "description": {
+      "en": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4873,8 +6481,14 @@
     "name": {
       "en": "Lure Grenade Trap"
     },
+    "description": {
+      "en": "A laser trip wire that detonates a Lure Grenade."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": {
       "lure_grenade": 1,
@@ -4891,8 +6505,14 @@
     "name": {
       "en": "Lure Grenade"
     },
+    "description": {
+      "en": "A noise device that sticks to surfaces, distracting nearby ARC machines and drawing their fire."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": null,
     "recyclesInto": {
       "speaker_component": 1
     },
@@ -4911,8 +6531,14 @@
     "name": {
       "en": "Magnet"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials."
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "metal_parts": 3
     },
@@ -4928,8 +6554,14 @@
     "name": {
       "en": "Magnetic Accelerator"
     },
+    "description": {
+      "en": "Used to craft advanced weapons. Used to craft: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker"
+    },
     "type": "Refined Material",
     "rarity": "Epic",
+    "value": 5500,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "arc_motion_core": 1
@@ -4949,8 +6581,14 @@
     "name": {
       "en": "Magnetron"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 6000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "magnetic_accelerator": 1,
       "steel_spring": 1
@@ -4967,8 +6605,14 @@
     "name": {
       "en": "Major Aiva's Patch"
     },
+    "description": {
+      "en": "A torn patch, found amidst rubble and ruin."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": null,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -4982,8 +6626,14 @@
     "name": {
       "en": "Matriarch Reactor"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Material",
     "rarity": "Legendary",
+    "value": 13000,
+    "weightKg": 10,
+    "stackSize": 1,
     "recyclesInto": {
       "power_rod": 1,
       "magnetic_accelerator": 1
@@ -5002,8 +6652,14 @@
     "name": {
       "en": "Mechanical Components"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II"
+    },
     "type": "Refined Material",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 10,
     "recyclesInto": {
       "metal_parts": 3,
       "rubber_parts": 2
@@ -5023,8 +6679,14 @@
     "name": {
       "en": "Medium Ammo"
     },
+    "description": {
+      "en": "Compatible with: Rattler, Tempest, Arpeggio, Renegade, Torrente"
+    },
     "type": "Ammunition",
     "rarity": "Common",
+    "value": 6,
+    "weightKg": 0.025,
+    "stackSize": 80,
     "recyclesInto": null,
     "recipe": {
       "metal_parts": 3,
@@ -5041,8 +6703,14 @@
     "name": {
       "en": "Medium Gun Parts Blueprint"
     },
+    "description": {
+      "en": "Assorted spare parts used for rifles."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5056,8 +6724,14 @@
     "name": {
       "en": "Medium Gun Parts"
     },
+    "description": {
+      "en": "Assorted spare parts used for rifles. Used to craft: Torrente, Venator, Osprey, Renegade, Tempest"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 700,
+    "weightKg": 0.4,
+    "stackSize": 5,
     "recyclesInto": {
       "simple_gun_parts": 2
     },
@@ -5075,8 +6749,14 @@
     "name": {
       "en": "Medium Shield"
     },
+    "description": {
+      "en": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility."
+    },
     "type": "Shield",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "arc_circuitry": 1
     },
@@ -5095,8 +6775,14 @@
     "name": {
       "en": "Metal Brackets"
     },
+    "description": {
+      "en": "Can be recycled into metal parts."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -5114,8 +6800,14 @@
     "name": {
       "en": "Metal Parts"
     },
+    "description": {
+      "en": "Used to craft a wide range of items."
+    },
     "type": "Basic Material",
     "rarity": "Common",
+    "value": 75,
+    "weightKg": 0.1,
+    "stackSize": 50,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5129,8 +6821,14 @@
     "name": {
       "en": "Microscope"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "magnet": 3
@@ -5147,8 +6845,14 @@
     "name": {
       "en": "Mini Centrifuge"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "canister": 2
@@ -5165,8 +6869,14 @@
     "name": {
       "en": "Mod Components"
     },
+    "description": {
+      "en": "Used to craft weapon mods. Can be recycled into crafting materials. Used to craft: Lightweight Stock, Shotgun Choke III, Extended Shotgun Mag III, Padded Stock, Compensator III"
+    },
     "type": "Refined Material",
     "rarity": "Rare",
+    "value": 1750,
+    "weightKg": 1,
+    "stackSize": 5,
     "recyclesInto": {
       "mechanical_components": 1,
       "steel_spring": 1
@@ -5186,8 +6896,14 @@
     "name": {
       "en": "Moss"
     },
+    "description": {
+      "en": "Can be used to regain a small amount of health."
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 3
     },
@@ -5205,8 +6921,14 @@
     "name": {
       "en": "Motor"
     },
+    "description": {
+      "en": "A small electric motor, useful for various devices."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "oil": 2,
       "mechanical_components": 2
@@ -5225,8 +6947,14 @@
     "name": {
       "en": "Mushroom"
     },
+    "description": {
+      "en": "Can be consumed to regain a small amount of health."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": null,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5240,8 +6968,14 @@
     "name": {
       "en": "Music Album"
     },
+    "description": {
+      "en": "Perfect for relaxing nights at home, casual get-togethers, and private air guitar concerts."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5255,8 +6989,14 @@
     "name": {
       "en": "Music Box"
     },
+    "description": {
+      "en": "Worth a small fortune."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.4,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5270,8 +7010,14 @@
     "name": {
       "en": "Muzzle Brake I"
     },
+    "description": {
+      "en": "Slightly reduces both vertical recoil & horizontal recoil. Compatible with: Rattler, Ferro, Burletta, Stitcher, Tempest"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 5
     },
@@ -5290,8 +7036,14 @@
     "name": {
       "en": "Muzzle Brake II Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces both vertical recoil & horizontal recoil."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5305,8 +7057,14 @@
     "name": {
       "en": "Muzzle Brake II"
     },
+    "description": {
+      "en": "Moderately reduces both vertical recoil & horizontal recoil. Compatible with: Tempest, Arpeggio, Kettle, Ferro, Renegade"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "wires": 1
@@ -5326,8 +7084,14 @@
     "name": {
       "en": "Muzzle Brake III Blueprint"
     },
+    "description": {
+      "en": "Significantly reduces both vertical recoil & horizontal recoil. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5341,8 +7105,14 @@
     "name": {
       "en": "Muzzle Brake III"
     },
+    "description": {
+      "en": "Significantly reduces both vertical recoil & horizontal recoil. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -5359,8 +7129,14 @@
     "name": {
       "en": "Noisemaker"
     },
+    "description": {
+      "en": "A deployable proximity sensor that sounds an alarm when enemy raiders are detected."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": {
       "speaker_component": 1,
@@ -5377,8 +7153,14 @@
     "name": {
       "en": "Number Plate"
     },
+    "description": {
+      "en": "Can be recycled into metal parts."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 270,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 3
     },
@@ -5396,8 +7178,14 @@
     "name": {
       "en": "Oil"
     },
+    "description": {
+      "en": "Used to craft weapons and explosives. Can be recycled into chemicals. Used to craft: Renegade, Explosive Compound, Blaze Grenade"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "chemicals": 3
     },
@@ -5413,8 +7201,14 @@
     "name": {
       "en": "Olives"
     },
+    "description": {
+      "en": "Can be consumed for a small amount of stamina."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 2
     },
@@ -5430,8 +7224,14 @@
     "name": {
       "en": "Osprey Blueprint"
     },
+    "description": {
+      "en": "Has reliable damage output and accuracy."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5445,8 +7245,14 @@
     "name": {
       "en": "Osprey I"
     },
+    "description": {
+      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    },
     "type": "Sniper Rifle",
     "rarity": "Rare",
+    "value": 7000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "advanced_mechanical_components": 2,
@@ -5464,8 +7270,14 @@
     "name": {
       "en": "Osprey II"
     },
+    "description": {
+      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    },
     "type": "Sniper Rifle",
     "rarity": "Rare",
+    "value": 10000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -5487,8 +7299,14 @@
     "name": {
       "en": "Osprey III"
     },
+    "description": {
+      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    },
     "type": "Sniper Rifle",
     "rarity": "Rare",
+    "value": 13000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3
@@ -5510,8 +7328,14 @@
     "name": {
       "en": "Osprey IV"
     },
+    "description": {
+      "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    },
     "type": "Sniper Rifle",
     "rarity": "Rare",
+    "value": 17000,
+    "weightKg": 7,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "medium_gun_parts": 3
@@ -5533,8 +7357,14 @@
     "name": {
       "en": "Padded Stock Blueprint"
     },
+    "description": {
+      "en": "Significantly improves stability. Compatible with: Arpeggio, Rattler, Ferro, Renegade, Torrente"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5548,8 +7378,14 @@
     "name": {
       "en": "Padded Stock"
     },
+    "description": {
+      "en": "Significantly improves stability. Compatible with: Arpeggio, Rattler, Ferro, Renegade, Torrente"
+    },
     "type": "Modification",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -5566,8 +7402,14 @@
     "name": {
       "en": "Painted Box"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5581,8 +7423,14 @@
     "name": {
       "en": "Patrol Car Key"
     },
+    "description": {
+      "en": "A key to a patrol car."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.01,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5596,8 +7444,14 @@
     "name": {
       "en": "Photoelectric Cloak"
     },
+    "description": {
+      "en": "A gadget that allows the user to conceal themselves from ARC."
+    },
     "type": "Quick Use",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "speaker_component": 1
@@ -5619,8 +7473,14 @@
     "name": {
       "en": "Plastic Parts"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Used to craft: Hairpin, Light Shield, Looting Mk. 1, Light Impact Grenade, Extended Shotgun Mag I"
+    },
     "type": "Basic Material",
     "rarity": "Common",
+    "value": 60,
+    "weightKg": 0.1,
+    "stackSize": 50,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5634,8 +7494,14 @@
     "name": {
       "en": "Playing Cards"
     },
+    "description": {
+      "en": "Speranzans love to see who can build the tallest tower - before the tremors knock them down."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5649,8 +7515,14 @@
     "name": {
       "en": "Polluted Air Filter"
     },
+    "description": {
+      "en": "Can be recycled into crafting components."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 6,
       "oil": 2
@@ -5669,8 +7541,14 @@
     "name": {
       "en": "Pop Trigger"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 3,
     "recyclesInto": {
       "crude_explosives": 1,
       "arc_alloy": 1
@@ -5687,8 +7565,14 @@
     "name": {
       "en": "Portable TV"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 1,
     "recyclesInto": {
       "battery": 2,
       "wires": 6
@@ -5705,8 +7589,14 @@
     "name": {
       "en": "Poster of Natural Wonders"
     },
+    "description": {
+      "en": "If you stand close and squint your eyes, it's like the world never came crumbling down."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5720,8 +7610,14 @@
     "name": {
       "en": "Pottery"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -5735,8 +7631,14 @@
     "name": {
       "en": "Power Bank"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "battery": 2,
       "wires": 2
@@ -5755,8 +7657,14 @@
     "name": {
       "en": "Power Cable"
     },
+    "description": {
+      "en": "A heavy-duty cable used for transmitting electrical power."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "wires": 4
     },
@@ -5772,8 +7680,14 @@
     "name": {
       "en": "Power Rod"
     },
+    "description": {
+      "en": "Used in crafting. Used to craft: Heavy Shield, Snap Hook"
+    },
     "type": "Refined Material",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "arc_circuitry": 1
@@ -5793,8 +7707,14 @@
     "name": {
       "en": "Prickly Pear"
     },
+    "description": {
+      "en": "Can be consumed for a small amount of stamina."
+    },
     "type": "Nature",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": null,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 3
     },
@@ -5810,8 +7730,14 @@
     "name": {
       "en": "Processor"
     },
+    "description": {
+      "en": "Used in crafting. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.2,
+    "stackSize": 5,
     "recyclesInto": {
       "wires": 1,
       "plastic_parts": 1
@@ -5828,8 +7754,14 @@
     "name": {
       "en": "Projector"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "wires": 2,
       "processor": 1
@@ -5848,8 +7780,14 @@
     "name": {
       "en": "Pulse Mine Blueprint"
     },
+    "description": {
+      "en": "A proximity-triggered mine that pops up and knocks back anything within its radius."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5863,8 +7801,14 @@
     "name": {
       "en": "Pulse Mine"
     },
+    "description": {
+      "en": "A proximity-triggered mine that pops up and knocks back anything within its radius."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 470,
+    "weightKg": 0.25,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 6
     },
@@ -5885,8 +7829,14 @@
     "name": {
       "en": "Queen Reactor"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Legendary",
+    "value": 13000,
+    "weightKg": 10,
+    "stackSize": null,
     "recyclesInto": {
       "power_rod": 1,
       "magnetic_accelerator": 1
@@ -5903,8 +7853,14 @@
     "name": {
       "en": "Radio Relay"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "speaker_component": 2,
       "sensors": 2
@@ -5921,8 +7877,14 @@
     "name": {
       "en": "Radio Renegade"
     },
+    "description": {
+      "en": "A new cosmetic will be added to your collection."
+    },
     "type": "Outfit",
     "rarity": "Common",
+    "value": null,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -5936,8 +7898,14 @@
     "name": {
       "en": "Radio"
     },
+    "description": {
+      "en": "Can be recycled into crafting components."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "speaker_component": 1,
       "sensors": 1
@@ -5956,8 +7924,14 @@
     "name": {
       "en": "Raider Hatch Key"
     },
+    "description": {
+      "en": "Unlocks a Raider Hatch."
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.01,
+    "stackSize": 1,
     "recyclesInto": {},
     "recipe": {
       "advanced_electrical_components": 1,
@@ -5974,8 +7948,14 @@
     "name": {
       "en": "Rattler I"
     },
+    "description": {
+      "en": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 1750,
+    "weightKg": 6,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -5994,8 +7974,14 @@
     "name": {
       "en": "Rattler II"
     },
+    "description": {
+      "en": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 3000,
+    "weightKg": 6,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 12
     },
@@ -6015,8 +8001,14 @@
     "name": {
       "en": "Rattler III"
     },
+    "description": {
+      "en": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 5000,
+    "weightKg": 6,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6033,8 +8025,14 @@
     "name": {
       "en": "Rattler IV"
     },
+    "description": {
+      "en": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    },
     "type": "Assault Rifle",
     "rarity": "Common",
+    "value": 7000,
+    "weightKg": 6,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 4,
       "simple_gun_parts": 2
@@ -6056,8 +8054,14 @@
     "name": {
       "en": "Recorder"
     },
+    "description": {
+      "en": "A playable recorder used to attract ARC's attention, and impress other Raiders."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 10
     },
@@ -6073,8 +8077,14 @@
     "name": {
       "en": "Red Coral Jewelry"
     },
+    "description": {
+      "en": "Valued for its fine craftsmanship, and effortless ability to make your eyes pop."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -6088,8 +8098,14 @@
     "name": {
       "en": "Red Light Stick Blueprint"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6103,8 +8119,14 @@
     "name": {
       "en": "Red Light Stick"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 150,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1
     },
@@ -6122,8 +8144,14 @@
     "name": {
       "en": "Remote Control"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 7,
       "sensors": 1
@@ -6142,8 +8170,14 @@
     "name": {
       "en": "Remote Raider Flare Blueprint"
     },
+    "description": {
+      "en": "A deployable device that, when manually triggered, launches a Raider Distress Flare."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6157,8 +8191,14 @@
     "name": {
       "en": "Remote Raider Flare"
     },
+    "description": {
+      "en": "A deployable device that, when manually triggered, launches a Raider Distress Flare."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 1,
       "rubber_parts": 1
@@ -6178,8 +8218,14 @@
     "name": {
       "en": "Renegade I"
     },
+    "description": {
+      "en": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    },
     "type": "Battle Rifle",
     "rarity": "Rare",
+    "value": 7000,
+    "weightKg": 10,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -6200,8 +8246,14 @@
     "name": {
       "en": "Renegade II"
     },
+    "description": {
+      "en": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    },
     "type": "Battle Rifle",
     "rarity": "Rare",
+    "value": 10000,
+    "weightKg": 10,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6218,8 +8270,14 @@
     "name": {
       "en": "Renegade III"
     },
+    "description": {
+      "en": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    },
     "type": "Battle Rifle",
     "rarity": "Rare",
+    "value": 13000,
+    "weightKg": 10,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6236,8 +8294,14 @@
     "name": {
       "en": "Renegade IV"
     },
+    "description": {
+      "en": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
+    },
     "type": "Battle Rifle",
     "rarity": "Rare",
+    "value": 17000,
+    "weightKg": 10,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6254,8 +8318,14 @@
     "name": {
       "en": "Resin"
     },
+    "description": {
+      "en": "Can be used to gradually restore a small amount of health over time."
+    },
     "type": "Nature",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": 10,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -6269,8 +8339,14 @@
     "name": {
       "en": "Ripped Safety Vest"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "durable_cloth": 1,
       "magnet": 1
@@ -6289,8 +8365,14 @@
     "name": {
       "en": "Rocket Thruster"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "synthesized_fuel": 2,
       "metal_parts": 6
@@ -6307,8 +8389,14 @@
     "name": {
       "en": "Rocketeer Driver"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_electrical_components": 2,
       "arc_alloy": 3
@@ -6325,8 +8413,14 @@
     "name": {
       "en": "Roots"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Nature",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 10,
     "recyclesInto": {
       "assorted_seeds": 1
     },
@@ -6342,8 +8436,14 @@
     "name": {
       "en": "Rope"
     },
+    "description": {
+      "en": "Used in crafting. Used to craft: Zipline, Snap Hook"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "fabric": 5
     },
@@ -6359,8 +8459,14 @@
     "name": {
       "en": "Rosary"
     },
+    "description": {
+      "en": "May be worth a few coins."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6374,8 +8480,14 @@
     "name": {
       "en": "Rotary Encoder"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "electrical_components": 2,
       "processor": 2
@@ -6392,8 +8504,14 @@
     "name": {
       "en": "Rubber Duck"
     },
+    "description": {
+      "en": "Always there to lend an ear when you need it. Can be thrown to create noise."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 15,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -6407,8 +8525,14 @@
     "name": {
       "en": "Rubber Pad"
     },
+    "description": {
+      "en": "Can be recycled into rubber parts."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 18
     },
@@ -6426,8 +8550,14 @@
     "name": {
       "en": "Rubber Parts"
     },
+    "description": {
+      "en": "Scrap rubber pieces for crafting. Used to craft: Ferro, Kettle, Looting Mk. 1, Shield Recharger, Stitcher"
+    },
     "type": "Basic Material",
     "rarity": "Common",
+    "value": 50,
+    "weightKg": 0.1,
+    "stackSize": 50,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -6441,8 +8571,14 @@
     "name": {
       "en": "Ruined Accordion"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 18,
       "steel_spring": 3
@@ -6461,8 +8597,14 @@
     "name": {
       "en": "Ruined Augment"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.5,
+    "stackSize": 1,
     "recyclesInto": {
       "plastic_parts": 2,
       "rubber_parts": 2
@@ -6479,8 +8621,14 @@
     "name": {
       "en": "Ruined Baton"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials"
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 6,
       "rubber_parts": 3
@@ -6497,8 +8645,14 @@
     "name": {
       "en": "Ruined Handcuffs"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -6514,8 +8668,14 @@
     "name": {
       "en": "Ruined Parachute"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 10
     },
@@ -6533,8 +8693,14 @@
     "name": {
       "en": "Ruined Riot Shield"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 10,
       "rubber_parts": 6
@@ -6553,8 +8719,14 @@
     "name": {
       "en": "Ruined Tactical Vest"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 5,
       "magnet": 1
@@ -6573,8 +8745,14 @@
     "name": {
       "en": "Rusted Bolts"
     },
+    "description": {
+      "en": "Can be recycled into metal parts."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.8,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -6592,8 +8770,14 @@
     "name": {
       "en": "Rusted Gear"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 4,
       "mechanical_components": 2
@@ -6610,8 +8794,14 @@
     "name": {
       "en": "Rusted Shut Medical Kit"
     },
+    "description": {
+      "en": "A medical kit rusted shut, its contents unknown."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "syringe": 2,
       "antiseptic": 1
@@ -6628,8 +8818,14 @@
     "name": {
       "en": "Rusted Tools"
     },
+    "description": {
+      "en": "A set of tools, rusted but still usable for crafting."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 8,
       "steel_spring": 1
@@ -6648,8 +8844,14 @@
     "name": {
       "en": "Rusty ARC Steel"
     },
+    "description": {
+      "en": "Obtained from ARC enemies and activites. Can be recycled into scrap metal."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 8
     },
@@ -6667,8 +8869,14 @@
     "name": {
       "en": "Sample Cleaner"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "electrical_components": 2,
       "assorted_seeds": 14
@@ -6685,8 +8893,14 @@
     "name": {
       "en": "Seeker Grenade Blueprint"
     },
+    "description": {
+      "en": "Unlocks the crafting blueprint for the Seeker Grenade."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6700,8 +8914,14 @@
     "name": {
       "en": "Seeker Grenade"
     },
+    "description": {
+      "en": "A homing grenade that targets a single nearby ARC dealing explosive damage on impact."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.2,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1
     },
@@ -6720,8 +8940,14 @@
     "name": {
       "en": "Sensors"
     },
+    "description": {
+      "en": "Used in crafting. Used to craft: Wolfpack, Explosive Mine, Raider Hatch Key, Tagging Grenade"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "wires": 1,
       "metal_parts": 1
@@ -6740,8 +8966,14 @@
     "name": {
       "en": "Sentinel Firing Core"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 2,
       "mechanical_components": 3
@@ -6760,8 +8992,14 @@
     "name": {
       "en": "Shaker"
     },
+    "description": {
+      "en": "A rhythmic instrument used to attract ARC's attention, and impress other Raiders."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6775,8 +9013,14 @@
     "name": {
       "en": "Shield Recharger"
     },
+    "description": {
+      "en": "A handheld kit that gradually recharges shield over time."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 520,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": {
       "rubber_parts": 4
     },
@@ -6795,8 +9039,14 @@
     "name": {
       "en": "Shotgun Ammo"
     },
+    "description": {
+      "en": "Compatible with: Il Toro, Vulcano"
+    },
     "type": "Ammunition",
     "rarity": "Common",
+    "value": 20,
+    "weightKg": 0.085,
+    "stackSize": 20,
     "recyclesInto": null,
     "recipe": {
       "metal_parts": 3,
@@ -6813,8 +9063,14 @@
     "name": {
       "en": "Shotgun Choke I"
     },
+    "description": {
+      "en": "Slightly reduces base dispersion. Compatible with: Il Toro, Vulcano"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "metal_parts": 6,
@@ -6831,8 +9087,14 @@
     "name": {
       "en": "Shotgun Choke II Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces base dispersion. Compatible with: Il Toro, Vulcano"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6846,8 +9108,14 @@
     "name": {
       "en": "Shotgun Choke II"
     },
+    "description": {
+      "en": "Moderately reduces base dispersion. Compatible with: Il Toro, Vulcano"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "wires": 1
@@ -6867,8 +9135,14 @@
     "name": {
       "en": "Shotgun Choke III Blueprint"
     },
+    "description": {
+      "en": "Significantly reduces base dispersion."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6882,8 +9156,14 @@
     "name": {
       "en": "Shotgun Choke III"
     },
+    "description": {
+      "en": "Significantly reduces base dispersion."
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -6900,8 +9180,14 @@
     "name": {
       "en": "Shotgun Silencer Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces the amount of noise produced when firing."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6915,8 +9201,14 @@
     "name": {
       "en": "Shotgun Silencer"
     },
+    "description": {
+      "en": "Moderately reduces the amount of noise produced when firing."
+    },
     "type": "Modification",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -6933,8 +9225,14 @@
     "name": {
       "en": "Showstopper Blueprint"
     },
+    "description": {
+      "en": "A grenade that detonates after a delay, stunning enemies within its radius."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -6948,8 +9246,14 @@
     "name": {
       "en": "Showstopper"
     },
+    "description": {
+      "en": "A grenade that detonates after a delay, stunning enemies within its radius."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 2200,
+    "weightKg": 0.4,
+    "stackSize": 5,
     "recyclesInto": {
       "electrical_components": 1,
       "battery": 2
@@ -6969,8 +9273,14 @@
     "name": {
       "en": "Shrapnel Grenade"
     },
+    "description": {
+      "en": "A makeshift fuze grenade that bursts into razor-sharp fragments upon detonation. Weak against ARC armor plating"
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 800,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": {
       "crude_explosives": 1,
       "metal_parts": 1
@@ -6990,8 +9300,14 @@
     "name": {
       "en": "Shredder Gyro"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "mechanical_components": 3,
       "arc_alloy": 3
@@ -7008,8 +9324,14 @@
     "name": {
       "en": "Signal Amplifier"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "electrical_components": 2,
       "voltage_converter": 2
@@ -7026,8 +9348,14 @@
     "name": {
       "en": "Silencer I Blueprint"
     },
+    "description": {
+      "en": "A blueprint to craft the Silencer I."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7041,8 +9369,14 @@
     "name": {
       "en": "Silencer I"
     },
+    "description": {
+      "en": "Slightly reduces the amount of noise produced when firing."
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mechanical_components": 2,
@@ -7059,8 +9393,14 @@
     "name": {
       "en": "Silencer II Blueprint"
     },
+    "description": {
+      "en": "A blueprint to craft the Silencer II."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7074,8 +9414,14 @@
     "name": {
       "en": "Silencer II"
     },
+    "description": {
+      "en": "Moderately reduces the amount of noise produced when firing. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -7092,8 +9438,14 @@
     "name": {
       "en": "Silencer III"
     },
+    "description": {
+      "en": "Significantly reduces the amount of noise produced when firing. Compatible with: Tempest, Arpeggio, Kettle, Ferro, Renegade"
+    },
     "type": "Modification",
     "rarity": "Epic",
+    "value": 7000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": {
       "mod_components": 1,
       "wires": 3
@@ -7112,8 +9464,14 @@
     "name": {
       "en": "Silver Teaspoon Set"
     },
+    "description": {
+      "en": "A shining, shimmering set of refinement and elegance."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -7127,8 +9485,14 @@
     "name": {
       "en": "Simple Gun Parts"
     },
+    "description": {
+      "en": "Used to craft weapons. Used to craft: Il Toro, Burletta, Anvil, Arpeggio, Heavy Gun Parts"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 330,
+    "weightKg": 0.3,
+    "stackSize": 10,
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -7144,8 +9508,14 @@
     "name": {
       "en": "Smoke Grenade Blueprint"
     },
+    "description": {
+      "en": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from ARC and other Raiders."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7159,8 +9529,14 @@
     "name": {
       "en": "Smoke Grenade Trap"
     },
+    "description": {
+      "en": "A laser trip wire that detonates a Smoke Grenade."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": {
       "smoke_grenade": 1,
@@ -7177,8 +9553,14 @@
     "name": {
       "en": "Smoke Grenade"
     },
+    "description": {
+      "en": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from ARC and other Raiders."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 2,
       "canister": 1
@@ -7198,8 +9580,14 @@
     "name": {
       "en": "Snap Blast Grenade"
     },
+    "description": {
+      "en": "A grenade that sticks to surfaces, dealing explosive damage after a short delay."
+    },
     "type": "Quick Use",
     "rarity": "Uncommon",
+    "value": 800,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 1,
       "magnet": 1
@@ -7219,8 +9607,14 @@
     "name": {
       "en": "Snap Hook Blueprint"
     },
+    "description": {
+      "en": "A gadget that allows the user to scale structures and cover large distances."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7234,8 +9628,14 @@
     "name": {
       "en": "Snap Hook"
     },
+    "description": {
+      "en": "A gadget that allows the user to scale structures and cover large distances."
+    },
     "type": "Quick Use",
     "rarity": "Legendary",
+    "value": 14000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "power_rod": 1,
       "rope": 3
@@ -7256,8 +9656,14 @@
     "name": {
       "en": "Snitch Scanner"
     },
+    "description": {
+      "en": "Can be recycled into ARC Alloy. Can be thrown to call in ARC."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.75,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 1,
       "electrical_components": 2
@@ -7276,8 +9682,14 @@
     "name": {
       "en": "Snowball"
     },
+    "description": {
+      "en": "A compact snowball."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 10,
+    "weightKg": 0.4,
+    "stackSize": 5,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -7291,8 +9703,14 @@
     "name": {
       "en": "Spaceport Container Storage Key"
     },
+    "description": {
+      "en": "A key for container storage at the Spaceport."
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7306,8 +9724,14 @@
     "name": {
       "en": "Spaceport Control Tower Key"
     },
+    "description": {
+      "en": "Unlocks a door in Control Tower A6 in Spaceport"
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7321,8 +9745,14 @@
     "name": {
       "en": "Spaceport Trench Tower Key"
     },
+    "description": {
+      "en": "Unlocks a door to the Trench Towers in Spaceport"
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7336,8 +9766,14 @@
     "name": {
       "en": "Spaceport Warehouse Key"
     },
+    "description": {
+      "en": "A key to a warehouse in the Spaceport."
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7351,8 +9787,14 @@
     "name": {
       "en": "Speaker Component"
     },
+    "description": {
+      "en": "Used in crafting. Used to craft: Lure Grenade, Photoelectric Cloak"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "plastic_parts": 2,
       "rubber_parts": 3
@@ -7369,8 +9811,14 @@
     "name": {
       "en": "Spectrometer"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "sensors": 1
@@ -7387,8 +9835,14 @@
     "name": {
       "en": "Spectrum Analyzer"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Epic",
+    "value": 3500,
+    "weightKg": 1.5,
+    "stackSize": null,
     "recyclesInto": {
       "sensors": 1,
       "exodus_modules": 1
@@ -7405,8 +9859,14 @@
     "name": {
       "en": "Spotter Relay"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "electrical_components": 2,
       "arc_alloy": 1
@@ -7423,8 +9883,14 @@
     "name": {
       "en": "Spring Cushion"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "durable_cloth": 2,
       "steel_spring": 2
@@ -7443,8 +9909,14 @@
     "name": {
       "en": "Stable Stock I"
     },
+    "description": {
+      "en": "Slightly improves dispersion & recoil recovery time."
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": {
       "rubber_parts": 6
     },
@@ -7465,8 +9937,14 @@
     "name": {
       "en": "Stable Stock II Blueprint"
     },
+    "description": {
+      "en": "Moderately improves dispersion & recoil recovery time."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7480,8 +9958,14 @@
     "name": {
       "en": "Stable Stock II"
     },
+    "description": {
+      "en": "Moderately improves dispersion & recoil recovery time."
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "duct_tape": 1
@@ -7501,8 +9985,14 @@
     "name": {
       "en": "Stable Stock III Blueprint"
     },
+    "description": {
+      "en": "Significantly improves dispersion & recoil recovery time."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7516,8 +10006,14 @@
     "name": {
       "en": "Stable Stock III"
     },
+    "description": {
+      "en": "Significantly improves dispersion & recoil recovery time."
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -7534,8 +10030,14 @@
     "name": {
       "en": "Statuette"
     },
+    "description": {
+      "en": "Worth a small fortune."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -7549,8 +10051,14 @@
     "name": {
       "en": "Steel Spring"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Extended Shotgun Mag I, Extended Medium Mag I, Extended Light Mag I, Torrente, Extended Medium Mag II"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 300,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "metal_parts": 2
     },
@@ -7568,8 +10076,14 @@
     "name": {
       "en": "Stella Montis Archives Key"
     },
+    "description": {
+      "en": "Unlocks a door in Medical Research in Stella Montis"
+    },
     "type": "Key",
     "rarity": "Epic",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7583,8 +10097,14 @@
     "name": {
       "en": "Stella Montis Assembly Admin Key"
     },
+    "description": {
+      "en": "Unlocks a door in Assembly in Stella Montis"
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7598,8 +10118,14 @@
     "name": {
       "en": "Stella Montis Medical Storage Key"
     },
+    "description": {
+      "en": "Unlocks a door in the Archives in Stella Montis"
+    },
     "type": "Key",
     "rarity": "Uncommon",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7613,8 +10139,14 @@
     "name": {
       "en": "Stella Montis Security Checkpoint Key"
     },
+    "description": {
+      "en": "Unlocks a door in the Security Checkpoint in Stella Montis"
+    },
     "type": "Key",
     "rarity": "Rare",
+    "value": 100,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7628,8 +10160,14 @@
     "name": {
       "en": "Sterilized Bandage"
     },
+    "description": {
+      "en": "A medical item that gradually restores a large amount of health over time."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 0.2,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": {
       "antiseptic": 1,
@@ -7646,8 +10184,14 @@
     "name": {
       "en": "Stitcher I"
     },
+    "description": {
+      "en": "Deals good damage, but has quite a low fire-rate and can be hard to control."
+    },
     "type": "SMG",
     "rarity": "Common",
+    "value": 800,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 3,
       "rubber_parts": 2
@@ -7669,8 +10213,14 @@
     "name": {
       "en": "Stitcher II"
     },
+    "description": {
+      "en": "Deals good damage, but has quite a low fire-rate and can be hard to control."
+    },
     "type": "SMG",
     "rarity": "Common",
+    "value": 2000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 6,
       "rubber_parts": 6
@@ -7692,8 +10242,14 @@
     "name": {
       "en": "Stitcher III"
     },
+    "description": {
+      "en": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control."
+    },
     "type": "SMG",
     "rarity": "Uncommon",
+    "value": 3000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 12,
       "simple_gun_parts": 1
@@ -7715,8 +10271,14 @@
     "name": {
       "en": "Stitcher IV"
     },
+    "description": {
+      "en": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control."
+    },
     "type": "SMG",
     "rarity": "Uncommon",
+    "value": 5000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 2,
       "simple_gun_parts": 2
@@ -7738,8 +10300,14 @@
     "name": {
       "en": "Surge Shield Recharger"
     },
+    "description": {
+      "en": "A handheld kit that recharges a shield on use."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1200,
+    "weightKg": 0.2,
+    "stackSize": 5,
     "recyclesInto": {
       "electrical_components": 1
     },
@@ -7758,8 +10326,14 @@
     "name": {
       "en": "Surveyor Vault"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "mechanical_components": 2,
       "arc_alloy": 2
@@ -7778,8 +10352,14 @@
     "name": {
       "en": "Synthesized Fuel"
     },
+    "description": {
+      "en": "A canister of synthetic fuel blend."
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 700,
+    "weightKg": 0.5,
+    "stackSize": 5,
     "recyclesInto": {
       "oil": 1,
       "plastic_parts": 1
@@ -7796,8 +10376,14 @@
     "name": {
       "en": "Syringe"
     },
+    "description": {
+      "en": "Used to craft medical supplies. Can be recycled into plastic. Used to craft: Vita Shot"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "plastic_parts": 3,
       "chemicals": 2
@@ -7816,8 +10402,14 @@
     "name": {
       "en": "Tactical Mk. 1"
     },
+    "description": {
+      "en": "Basic tactical augment. More Quick Use slots for more tactical choice, but limited survivability and slightly lower looting potential."
+    },
     "type": "Augment",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": null,
     "recyclesInto": {
       "plastic_parts": 3,
       "rubber_parts": 3
@@ -7837,8 +10429,14 @@
     "name": {
       "en": "Tactical Mk. 2"
     },
+    "description": {
+      "en": "Adds more backpack space and an extra utility item slot."
+    },
     "type": "Augment",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 2,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "magnet": 1
@@ -7858,8 +10456,14 @@
     "name": {
       "en": "Tactical Mk. 3 (Defensive) Blueprint"
     },
+    "description": {
+      "en": "A defensive-focused augment for keeping Shields topped up."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7873,8 +10477,14 @@
     "name": {
       "en": "Tactical Mk. 3 (Defensive)"
     },
+    "description": {
+      "en": "A defensive-focused augment for keeping Shields topped up."
+    },
     "type": "Augment",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "processor": 1
@@ -7894,8 +10504,14 @@
     "name": {
       "en": "Tactical Mk. 3 (Healing) Blueprint"
     },
+    "description": {
+      "en": "A healing-focused augment which adds extra slots for healing items."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7909,8 +10525,14 @@
     "name": {
       "en": "Tactical Mk. 3 (Healing)"
     },
+    "description": {
+      "en": "A healing-focused augment which adds extra slots for healing items. When revived from being downed, releases a healing cloud that restores 20 health over 10 seconds. Has a 30-second cooldown."
+    },
     "type": "Augment",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 4,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "processor": 1
@@ -7930,8 +10552,14 @@
     "name": {
       "en": "Tagging Grenade Blueprint"
     },
+    "description": {
+      "en": "A grenade that detonates after a delay, tagging Raiders and ARC enemies in an area, allowing you to briefly track their location."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -7945,8 +10573,14 @@
     "name": {
       "en": "Tagging Grenade"
     },
+    "description": {
+      "en": "A grenade that detonates after a delay, tagging Raiders and ARC enemies in an area, allowing you to briefly track their location."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 1,
       "sensors": 1
@@ -7968,8 +10602,14 @@
     "name": {
       "en": "Tattered Arc Lining"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 12
     },
@@ -7985,8 +10625,14 @@
     "name": {
       "en": "Tattered Clothes"
     },
+    "description": {
+      "en": "Can be recycled into fabric."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": {
       "fabric": 11
     },
@@ -8004,8 +10650,14 @@
     "name": {
       "en": "Telemetry Transceiver"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 1.5,
+    "stackSize": 3,
     "recyclesInto": {
       "advanced_electrical_components": 1,
       "processor": 1
@@ -8022,8 +10674,14 @@
     "name": {
       "en": "Tempest Blueprint"
     },
+    "description": {
+      "en": "A high-powered weapon utilizing magnetic acceleration technology."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8037,8 +10695,14 @@
     "name": {
       "en": "Tempest I"
     },
+    "description": {
+      "en": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 13000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -8059,8 +10723,14 @@
     "name": {
       "en": "Tempest II"
     },
+    "description": {
+      "en": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 17000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "medium_gun_parts": 3
@@ -8080,8 +10750,14 @@
     "name": {
       "en": "Tempest III"
     },
+    "description": {
+      "en": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 22000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 4,
       "medium_gun_parts": 4
@@ -8101,8 +10777,14 @@
     "name": {
       "en": "Tempest IV"
     },
+    "description": {
+      "en": "Fully automatic assault rifle with moderate fire rate and accuracy."
+    },
     "type": "Assault Rifle",
     "rarity": "Epic",
+    "value": 22000,
+    "weightKg": 11,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 5,
       "medium_gun_parts": 4
@@ -8122,8 +10804,14 @@
     "name": {
       "en": "Thermostat"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 7,
       "sensors": 1
@@ -8142,8 +10830,14 @@
     "name": {
       "en": "Tick Pod"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Uncommon",
+    "value": 640,
+    "weightKg": 0.5,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 2,
       "arc_alloy": 2
@@ -8162,8 +10856,14 @@
     "name": {
       "en": "Toaster"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "plastic_parts": 5,
       "wires": 3
@@ -8182,8 +10882,14 @@
     "name": {
       "en": "Torn Blanket"
     },
+    "description": {
+      "en": "Can be recycled into fabric."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 640,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "fabric": 12
     },
@@ -8199,8 +10905,14 @@
     "name": {
       "en": "Torn Book"
     },
+    "description": {
+      "en": "What pages remain speak of heroes, vampires, and lots of glances."
+    },
     "type": "Trinket",
     "rarity": "Common",
+    "value": 1000,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -8214,8 +10926,14 @@
     "name": {
       "en": "Torrente Blueprint"
     },
+    "description": {
+      "en": "Has a large ammo capacity, but is only accurate while crouched."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8229,8 +10947,14 @@
     "name": {
       "en": "Torrente I"
     },
+    "description": {
+      "en": "Has a large ammo capacity, but is only accurate while crouched"
+    },
     "type": "LMG",
     "rarity": "Rare",
+    "value": 7000,
+    "weightKg": 12,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -8251,8 +10975,14 @@
     "name": {
       "en": "Torrente II"
     },
+    "description": {
+      "en": "Has a large ammo capacity, but is only accurate while crouched."
+    },
     "type": "LMG",
     "rarity": "Rare",
+    "value": 10000,
+    "weightKg": 12,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -8272,8 +11002,14 @@
     "name": {
       "en": "Torrente III"
     },
+    "description": {
+      "en": "Has a large ammo capacity, but is only accurate while crouched."
+    },
     "type": "LMG",
     "rarity": "Rare",
+    "value": 13000,
+    "weightKg": 12,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3
@@ -8293,8 +11029,14 @@
     "name": {
       "en": "Torrente IV"
     },
+    "description": {
+      "en": "Has a large ammo capacity, but is only accurate while crouched."
+    },
     "type": "LMG",
     "rarity": "Rare",
+    "value": 16000,
+    "weightKg": 12,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "medium_gun_parts": 3
@@ -8314,8 +11056,14 @@
     "name": {
       "en": "Trailblazer Blueprint"
     },
+    "description": {
+      "en": "Unlocks the crafting blueprint for the Trailblazer."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8329,8 +11077,14 @@
     "name": {
       "en": "Trailblazer"
     },
+    "description": {
+      "en": "A grenade that emits a trail of flammable gas along its path, causing an explosive chain reaction when it ignites."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1600,
+    "weightKg": 1,
+    "stackSize": 3,
     "recyclesInto": {
       "crude_explosives": 2
     },
@@ -8349,8 +11103,14 @@
     "name": {
       "en": "Trigger Nade Blueprint"
     },
+    "description": {
+      "en": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8364,8 +11124,14 @@
     "name": {
       "en": "Trigger 'Nade"
     },
+    "description": {
+      "en": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 1,
       "processor": 1
@@ -8385,8 +11151,14 @@
     "name": {
       "en": "Turbo Pump"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": 3,
     "recyclesInto": {
       "mechanical_components": 1,
       "oil": 3
@@ -8403,8 +11175,14 @@
     "name": {
       "en": "Unusable Weapon"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 2000,
+    "weightKg": 3,
+    "stackSize": null,
     "recyclesInto": {
       "metal_parts": 4,
       "simple_gun_parts": 5
@@ -8423,8 +11201,14 @@
     "name": {
       "en": "Vase"
     },
+    "description": {
+      "en": "Worth a small fortune."
+    },
     "type": "Trinket",
     "rarity": "Rare",
+    "value": 3000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -8438,8 +11222,14 @@
     "name": {
       "en": "Venator Blueprint"
     },
+    "description": {
+      "en": "Fires two shots at a time."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8453,8 +11243,14 @@
     "name": {
       "en": "Venator I"
     },
+    "description": {
+      "en": "Semi-automatic pistol. Fires two shots at a time."
+    },
     "type": "Pistol",
     "rarity": "Rare",
+    "value": 7000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -8475,8 +11271,14 @@
     "name": {
       "en": "Venator II"
     },
+    "description": {
+      "en": "Semi-automatic pistol. Fires two shots at a time."
+    },
     "type": "Pistol",
     "rarity": "Rare",
+    "value": 10000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -8496,8 +11298,14 @@
     "name": {
       "en": "Venator III"
     },
+    "description": {
+      "en": "Semi-automatic pistol. Fires two shots at a time."
+    },
     "type": "Pistol",
     "rarity": "Rare",
+    "value": 13000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3
@@ -8517,8 +11325,14 @@
     "name": {
       "en": "Venator IV"
     },
+    "description": {
+      "en": "Semi-automatic pistol. Fires two shots at a time."
+    },
     "type": "Pistol",
     "rarity": "Rare",
+    "value": 17000,
+    "weightKg": 5,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "medium_gun_parts": 3
@@ -8538,8 +11352,14 @@
     "name": {
       "en": "Vertical Grip I"
     },
+    "description": {
+      "en": "Slightly reduces vertical recoil. Compatible with: Tempest, Arpeggio, Kettle, Ferro, Hullcracker"
+    },
     "type": "Modification",
     "rarity": "Common",
+    "value": 640,
+    "weightKg": 0.25,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "plastic_parts": 6,
@@ -8556,8 +11376,14 @@
     "name": {
       "en": "Vertical Grip II Blueprint"
     },
+    "description": {
+      "en": "Moderately reduces vertical recoil. Compatible with: Arpeggio, Ferro, Venator, Il Toro, Stitcher"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8571,8 +11397,14 @@
     "name": {
       "en": "Vertical Grip II"
     },
+    "description": {
+      "en": "Moderately reduces vertical recoil. Compatible with: Arpeggio, Ferro, Venator, Il Toro, Stitcher"
+    },
     "type": "Modification",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.5,
+    "stackSize": null,
     "recyclesInto": {
       "mechanical_components": 1,
       "duct_tape": 1
@@ -8592,8 +11424,14 @@
     "name": {
       "en": "Vertical Grip III Blueprint"
     },
+    "description": {
+      "en": "Significantly reduces vertical recoil."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8607,8 +11445,14 @@
     "name": {
       "en": "Vertical Grip III"
     },
+    "description": {
+      "en": "Significantly reduces vertical recoil. Compatible with: Tempest, Kettle, Hullcracker, Venator, Il Toro"
+    },
     "type": "Modification",
     "rarity": "Rare",
+    "value": 5000,
+    "weightKg": 0.75,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": {
       "mod_components": 2,
@@ -8625,8 +11469,14 @@
     "name": {
       "en": "Very Comfortable Pillow"
     },
+    "description": {
+      "en": "The envy of every Raider. Like sleeping on an especially ergonomic cloud."
+    },
     "type": "Trinket",
     "rarity": "Uncommon",
+    "value": 2000,
+    "weightKg": 0.3,
+    "stackSize": 3,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8640,8 +11490,14 @@
     "name": {
       "en": "Vita Shot Blueprint"
     },
+    "description": {
+      "en": "A medical item that restores a large amount of health."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8655,8 +11511,14 @@
     "name": {
       "en": "Vita Shot"
     },
+    "description": {
+      "en": "A medical item that restores a large amount of health."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 2200,
+    "weightKg": 0.4,
+    "stackSize": 3,
     "recyclesInto": {
       "chemicals": 4,
       "syringe": 1
@@ -8676,8 +11538,14 @@
     "name": {
       "en": "Vita Spray Blueprint"
     },
+    "description": {
+      "en": "A medical item that continuously restores health during use. Can be used on yourself or your allies."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": null,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8691,8 +11559,14 @@
     "name": {
       "en": "Vita Spray"
     },
+    "description": {
+      "en": "A medical item that continuously restores health during use. Can be used on yourself or your allies."
+    },
     "type": "Quick Use",
     "rarity": "Epic",
+    "value": 3000,
+    "weightKg": 1,
+    "stackSize": 1,
     "recyclesInto": {
       "antiseptic": 1,
       "canister": 2
@@ -8714,8 +11588,14 @@
     "name": {
       "en": "Volcanic Rock"
     },
+    "description": {
+      "en": "Can be thrown."
+    },
     "type": "Misc",
     "rarity": "Common",
+    "value": 270,
+    "weightKg": 0.5,
+    "stackSize": 5,
     "recyclesInto": {},
     "recipe": null,
     "salvagesInto": null,
@@ -8729,8 +11609,14 @@
     "name": {
       "en": "Voltage Converter"
     },
+    "description": {
+      "en": "Used in crafting. Used to craft: Heavy Shield, Showstopper"
+    },
     "type": "Topside Material",
     "rarity": "Rare",
+    "value": 500,
+    "weightKg": 0.3,
+    "stackSize": 5,
     "recyclesInto": {
       "wires": 1,
       "rubber_parts": 1
@@ -8747,8 +11633,14 @@
     "name": {
       "en": "Vulcano Blueprint"
     },
+    "description": {
+      "en": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8762,8 +11654,14 @@
     "name": {
       "en": "Vulcano I"
     },
+    "description": {
+      "en": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    },
     "type": "Shotgun",
     "rarity": "Epic",
+    "value": 10000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 2
@@ -8784,8 +11682,14 @@
     "name": {
       "en": "Vulcano II"
     },
+    "description": {
+      "en": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    },
     "type": "Shotgun",
     "rarity": "Epic",
+    "value": 13000,
+    "weightKg": 9.25,
+    "stackSize": 1,
     "recyclesInto": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 3
@@ -8805,8 +11709,14 @@
     "name": {
       "en": "Vulcano III"
     },
+    "description": {
+      "en": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    },
     "type": "Shotgun",
     "rarity": "Epic",
+    "value": 17000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 3,
       "heavy_gun_parts": 4
@@ -8826,8 +11736,14 @@
     "name": {
       "en": "Vulcano IV"
     },
+    "description": {
+      "en": "Semi-automatic shotgun with good bullet spread but sharp falloff"
+    },
     "type": "Shotgun",
     "rarity": "Epic",
+    "value": 22000,
+    "weightKg": 8,
+    "stackSize": null,
     "recyclesInto": {
       "advanced_mechanical_components": 4,
       "heavy_gun_parts": 5
@@ -8847,8 +11763,14 @@
     "name": {
       "en": "Wasp Driver"
     },
+    "description": {
+      "en": "Can be recycled into ARC Alloy. Can be thrown, and will explode if shot."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.6,
+    "stackSize": 3,
     "recyclesInto": {
       "arc_alloy": 1,
       "electrical_components": 1
@@ -8867,8 +11789,14 @@
     "name": {
       "en": "Water Filter"
     },
+    "description": {
+      "en": "A portable filtration device for purifying water."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "rubber_parts": 2,
       "canister": 3
@@ -8887,8 +11815,14 @@
     "name": {
       "en": "Water Pump"
     },
+    "description": {
+      "en": "Can be recycled into crafting materials."
+    },
     "type": "Recyclable",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 2,
+    "stackSize": 3,
     "recyclesInto": {
       "metal_parts": 4,
       "oil": 2
@@ -8907,8 +11841,14 @@
     "name": {
       "en": "Wires"
     },
+    "description": {
+      "en": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Blaze Grenade Trap, Smoke Grenade Trap, Lure Grenade Trap, Gas Grenade Trap, Muzzle Brake I"
+    },
     "type": "Topside Material",
     "rarity": "Uncommon",
+    "value": 200,
+    "weightKg": 0.25,
+    "stackSize": 15,
     "recyclesInto": {
       "rubber_parts": 2
     },
@@ -8926,8 +11866,14 @@
     "name": {
       "en": "Wolfpack Blueprint"
     },
+    "description": {
+      "en": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": null,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8941,8 +11887,14 @@
     "name": {
       "en": "Wolfpack"
     },
+    "description": {
+      "en": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact."
+    },
     "type": "Quick Use",
     "rarity": "Epic",
+    "value": 5000,
+    "weightKg": 1,
+    "stackSize": 1,
     "recyclesInto": {
       "crude_explosives": 1,
       "arc_motion_core": 1
@@ -8962,8 +11914,14 @@
     "name": {
       "en": "Yellow Light Stick Blueprint"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Blueprint",
     "rarity": "Legendary",
+    "value": 5000,
+    "weightKg": 0,
+    "stackSize": 1,
     "recyclesInto": null,
     "recipe": null,
     "salvagesInto": null,
@@ -8977,8 +11935,14 @@
     "name": {
       "en": "Yellow Light Stick"
     },
+    "description": {
+      "en": "A throwable chemical light that illuminates the area around it."
+    },
     "type": "Quick Use",
     "rarity": "Common",
+    "value": 150,
+    "weightKg": 0.15,
+    "stackSize": 5,
     "recyclesInto": {
       "chemicals": 1
     },
@@ -8996,8 +11960,14 @@
     "name": {
       "en": "Zipline"
     },
+    "description": {
+      "en": "A deployable zipline that allows you to quickly move between two locations."
+    },
     "type": "Quick Use",
     "rarity": "Rare",
+    "value": 1000,
+    "weightKg": 0.4,
+    "stackSize": null,
     "recyclesInto": {
       "rope": 1,
       "metal_parts": 1

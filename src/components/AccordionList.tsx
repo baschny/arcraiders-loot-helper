@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import type { ItemsMap } from '../types/item';
 import type { ReverseMap } from '../utils/craftingChain';
 import { ItemHierarchy } from './ItemHierarchy';
+import { ItemIconWithInfo } from './ItemIconWithInfo';
 import { getRarityClass } from '../utils/dataLoader';
 import { loadEnabledTypes, saveEnabledTypes } from '../utils/storage';
 
@@ -208,9 +209,9 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
                 >
                   <div className="accordion-item-header-content">
                     {item.imageFilename && (
-                      <img
-                        src={item.imageFilename}
-                        alt={item.name.en}
+                      <ItemIconWithInfo
+                        item={item}
+                        itemsMap={itemsMap}
                         className={`accordion-item-icon ${getRarityClass(item.rarity)}`}
                       />
                     )}
