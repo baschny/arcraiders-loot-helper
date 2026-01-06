@@ -173,6 +173,20 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
           filteredItems.map((item) => {
             const isExpanded = expandedItemId === item.id;
             const isGoal = goalItemIds.includes(item.id);
+            
+            // Calculate how many goals this item contributes to
+            const usageInfo = reverseMap.get(item.id) || [];
+            const goalCount = new Set(
+              usageInfo.flatMap(usage => usage.goalItemIds)
+            ).size;
+            
+            // Determine priority level for styling
+            let priorityLevel = 'default';
+            if (goalCount >= 4) {
+              priorityLevel = 'high';
+            } else if (goalCount >= 2) {
+              priorityLevel = 'medium';
+            }
 
             return (
               <div
@@ -186,7 +200,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
                 }}
                 className={`accordion-item ${isExpanded ? 'expanded' : ''} ${
                   isGoal ? 'goal-item' : ''
-                }`}
+                } priority-${priorityLevel}`}
               >
                 <div
                   className="accordion-item-header"
@@ -203,7 +217,14 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
                     <span className="accordion-item-name">{item.name.en}</span>
                     {isGoal && <span className="accordion-item-goal-badge">Goal</span>}
                   </div>
-                  <span className="accordion-item-toggle">{isExpanded ? '−' : '+'}</span>
+                  <div className="accordion-item-header-right">
+                    {goalCount > 0 && (
+                      <span className={`accordion-item-goal-count priority-${priorityLevel}`}>
+                        ×{goalCount}
+                      </span>
+                    )}
+                    <span className="accordion-item-toggle">{isExpanded ? '−' : '+'}</span>
+                  </div>
                 </div>
 
                 {isExpanded && (

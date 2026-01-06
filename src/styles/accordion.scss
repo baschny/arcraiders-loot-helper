@@ -158,7 +158,15 @@
   }
 
   &.goal-item {
-    border-left: 3px solid #ffd700;
+    border-left: 3px solid $action-gold;
+  }
+
+  &.priority-medium {
+    border-left: 3px solid $action-gold;
+  }
+
+  &.priority-high {
+    border-left: 3px solid #4caf50;
   }
 }
 
@@ -172,6 +180,12 @@
 
   &:hover {
     background: #2a2a2a;
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
 }
 
@@ -224,6 +238,33 @@
   font-size: 15px;
   font-weight: 500;
   color: #e0e0e0;
+}
+
+.accordion-item-goal-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  background: #3c3c3c;
+  color: #888;
+  border: 1px solid #555;
+
+  &.priority-medium {
+    background: rgba(255, 215, 0, 0.15);
+    color: $action-gold;
+    border-color: $action-gold;
+  }
+
+  &.priority-high {
+    background: rgba(76, 175, 80, 0.15);
+    color: #4caf50;
+    border-color: #4caf50;
+  }
 }
 
 .accordion-item-goal-badge {
