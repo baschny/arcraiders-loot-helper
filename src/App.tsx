@@ -177,18 +177,9 @@ function App() {
           onEnableAllGoalItems={handleEnableAllGoalItems}
           onDisableAllGoalItems={handleDisableAllGoalItems}
         />
-        <div className="graph-container">
+        <div className="main-content-area">
           {goalItemIds.length === 0 ? (
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                color: '#888',
-                fontSize: '16px',
-              }}
-            >
+            <div className="empty-state">
               Add goal items from the sidebar to see what materials you need to loot.
             </div>
           ) : (

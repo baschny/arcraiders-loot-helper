@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import type { Item, ItemsMap } from '../types/item';
 import { getRarityClass } from '../utils/dataLoader';
+import { ItemIconWithInfo } from './ItemIconWithInfo';
 
 interface SidebarProps {
   itemsMap: ItemsMap;
@@ -223,9 +224,9 @@ export function Sidebar({
                       title={isDisabled ? 'Click to enable' : 'Click to disable'}
                     >
                       {item.imageFilename && (
-                        <img
-                          src={item.imageFilename}
-                          alt={item.name.en}
+                        <ItemIconWithInfo
+                          item={item}
+                          itemsMap={itemsMap}
                           className={`goal-items-list-item-icon ${getRarityClass(item.rarity)}`}
                         />
                       )}

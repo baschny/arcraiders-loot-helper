@@ -2,11 +2,11 @@
 
 .item-info-box {
   position: fixed;
-  z-index: 9999;
-  background: $bg-secondary;
+  z-index: 99999;
+  background: #2c2c2c;
   border: 1px solid $border-default;
   border-radius: $radius-md;
-  box-shadow: $shadow-node;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
   padding: $spacing-md;
   max-width: 400px;
   min-width: 300px;

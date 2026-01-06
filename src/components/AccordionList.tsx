@@ -169,8 +169,9 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
   }
 
   return (
-    <div className="accordion-list">
-      <div className="accordion-search">
+    <>
+      <div className="filters-section">
+        <div className="accordion-search">
         <input
           type="text"
           placeholder="Search items..."
@@ -253,6 +254,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
           </div>
         </div>
       )}
+      </div>
 
       <div className="accordion-items">
         {filteredItems.length === 0 ? (
@@ -331,6 +333,6 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
           })
         )}
       </div>
-    </div>
+    </>
   );
 }

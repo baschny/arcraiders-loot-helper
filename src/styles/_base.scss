@@ -146,9 +146,21 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-/* Graph container */
-.graph-container {
+/* Main content area (right side) */
+.main-content-area {
   flex: 1;
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #1a1a1a;
+}
+
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #888;
+  font-size: 16px;
+  padding: $spacing-xl;
+  text-align: center;
 }
