@@ -1,0 +1,8 @@
+// Import our custom styles using @use
+@use 'variables';
+@use 'base';
+@use 'sidebar';
+@use 'item-node';
+
+// Import React Flow styles
+@import 'reactflow/dist/style.css';

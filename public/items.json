@@ -1,0 +1,7872 @@
+[
+  {
+    "id": "acoustic_guitar",
+    "name": {
+      "en": "Acoustic Guitar"
+    },
+    "type": "Quick Use",
+    "rarity": "Legendary",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/acoustic_guitar.png",
+    "isWeapon": null
+  },
+  {
+    "id": "adrenaline_shot",
+    "name": {
+      "en": "Adrenaline Shot"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1,
+      "plastic_parts": 1
+    },
+    "recipe": {
+      "chemicals": 3,
+      "plastic_parts": 3
+    },
+    "salvagesInto": {
+      "chemicals": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/adrenaline_shot.png",
+    "isWeapon": null
+  },
+  {
+    "id": "advanced_arc_powercell",
+    "name": {
+      "en": "Advanced ARC Powercell"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_powercell": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/advanced_arc_powercell.png",
+    "isWeapon": null
+  },
+  {
+    "id": "advanced_electrical_components",
+    "name": {
+      "en": "Advanced Electrical Components"
+    },
+    "type": "Refined Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "electrical_components": 1,
+      "wires": 1
+    },
+    "recipe": {
+      "wires": 3,
+      "electrical_components": 2
+    },
+    "salvagesInto": {
+      "electrical_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
+    "isWeapon": null
+  },
+  {
+    "id": "advanced_mechanical_components",
+    "name": {
+      "en": "Advanced Mechanical Components"
+    },
+    "type": "Refined Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 1
+    },
+    "recipe": {
+      "steel_spring": 2,
+      "mechanical_components": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
+    "isWeapon": null
+  },
+  {
+    "id": "agave",
+    "name": {
+      "en": "Agave"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/agave.png",
+    "isWeapon": null
+  },
+  {
+    "id": "air_freshener",
+    "name": {
+      "en": "Air Freshener"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/air_freshener.png",
+    "isWeapon": null
+  },
+  {
+    "id": "alarm_clock",
+    "name": {
+      "en": "Alarm Clock"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 6,
+      "processor": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "processor": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/alarm_clock.png",
+    "isWeapon": null
+  },
+  {
+    "id": "angled_grip_i",
+    "name": {
+      "en": "Angled Grip I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "plastic_parts": 6,
+      "duct_tape": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/angled_grip_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "angled_grip_ii_blueprint",
+    "name": {
+      "en": "Angled Grip II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "angled_grip_ii",
+    "name": {
+      "en": "Angled Grip II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "duct_tape": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "duct_tape": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "angled_grip_iii_blueprint",
+    "name": {
+      "en": "Angled Grip III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "angled_grip_iii",
+    "name": {
+      "en": "Angled Grip III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mod_components": 1,
+      "duct_tape": 2
+    },
+    "recipe": {
+      "mod_components": 2,
+      "duct_tape": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "antiseptic",
+    "name": {
+      "en": "Antiseptic"
+    },
+    "type": "Refined Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 10
+    },
+    "recipe": {
+      "chemicals": 10,
+      "great_mullein": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
+    "isWeapon": null
+  },
+  {
+    "id": "anvil_blueprint",
+    "name": {
+      "en": "Anvil Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/anvil_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "anvil_i",
+    "name": {
+      "en": "Anvil I"
+    },
+    "type": "Hand Cannon",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
+    "recipe": {
+      "mechanical_components": 5,
+      "simple_gun_parts": 6
+    },
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
+    "isWeapon": true
+  },
+  {
+    "id": "anvil_ii",
+    "name": {
+      "en": "Anvil II"
+    },
+    "type": "Hand Cannon",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
+    "isWeapon": true
+  },
+  {
+    "id": "anvil_iii",
+    "name": {
+      "en": "Anvil III"
+    },
+    "type": "Hand Cannon",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 4,
+      "simple_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
+    "isWeapon": true
+  },
+  {
+    "id": "anvil_iv",
+    "name": {
+      "en": "Anvil IV"
+    },
+    "type": "Hand Cannon",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 5,
+      "simple_gun_parts": 5
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
+    "isWeapon": true
+  },
+  {
+    "id": "anvil_splitter",
+    "name": {
+      "en": "Anvil Splitter"
+    },
+    "type": "Modification",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "mod_components": 1,
+      "processor": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/anvil_splitter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "aphelion_blueprint",
+    "name": {
+      "en": "Aphelion Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/aphelion.png",
+    "isWeapon": null
+  },
+  {
+    "id": "aphelion",
+    "name": {
+      "en": "Aphelion"
+    },
+    "type": "Special",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "magnetic_accelerator": 2,
+      "complex_gun_parts": 1
+    },
+    "recipe": {
+      "magnetic_accelerator": 3,
+      "complex_gun_parts": 3,
+      "matriarch_reactor": 1
+    },
+    "salvagesInto": {
+      "magnetic_accelerator": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/aphelion.png",
+    "isWeapon": true
+  },
+  {
+    "id": "apricot",
+    "name": {
+      "en": "Apricot"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/apricot.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_alloy",
+    "name": {
+      "en": "ARC Alloy"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arc_alloy.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_circuitry",
+    "name": {
+      "en": "ARC Circuitry"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_alloy": 2
+    },
+    "recipe": {
+      "arc_alloy": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arc_circuitry.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_coolant",
+    "name": {
+      "en": "ARC Coolant"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 16
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "chemicals": 9
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arc_coolant.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_flex_rubber",
+    "name": {
+      "en": "ARC Flex Rubber"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 16
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 9
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arc_flex_rubber.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_motion_core",
+    "name": {
+      "en": "ARC Motion Core"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_alloy": 2
+    },
+    "recipe": {
+      "arc_alloy": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arc_motion_core.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_performance_steel",
+    "name": {
+      "en": "ARC Performance Steel"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 12
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 7
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arc_performance_steel.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_powercell",
+    "name": {
+      "en": "ARC Powercell"
+    },
+    "type": "Topside Material",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arc_powercell.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_synthetic_resin",
+    "name": {
+      "en": "ARC Synthetic Resin"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 14
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "plastic_parts": 8
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arc_synthetic_resin.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arc_thermo_lining",
+    "name": {
+      "en": "ARC Thermo Lining"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "fabric": 16
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "fabric": 9
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arc_thermo_lining.png",
+    "isWeapon": null
+  },
+  {
+    "id": "arpeggio_i",
+    "name": {
+      "en": "Arpeggio I"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "mechanical_components": 6,
+      "simple_gun_parts": 6
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
+    "isWeapon": true
+  },
+  {
+    "id": "arpeggio_ii",
+    "name": {
+      "en": "Arpeggio II"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
+    "isWeapon": true
+  },
+  {
+    "id": "arpeggio_iii",
+    "name": {
+      "en": "Arpeggio III"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
+    "isWeapon": true
+  },
+  {
+    "id": "arpeggio_iv",
+    "name": {
+      "en": "Arpeggio IV"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 5,
+      "simple_gun_parts": 5
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
+    "isWeapon": true
+  },
+  {
+    "id": "assorted_seeds",
+    "name": {
+      "en": "Assorted Seeds"
+    },
+    "type": "Nature",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/assorted_seeds.png",
+    "isWeapon": null
+  },
+  {
+    "id": "backpack_black_hiker_color",
+    "name": {
+      "en": "Backpack (Black Hiker Color)"
+    },
+    "type": "Cosmetic",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": null,
+    "isWeapon": null
+  },
+  {
+    "id": "banana",
+    "name": {
+      "en": "Banana"
+    },
+    "type": "Backpack Charm",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/banana.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bandage",
+    "name": {
+      "en": "Bandage"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "fabric": 2
+    },
+    "recipe": {
+      "fabric": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bandage.png",
+    "isWeapon": null
+  },
+  {
+    "id": "barricade_kit_blueprint",
+    "name": {
+      "en": "Barricade Kit Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
+    "isWeapon": null
+  },
+  {
+    "id": "barricade_kit",
+    "name": {
+      "en": "Barricade Kit"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 4
+    },
+    "recipe": {
+      "mechanical_components": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bastion_cell",
+    "name": {
+      "en": "Bastion Cell"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "arc_alloy": 2,
+      "advanced_mechanical_components": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/bastion_cell.png",
+    "isWeapon": null
+  },
+  {
+    "id": "battery",
+    "name": {
+      "en": "Battery"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/battery.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bettina_blueprint",
+    "name": {
+      "en": "Bettina Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bettina_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bettina_i",
+    "name": {
+      "en": "Bettina I"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": {
+      "advanced_mechanical_components": 3,
+      "heavy_gun_parts": 3,
+      "canister": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bettina_ii",
+    "name": {
+      "en": "Bettina II"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bettina_iii",
+    "name": {
+      "en": "Bettina III"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bettina_iv",
+    "name": {
+      "en": "Bettina IV"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bicycle_pump",
+    "name": {
+      "en": "Bicycle Pump"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "canister": 4,
+      "metal_parts": 10
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "canister": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/bicycle_pump.png",
+    "isWeapon": null
+  },
+  {
+    "id": "binoculars",
+    "name": {
+      "en": "Binoculars"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "rubber_parts": 2,
+      "plastic_parts": 4
+    },
+    "recipe": {
+      "plastic_parts": 8,
+      "rubber_parts": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/binoculars.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blaze_grenade_blueprint",
+    "name": {
+      "en": "Blaze Grenade Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blaze_grenade_trap",
+    "name": {
+      "en": "Blaze Grenade Trap"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "blaze_grenade": 1,
+      "wires": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade_trap.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blaze_grenade",
+    "name": {
+      "en": "Blaze Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "oil": 2,
+      "metal_parts": 4
+    },
+    "recipe": {
+      "explosive_compound": 1,
+      "oil": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bloated_tuna_can",
+    "name": {
+      "en": "Bloated Tuna Can"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bloated_tuna_can.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_gate_cellar_key",
+    "name": {
+      "en": "Blue Gate Cellar Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_gate_cellar_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_gate_communication_tower_key",
+    "name": {
+      "en": "Blue Gate Communication Tower Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_gate_communication_tower_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_gate_confiscation_room_key",
+    "name": {
+      "en": "Blue Gate Confiscation Room Key"
+    },
+    "type": "Key",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_gate_confiscation_room_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_gate_village_key",
+    "name": {
+      "en": "Blue Gate Village Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_gate_village_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_light_stick_blueprint",
+    "name": {
+      "en": "Blue Light Stick Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_light_stick_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_light_stick",
+    "name": {
+      "en": "Blue Light Stick"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1
+    },
+    "recipe": {
+      "chemicals": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "blue_radio_renegade_color",
+    "name": {
+      "en": "Blue (Radio Renegade Color)"
+    },
+    "type": "Cosmetic",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/blue_radio_renegade_color.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bobcat_blueprint",
+    "name": {
+      "en": "Bobcat Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
+    "isWeapon": null
+  },
+  {
+    "id": "bobcat_i",
+    "name": {
+      "en": "Bobcat I"
+    },
+    "type": "SMG",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "light_gun_parts": 2,
+      "advanced_mechanical_components": 2
+    },
+    "recipe": {
+      "magnetic_accelerator": 1,
+      "light_gun_parts": 3,
+      "exodus_modules": 2
+    },
+    "salvagesInto": {
+      "light_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bobcat_ii",
+    "name": {
+      "en": "Bobcat II"
+    },
+    "type": "SMG",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "light_gun_parts": 3,
+      "advanced_mechanical_components": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "light_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bobcat_iii",
+    "name": {
+      "en": "Bobcat III"
+    },
+    "type": "SMG",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "light_gun_parts": 4,
+      "advanced_mechanical_components": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "light_gun_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bobcat_iv",
+    "name": {
+      "en": "Bobcat IV"
+    },
+    "type": "SMG",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "light_gun_parts": 4,
+      "advanced_mechanical_components": 5
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "light_gun_parts": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
+    "isWeapon": true
+  },
+  {
+    "id": "bombardier_cell",
+    "name": {
+      "en": "Bombardier Cell"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "arc_alloy": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/bombardier_cell.png",
+    "isWeapon": null
+  },
+  {
+    "id": "breathtaking_snow_globe",
+    "name": {
+      "en": "Breathtaking Snow Globe"
+    },
+    "type": "Trinket",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/breathtaking_snow_globe.png",
+    "isWeapon": null
+  },
+  {
+    "id": "broken_flashlight",
+    "name": {
+      "en": "Broken Flashlight"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "battery": 2,
+      "metal_parts": 6
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 7
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/broken_flashlight.png",
+    "isWeapon": null
+  },
+  {
+    "id": "broken_guidance_system",
+    "name": {
+      "en": "Broken Guidance System"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "processor": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "processor": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/broken_guidance_system.png",
+    "isWeapon": null
+  },
+  {
+    "id": "broken_handheld_radio",
+    "name": {
+      "en": "Broken Handheld Radio"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "sensors": 3,
+      "wires": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/broken_handheld_radio.png",
+    "isWeapon": null
+  },
+  {
+    "id": "broken_taser",
+    "name": {
+      "en": "Broken Taser"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "battery": 2,
+      "wires": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/broken_taser.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burgerboy",
+    "name": {
+      "en": "Burgerboy"
+    },
+    "type": "Backpack Charm",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burgerboy.png",
+    "isWeapon": null
+  },
+  {
+    "id": "buried_city_hospital_key",
+    "name": {
+      "en": "Buried City Hospital Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/buried_city_hospital_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "buried_city_jkv_employee_access_card",
+    "name": {
+      "en": "Buried City JKV Employee Access Card"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/buried_city_jkv_employee_access_card.png",
+    "isWeapon": null
+  },
+  {
+    "id": "buried_city_residential_master_key",
+    "name": {
+      "en": "Buried City Residential Master Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/buried_city_residential_master_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "buried_city_town_hall_key",
+    "name": {
+      "en": "Buried City Town Hall Key"
+    },
+    "type": "Key",
+    "rarity": "Epic",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/buried_city_town_hall_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burletta_blueprint",
+    "name": {
+      "en": "Burletta Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burletta_i",
+    "name": {
+      "en": "Burletta I"
+    },
+    "type": "Pistol",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "simple_gun_parts": 2
+    },
+    "recipe": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
+    "isWeapon": true
+  },
+  {
+    "id": "burletta_ii",
+    "name": {
+      "en": "Burletta II"
+    },
+    "type": "Pistol",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burletta_iii",
+    "name": {
+      "en": "Burletta III"
+    },
+    "type": "Pistol",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burletta_iv",
+    "name": {
+      "en": "Burletta IV"
+    },
+    "type": "Pistol",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 4,
+      "simple_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burned_arc_circuitry",
+    "name": {
+      "en": "Burned Arc Circuitry"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "arc_alloy": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuitry.png",
+    "isWeapon": null
+  },
+  {
+    "id": "burnt_out_candles",
+    "name": {
+      "en": "Burnt-Out Candles"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/burnt_out_candles.png",
+    "isWeapon": null
+  },
+  {
+    "id": "camera_lens",
+    "name": {
+      "en": "Camera Lens"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "plastic_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/camera_lens.png",
+    "isWeapon": null
+  },
+  {
+    "id": "candle_holder",
+    "name": {
+      "en": "Candle Holder"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/candle_holder.png",
+    "isWeapon": null
+  },
+  {
+    "id": "candleberries",
+    "name": {
+      "en": "Candleberries"
+    },
+    "type": "Nature",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "assorted_seeds": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/candleberries.png",
+    "isWeapon": null
+  },
+  {
+    "id": "canister",
+    "name": {
+      "en": "Canister"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/canister.png",
+    "isWeapon": null
+  },
+  {
+    "id": "cans_backpack_attachment",
+    "name": {
+      "en": "Cans Backpack Attachment"
+    },
+    "type": "Cosmetic",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/cans.png",
+    "isWeapon": null
+  },
+  {
+    "id": "cat_bed",
+    "name": {
+      "en": "Cat Bed"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/cat_bed.png",
+    "isWeapon": null
+  },
+  {
+    "id": "celeste_journal",
+    "name": {
+      "en": "Celeste's Journal"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/celestes_journal.png",
+    "isWeapon": null
+  },
+  {
+    "id": "cheer",
+    "name": {
+      "en": "Cheer"
+    },
+    "type": "Cosmetic",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/cheer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "chemicals",
+    "name": {
+      "en": "Chemicals"
+    },
+    "type": "Basic Material",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/chemicals.png",
+    "isWeapon": null
+  },
+  {
+    "id": "coffee_pot",
+    "name": {
+      "en": "Coffee Pot"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/coffee_pot.png",
+    "isWeapon": null
+  },
+  {
+    "id": "combat_mk1",
+    "name": {
+      "en": "Combat Mk. 1"
+    },
+    "type": "Augment",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 3,
+      "rubber_parts": 3
+    },
+    "recipe": {
+      "plastic_parts": 6,
+      "rubber_parts": 6
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "combat_mk2",
+    "name": {
+      "en": "Combat Mk. 2"
+    },
+    "type": "Augment",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "magnet": 1,
+      "electrical_components": 1
+    },
+    "recipe": {
+      "electrical_components": 2,
+      "magnet": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "combat_mk3_aggressive_blueprint",
+    "name": {
+      "en": "Combat Mk. 3 (Aggressive) Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
+    "isWeapon": null
+  },
+  {
+    "id": "combat_mk3_aggressive",
+    "name": {
+      "en": "Combat Mk. 3 (Aggressive)"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "processor": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
+    "isWeapon": null
+  },
+  {
+    "id": "combat_mk3_flanking_blueprint",
+    "name": {
+      "en": "Combat Mk. 3 (Flanking) Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
+    "isWeapon": null
+  },
+  {
+    "id": "combat_mk3_flanking",
+    "name": {
+      "en": "Combat Mk. 3 (Flanking)"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "processor": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
+    "isWeapon": null
+  },
+  {
+    "id": "compensator_i",
+    "name": {
+      "en": "Compensator I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 5
+    },
+    "recipe": {
+      "metal_parts": 6,
+      "wires": 1
+    },
+    "salvagesInto": {
+      "metal_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/compensator_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "compensator_ii_blueprint",
+    "name": {
+      "en": "Compensator II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/compensator_ii_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "compensator_ii",
+    "name": {
+      "en": "Compensator II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "wires": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "compensator_iii_blueprint",
+    "name": {
+      "en": "Compensator III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/compensator_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "compensator_iii",
+    "name": {
+      "en": "Compensator III"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 2
+    },
+    "recipe": {
+      "mod_components": 2,
+      "wires": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "complex_gun_parts_blueprint",
+    "name": {
+      "en": "Complex Gun Parts Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "complex_gun_parts",
+    "name": {
+      "en": "Complex Gun Parts"
+    },
+    "type": "Topside Material",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "simple_gun_parts": 3
+    },
+    "recipe": {
+      "light_gun_parts": 2,
+      "medium_gun_parts": 2,
+      "heavy_gun_parts": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "coolant",
+    "name": {
+      "en": "Coolant"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 5,
+      "oil": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "oil": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/coolant.png",
+    "isWeapon": null
+  },
+  {
+    "id": "cooling_coil",
+    "name": {
+      "en": "Cooling Coil"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 6,
+      "steel_spring": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
+    "isWeapon": null
+  },
+  {
+    "id": "cooling_fan",
+    "name": {
+      "en": "Cooling Fan"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 14,
+      "wires": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
+    "isWeapon": null
+  },
+  {
+    "id": "cracked_bioscanner",
+    "name": {
+      "en": "Cracked Bioscanner"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 3,
+      "battery": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "crude_explosives",
+    "name": {
+      "en": "Crude Explosives"
+    },
+    "type": "Refined Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 3
+    },
+    "recipe": {
+      "chemicals": 6
+    },
+    "salvagesInto": {
+      "chemicals": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/crude_explosives.png",
+    "isWeapon": null
+  },
+  {
+    "id": "crumpled_plastic_bottle",
+    "name": {
+      "en": "Crumpled Plastic Bottle"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "plastic_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/crumpled_plastic_bottle.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dam_control_tower_key",
+    "name": {
+      "en": "Dam Control Tower Key"
+    },
+    "type": "Key",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dam_control_tower_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dam_staff_room_key",
+    "name": {
+      "en": "Dam Staff Room Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dam_staff_room_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dam_surveillance_key",
+    "name": {
+      "en": "Dam Surveillance Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dam_surveillance_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dam_testing_annex_key",
+    "name": {
+      "en": "Dam Testing Annex Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dam_testing_annex_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dam_utility_key",
+    "name": {
+      "en": "Dam Utility Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dam_utility_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_arc_motion_core",
+    "name": {
+      "en": "Damaged ARC Motion Core"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "arc_alloy": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_arc_powercell",
+    "name": {
+      "en": "Damaged ARC Powercell"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "arc_alloy": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_powercell.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_fireball_burner",
+    "name": {
+      "en": "Damaged Fireball Burner"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "arc_alloy": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_fireball_burner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_heat_sink",
+    "name": {
+      "en": "Damaged Heat Sink"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 6,
+      "wires": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "wires": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_heat_sink.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_hornet_driver",
+    "name": {
+      "en": "Damaged Hornet Driver"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "arc_alloy": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_hornet_driver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_rocketeer_driver",
+    "name": {
+      "en": "Damaged Rocketeer Driver"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "arc_alloy": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_rocketeer_driver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_snitch_scanner",
+    "name": {
+      "en": "Damaged Snitch Scanner"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_snitch_scanner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_tick_pod",
+    "name": {
+      "en": "Damaged Tick Pod"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "arc_alloy": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_tick_pod.png",
+    "isWeapon": null
+  },
+  {
+    "id": "damaged_wasp_driver",
+    "name": {
+      "en": "Damaged Wasp Driver"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "arc_alloy": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_wasp_driver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dart_board",
+    "name": {
+      "en": "Dart Board"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dart_board.png",
+    "isWeapon": null
+  },
+  {
+    "id": "deadline_blueprint",
+    "name": {
+      "en": "Deadline Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
+    "isWeapon": null
+  },
+  {
+    "id": "deadline",
+    "name": {
+      "en": "Deadline"
+    },
+    "type": "Quick Use",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "explosive_compound": 1
+    },
+    "recipe": {
+      "explosive_compound": 3,
+      "arc_circuitry": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
+    "isWeapon": null
+  },
+  {
+    "id": "defibrillator_blueprint",
+    "name": {
+      "en": "Defibrillator Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
+    "isWeapon": null
+  },
+  {
+    "id": "defibrillator",
+    "name": {
+      "en": "Defibrillator"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 1,
+      "moss": 1
+    },
+    "recipe": {
+      "plastic_parts": 9,
+      "moss": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
+    "isWeapon": null
+  },
+  {
+    "id": "deflated_football",
+    "name": {
+      "en": "Deflated Football"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "rubber_parts": 15
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 9
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/deflated_football.png",
+    "isWeapon": null
+  },
+  {
+    "id": "degraded_arc_rubber",
+    "name": {
+      "en": "Degraded ARC Rubber"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "rubber_parts": 11
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/degraded_arc_rubber.png",
+    "isWeapon": null
+  },
+  {
+    "id": "diving_goggles",
+    "name": {
+      "en": "Diving Goggles"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 12
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/diving_goggles.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dog_collar",
+    "name": {
+      "en": "Dog Collar"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "fabric": 8,
+      "metal_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "fabric": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/dog_collar.png",
+    "isWeapon": null
+  },
+  {
+    "id": "door_blocker",
+    "name": {
+      "en": "Door Blocker"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 2
+    },
+    "recipe": {
+      "metal_parts": 3,
+      "rubber_parts": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/door_blocker.png",
+    "isWeapon": null
+  },
+  {
+    "id": "dried_out_arc_resin",
+    "name": {
+      "en": "Dried-Out ARC Resin"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 9
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/dried_out_arc_resin.png",
+    "isWeapon": null
+  },
+  {
+    "id": "duct_tape",
+    "name": {
+      "en": "Duct Tape"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "fabric": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/duct_tape.png",
+    "isWeapon": null
+  },
+  {
+    "id": "durable_cloth",
+    "name": {
+      "en": "Durable Cloth"
+    },
+    "type": "Refined Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "fabric": 6
+    },
+    "recipe": {
+      "fabric": 14
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/durable_cloth.png",
+    "isWeapon": null
+  },
+  {
+    "id": "electrical_components",
+    "name": {
+      "en": "Electrical Components"
+    },
+    "type": "Refined Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 3,
+      "rubber_parts": 3
+    },
+    "recipe": {
+      "plastic_parts": 8,
+      "rubber_parts": 4
+    },
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
+    "isWeapon": null
+  },
+  {
+    "id": "empty_wine_bottle",
+    "name": {
+      "en": "Empty Wine Bottle"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/empty_wine_bottle.png",
+    "isWeapon": null
+  },
+  {
+    "id": "energy_clip",
+    "name": {
+      "en": "Energy Clip"
+    },
+    "type": "Ammunition",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "advanced_arc_powercell": 1,
+      "battery": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/energy_clip.png",
+    "isWeapon": null
+  },
+  {
+    "id": "equalizer_blueprint",
+    "name": {
+      "en": "Equalizer Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "equalizer",
+    "name": {
+      "en": "Equalizer"
+    },
+    "type": "LMG",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "magnetic_accelerator": 2,
+      "complex_gun_parts": 1
+    },
+    "recipe": {
+      "magnetic_accelerator": 3,
+      "complex_gun_parts": 3,
+      "queen_reactor": 1
+    },
+    "salvagesInto": {
+      "magnetic_accelerator": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
+    "isWeapon": true
+  },
+  {
+    "id": "esr_analyzer",
+    "name": {
+      "en": "ESR Analyzer"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "exodus_modules",
+    "name": {
+      "en": "Exodus Modules"
+    },
+    "type": "Topside Material",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "magnet": 2,
+      "processor": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "processor": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/exodus_modules.png",
+    "isWeapon": null
+  },
+  {
+    "id": "experimental_seed_sample",
+    "name": {
+      "en": "Experimental Seed Sample"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/experimental_seed_sample.png",
+    "isWeapon": null
+  },
+  {
+    "id": "expired_pasta",
+    "name": {
+      "en": "Expired Pasta"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/expired_pasta.png",
+    "isWeapon": null
+  },
+  {
+    "id": "expired_respirator",
+    "name": {
+      "en": "Expired Respirator"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 8,
+      "fabric": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/expired_respirator.png",
+    "isWeapon": null
+  },
+  {
+    "id": "explosive_compound",
+    "name": {
+      "en": "Explosive Compound"
+    },
+    "type": "Refined Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "crude_explosives": 2
+    },
+    "recipe": {
+      "crude_explosives": 2,
+      "oil": 2
+    },
+    "salvagesInto": {
+      "crude_explosives": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/explosive_compound.png",
+    "isWeapon": null
+  },
+  {
+    "id": "explosive_mine_blueprint",
+    "name": {
+      "en": "Explosive Mine Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "explosive_mine",
+    "name": {
+      "en": "Explosive Mine"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 1,
+      "sensors": 1
+    },
+    "recipe": {
+      "explosive_compound": 1,
+      "sensors": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_barrel_blueprint",
+    "name": {
+      "en": "Extended Barrel Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_barrel.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_barrel",
+    "name": {
+      "en": "Extended Barrel"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "mod_components": 1,
+      "wires": 1
+    },
+    "recipe": {
+      "mod_components": 2,
+      "wires": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_barrel.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_light_mag_i",
+    "name": {
+      "en": "Extended Light Mag I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": {
+      "plastic_parts": 6
+    },
+    "recipe": {
+      "plastic_parts": 6,
+      "steel_spring": 1
+    },
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_light_mag_ii_blueprint",
+    "name": {
+      "en": "Extended Light Mag II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_light_mag_ii",
+    "name": {
+      "en": "Extended Light Mag II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "steel_spring": 1,
+      "mechanical_components": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "steel_spring": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_light_mag_iii_blueprint",
+    "name": {
+      "en": "Extended Light Mag III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_light_mag_iii",
+    "name": {
+      "en": "Extended Light Mag III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mod_components": 1,
+      "steel_spring": 2
+    },
+    "recipe": {
+      "mod_components": 2,
+      "steel_spring": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_medium_mag_i",
+    "name": {
+      "en": "Extended Medium Mag I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "plastic_parts": 6,
+      "steel_spring": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_medium_mag_ii_blueprint",
+    "name": {
+      "en": "Extended Medium Mag II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_medium_mag_ii",
+    "name": {
+      "en": "Extended Medium Mag II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "mechanical_components": 2,
+      "steel_spring": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_medium_mag_iii_blueprint",
+    "name": {
+      "en": "Extended Medium Mag III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_medium_mag_iii",
+    "name": {
+      "en": "Extended Medium Mag III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mod_components": 1,
+      "steel_spring": 2
+    },
+    "recipe": {
+      "mod_components": 2,
+      "steel_spring": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_shotgun_mag_i",
+    "name": {
+      "en": " Extended Shotgun Mag I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": {
+      "plastic_parts": 6
+    },
+    "recipe": {
+      "plastic_parts": 6,
+      "steel_spring": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_shotgun_mag_ii_blueprint",
+    "name": {
+      "en": "Extended Shotgun Mag II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_shotgun_mag_ii",
+    "name": {
+      "en": "Extended Shotgun Mag II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "mechanical_components": 2,
+      "steel_spring": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_shotgun_mag_iii_blueprint",
+    "name": {
+      "en": "Extended Shotgun Mag III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "extended_shotgun_mag_iii",
+    "name": {
+      "en": "Extended Shotgun Mag III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fabric",
+    "name": {
+      "en": "Fabric"
+    },
+    "type": "Basic Material",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fabric.png",
+    "isWeapon": null
+  },
+  {
+    "id": "faded_photograph",
+    "name": {
+      "en": "Faded Photograph"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/faded_photograph.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ferro_i",
+    "name": {
+      "en": "Ferro I"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 2,
+      "rubber_parts": 1
+    },
+    "recipe": {
+      "metal_parts": 5,
+      "rubber_parts": 2
+    },
+    "salvagesInto": {
+      "metal_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "ferro_ii",
+    "name": {
+      "en": "Ferro II"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 4,
+      "rubber_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "ferro_iii",
+    "name": {
+      "en": "Ferro III"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 6,
+      "simple_gun_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "ferro_iv",
+    "name": {
+      "en": "Ferro IV"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "simple_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "fertilizer",
+    "name": {
+      "en": "Fertilizer"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fertilizer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "film_reel",
+    "name": {
+      "en": "Film Reel"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/film_reel.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fine_wristwatch",
+    "name": {
+      "en": "Fine Wristwatch"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fine_wristwatch.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fireball_burner",
+    "name": {
+      "en": "Fireball Burner"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "arc_alloy": 1,
+      "chemicals": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fireball_burner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "firecracker",
+    "name": {
+      "en": "Firecracker"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "plastic_parts": 3
+    },
+    "recipe": {
+      "plastic_parts": 4,
+      "chemicals": 2
+    },
+    "salvagesInto": {
+      "plastic_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/firecracker.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fireworks_box_blueprint",
+    "name": {
+      "en": "Fireworks Box Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fireworks_box",
+    "name": {
+      "en": "Fireworks Box"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "explosive_compound": 1
+    },
+    "recipe": {
+      "explosive_compound": 1,
+      "pop_trigger": 3
+    },
+    "salvagesInto": {
+      "explosive_compound": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
+    "isWeapon": null
+  },
+  {
+    "id": "first_wave_compass",
+    "name": {
+      "en": "First Wave Compass"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/first_wave_compass.png",
+    "isWeapon": null
+  },
+  {
+    "id": "first_wave_rations",
+    "name": {
+      "en": "First Wave Rations"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/first_wave_rations.png",
+    "isWeapon": null
+  },
+  {
+    "id": "first_wave_tape",
+    "name": {
+      "en": "First Wave Tape"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
+    "isWeapon": null
+  },
+  {
+    "id": "flame_spray",
+    "name": {
+      "en": "Flame Spray"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "air_freshener": 1,
+      "fireball_burner": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
+    "isWeapon": null
+  },
+  {
+    "id": "flow_controller",
+    "name": {
+      "en": "Flow Controller"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "sensors": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
+    "isWeapon": null
+  },
+  {
+    "id": "flushing_terminal_key",
+    "name": {
+      "en": "Flushing Terminal Key"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/flushing_terminal_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fossilized_lightning",
+    "name": {
+      "en": "Fossilized Lightning"
+    },
+    "type": "Topside Material",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "explosive_compound": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fossilized_lightning.png",
+    "isWeapon": null
+  },
+  {
+    "id": "free_loadout_augment",
+    "name": {
+      "en": "Free Loadout Augment"
+    },
+    "type": "Augment",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
+    "isWeapon": null
+  },
+  {
+    "id": "frequency_modulation_box",
+    "name": {
+      "en": "Frequency Modulation Box"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "speaker_component": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/frequency_modulation_box.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fried_motherboard",
+    "name": {
+      "en": "Fried Motherboard"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 5,
+      "electrical_components": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "wires": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/fried_motherboard.png",
+    "isWeapon": null
+  },
+  {
+    "id": "fruit_mix",
+    "name": {
+      "en": "Fruit Mix"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "lemon": 1,
+      "apricot": 1,
+      "prickly_pear": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/fruit_mix.png",
+    "isWeapon": null
+  },
+  {
+    "id": "frying_pan",
+    "name": {
+      "en": "Frying Pan"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/frying_pan.png",
+    "isWeapon": null
+  },
+  {
+    "id": "garlic_press",
+    "name": {
+      "en": "Garlic Press"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 12
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 7
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/garlic_press.png",
+    "isWeapon": null
+  },
+  {
+    "id": "gas_grenade_trap",
+    "name": {
+      "en": "Gas Grenade Trap"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "gas_grenade": 1,
+      "wires": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/gas_grenade_trap.png",
+    "isWeapon": null
+  },
+  {
+    "id": "gas_grenade",
+    "name": {
+      "en": "Gas Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1,
+      "rubber_parts": 1
+    },
+    "recipe": {
+      "chemicals": 4,
+      "rubber_parts": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/gas_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "gas_mine_blueprint",
+    "name": {
+      "en": "Gas Mine Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "gas_mine",
+    "name": {
+      "en": "Gas Mine"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1,
+      "rubber_parts": 1
+    },
+    "recipe": {
+      "chemicals": 4,
+      "rubber_parts": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "geiger_counter",
+    "name": {
+      "en": "Geiger Counter"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "battery": 3,
+      "exodus_modules": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/geiger_counter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "great_mullein",
+    "name": {
+      "en": "Great Mullein"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png",
+    "isWeapon": null
+  },
+  {
+    "id": "green_light_stick_blueprint",
+    "name": {
+      "en": "Green Light Stick Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "green_light_stick",
+    "name": {
+      "en": "Green Light Stick"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "chemicals": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "hairpin_i",
+    "name": {
+      "en": "Hairpin I"
+    },
+    "type": "Pistol",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 2,
+      "rubber_parts": 1
+    },
+    "recipe": {
+      "metal_parts": 2,
+      "plastic_parts": 5
+    },
+    "salvagesInto": {
+      "metal_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "isWeapon": true
+  },
+  {
+    "id": "hairpin_ii",
+    "name": {
+      "en": "Hairpin II"
+    },
+    "type": "Pistol",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 4,
+      "plastic_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "isWeapon": true
+  },
+  {
+    "id": "hairpin_iii",
+    "name": {
+      "en": "Hairpin III"
+    },
+    "type": "Pistol",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 6,
+      "simple_gun_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "isWeapon": true
+  },
+  {
+    "id": "hairpin_iv",
+    "name": {
+      "en": "Hairpin IV"
+    },
+    "type": "Pistol",
+    "rarity": "Common",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "simple_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
+    "isWeapon": true
+  },
+  {
+    "id": "headphones",
+    "name": {
+      "en": "Headphones"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 7,
+      "speaker_component": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/headphones.png",
+    "isWeapon": null
+  },
+  {
+    "id": "heavy_ammo",
+    "name": {
+      "en": "Heavy Ammo"
+    },
+    "type": "Ammunition",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "metal_parts": 3,
+      "chemicals": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/heavy_ammo.png",
+    "isWeapon": null
+  },
+  {
+    "id": "heavy_fuze_grenade",
+    "name": {
+      "en": "Heavy Fuze Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "oil": 1,
+      "rubber_parts": 2
+    },
+    "recipe": {
+      "explosive_compound": 1,
+      "canister": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/heavy_fuze_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "heavy_gun_parts_blueprint",
+    "name": {
+      "en": "Heavy Gun Parts Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "heavy_gun_parts",
+    "name": {
+      "en": "Heavy Gun Parts"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "simple_gun_parts": 2
+    },
+    "recipe": {
+      "simple_gun_parts": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "heavy_shield",
+    "name": {
+      "en": "Heavy Shield"
+    },
+    "type": "Shield",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": {
+      "power_rod": 1,
+      "voltage_converter": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/heavy_shield.png",
+    "isWeapon": null
+  },
+  {
+    "id": "herbal_bandage",
+    "name": {
+      "en": "Herbal Bandage"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 2,
+      "fabric": 5
+    },
+    "recipe": {
+      "durable_cloth": 1,
+      "great_mullein": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/herbal_bandage.png",
+    "isWeapon": null
+  },
+  {
+    "id": "horizontal_grip_blueprint",
+    "name": {
+      "en": "Horizontal Grip Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
+    "isWeapon": null
+  },
+  {
+    "id": "horizontal_grip",
+    "name": {
+      "en": "Horizontal Grip"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "mod_components": 1,
+      "duct_tape": 2
+    },
+    "recipe": {
+      "mod_components": 2,
+      "duct_tape": 5
+    },
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
+    "isWeapon": null
+  },
+  {
+    "id": "hornet_driver",
+    "name": {
+      "en": "Hornet Driver"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_alloy": 2,
+      "electrical_components": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hornet_driver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "household_cleaner",
+    "name": {
+      "en": "Household Cleaner"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 11
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/household_cleaner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "hullcracker_blueprint",
+    "name": {
+      "en": "Hullcracker Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "isWeapon": null
+  },
+  {
+    "id": "hullcracker_i",
+    "name": {
+      "en": "Hullcracker I"
+    },
+    "type": "Special",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
+    "recipe": {
+      "magnetic_accelerator": 1,
+      "heavy_gun_parts": 3,
+      "exodus_modules": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "isWeapon": true
+  },
+  {
+    "id": "hullcracker_ii",
+    "name": {
+      "en": "Hullcracker II"
+    },
+    "type": "Special",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "isWeapon": true
+  },
+  {
+    "id": "hullcracker_iii",
+    "name": {
+      "en": "Hullcracker III"
+    },
+    "type": "Special",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "heavy_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "isWeapon": true
+  },
+  {
+    "id": "hullcracker_iv",
+    "name": {
+      "en": "Hullcracker IV"
+    },
+    "type": "Special",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 4,
+      "heavy_gun_parts": 5
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
+    "isWeapon": true
+  },
+  {
+    "id": "humidifier",
+    "name": {
+      "en": "Humidifier"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "canister": 2,
+      "wires": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/humidifier.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ice_cream_scooper",
+    "name": {
+      "en": "Ice Cream Scooper"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 7
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ice_cream_scooper.png",
+    "isWeapon": null
+  },
+  {
+    "id": "il_toro_blueprint",
+    "name": {
+      "en": "Il Toro Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "isWeapon": null
+  },
+  {
+    "id": "il_toro_i",
+    "name": {
+      "en": "Il Toro I"
+    },
+    "type": "Shotgun",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
+    "recipe": {
+      "mechanical_components": 5,
+      "simple_gun_parts": 6
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "il_toro_ii",
+    "name": {
+      "en": "Il Toro II"
+    },
+    "type": "Shotgun",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "il_toro_iii",
+    "name": {
+      "en": "Il Toro III"
+    },
+    "type": "Shotgun",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 4,
+      "simple_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "il_toro_iv",
+    "name": {
+      "en": "Il Toro IV"
+    },
+    "type": "Shotgun",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 5,
+      "simple_gun_parts": 5
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
+    "isWeapon": true
+  },
+  {
+    "id": "impure_arc_coolant",
+    "name": {
+      "en": "Impure ARC Coolant"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 12
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/impure_arc_coolant.png",
+    "isWeapon": null
+  },
+  {
+    "id": "industrial_battery",
+    "name": {
+      "en": "Industrial Battery"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 7,
+      "battery": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "battery": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/industrial_battery.png",
+    "isWeapon": null
+  },
+  {
+    "id": "industrial_charger",
+    "name": {
+      "en": "Industrial Charger"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 5,
+      "voltage_converter": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "voltage_converter": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/industrial_charger.png",
+    "isWeapon": null
+  },
+  {
+    "id": "industrial_magnet",
+    "name": {
+      "en": "Industrial Magnet"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "magnet": 2,
+      "metal_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "magnet": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/industrial_magnet.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ion_sputter",
+    "name": {
+      "en": "Ion Sputter"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "voltage_converter": 4,
+      "exodus_modules": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/ion_sputter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "jolt_mine_blueprint",
+    "name": {
+      "en": "Jolt Mine Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "jolt_mine",
+    "name": {
+      "en": "Jolt Mine"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "battery": 1,
+      "plastic_parts": 2
+    },
+    "recipe": {
+      "electrical_components": 1,
+      "battery": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "junior_outfit",
+    "name": {
+      "en": "Junior Outfit"
+    },
+    "type": "Cosmetic",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": null,
+    "isWeapon": null
+  },
+  {
+    "id": "jupiter_blueprint",
+    "name": {
+      "en": "Jupiter Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "jupiter",
+    "name": {
+      "en": "Jupiter"
+    },
+    "type": "Sniper Rifle",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "magnetic_accelerator": 2,
+      "complex_gun_parts": 1
+    },
+    "recipe": {
+      "magnetic_accelerator": 3,
+      "complex_gun_parts": 3,
+      "queen_reactor": 1
+    },
+    "salvagesInto": {
+      "advanced_mechanical_components": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
+    "isWeapon": true
+  },
+  {
+    "id": "kettle_i",
+    "name": {
+      "en": "Kettle I"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "plastic_parts": 3,
+      "rubber_parts": 2
+    },
+    "recipe": {
+      "metal_parts": 6,
+      "rubber_parts": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "isWeapon": true
+  },
+  {
+    "id": "kettle_ii",
+    "name": {
+      "en": "Kettle II"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "plastic_parts": 6,
+      "rubber_parts": 6
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "isWeapon": null
+  },
+  {
+    "id": "kettle_iii",
+    "name": {
+      "en": "Kettle III"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "isWeapon": true
+  },
+  {
+    "id": "kettle_iv",
+    "name": {
+      "en": "Kettle IV"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+    "isWeapon": true
+  },
+  {
+    "id": "kinetic_converter",
+    "name": {
+      "en": "Kinetic Converter"
+    },
+    "type": "Modification",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "mod_components": 1,
+      "duct_tape": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/kinetic_converter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "laboratory_reagents",
+    "name": {
+      "en": "Laboratory Reagents"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 2,
+      "crude_explosives": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lances_mixtape_5th_edition",
+    "name": {
+      "en": "Lance's Mixtape (5th Edition)"
+    },
+    "type": "Trinket",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lances_mixtape_5th_edition.png",
+    "isWeapon": null
+  },
+  {
+    "id": "launcher_ammo",
+    "name": {
+      "en": "Launcher Ammo"
+    },
+    "type": "Ammunition",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "arc_motion_core": 1,
+      "crude_explosives": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/launcher_ammo.png",
+    "isWeapon": null
+  },
+  {
+    "id": "leaper_pulse_unit",
+    "name": {
+      "en": "Leaper Pulse Unit"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "arc_alloy": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/leaper_pulse_unit.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lemon",
+    "name": {
+      "en": "Lemon"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lemon.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lidar_scanner",
+    "name": {
+      "en": "Lidar Scanner"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lidar_scanner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "light_ammo",
+    "name": {
+      "en": "Light Ammo"
+    },
+    "type": "Ammunition",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "metal_parts": 3,
+      "chemicals": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/light_ammo.png",
+    "isWeapon": null
+  },
+  {
+    "id": "light_bulb",
+    "name": {
+      "en": "Light Bulb"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/light_bulb.png",
+    "isWeapon": null
+  },
+  {
+    "id": "light_gun_parts_blueprint",
+    "name": {
+      "en": "Light Gun Parts Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "light_gun_parts",
+    "name": {
+      "en": "Light Gun Parts"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "simple_gun_parts": 2
+    },
+    "recipe": {
+      "simple_gun_parts": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "light_impact_grenade",
+    "name": {
+      "en": "Light Impact Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1,
+      "plastic_parts": 1
+    },
+    "recipe": {
+      "chemicals": 3,
+      "plastic_parts": 2
+    },
+    "salvagesInto": {
+      "chemicals": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/light_impact_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "light_shield",
+    "name": {
+      "en": "Light Shield"
+    },
+    "type": "Shield",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 4
+    },
+    "recipe": {
+      "arc_alloy": 2,
+      "plastic_parts": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/light_shield.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lightweight_stock_blueprint",
+    "name": {
+      "en": "Lightweight Stock Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lightweight_stock_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lightweight_stock",
+    "name": {
+      "en": "Lightweight Stock"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "duct_tape": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lightweight_stock.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lil_smoke_grenade",
+    "name": {
+      "en": "Li'l Smoke Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1,
+      "plastic_parts": 1
+    },
+    "recipe": {
+      "chemicals": 5,
+      "plastic_parts": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lil_smoke_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "looting_mk1",
+    "name": {
+      "en": "Looting Mk. 1"
+    },
+    "type": "Augment",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "rubber_parts": 3,
+      "plastic_parts": 3
+    },
+    "recipe": {
+      "plastic_parts": 6,
+      "rubber_parts": 6
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
+    "isWeapon": null
+  },
+  {
+    "id": "looting_mk2",
+    "name": {
+      "en": "Looting Mk. 2"
+    },
+    "type": "Augment",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "magnet": 1,
+      "electrical_components": 1
+    },
+    "recipe": {
+      "electrical_components": 2,
+      "magnet": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
+    "isWeapon": null
+  },
+  {
+    "id": "looting_mk3_cautious",
+    "name": {
+      "en": "Looting Mk. 3 (Cautious)"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "processor": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
+    "isWeapon": null
+  },
+  {
+    "id": "looting_mk3_survivor_blueprint",
+    "name": {
+      "en": "Looting Mk. 3 (Survivor) Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "looting_mk3_survivor",
+    "name": {
+      "en": "Looting Mk. 3 (Survivor)"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "processor": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lure_grenade_blueprint",
+    "name": {
+      "en": "Lure Grenade Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lure_grenade_trap",
+    "name": {
+      "en": "Lure Grenade Trap"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "lure_grenade": 1,
+      "wires": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lure_grenade_trap.png",
+    "isWeapon": null
+  },
+  {
+    "id": "lure_grenade",
+    "name": {
+      "en": "Lure Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "speaker_component": 1
+    },
+    "recipe": {
+      "speaker_component": 1,
+      "electrical_components": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "magnet",
+    "name": {
+      "en": "Magnet"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/magnet.png",
+    "isWeapon": null
+  },
+  {
+    "id": "magnetic_accelerator",
+    "name": {
+      "en": "Magnetic Accelerator"
+    },
+    "type": "Refined Material",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "arc_motion_core": 1
+    },
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "arc_motion_core": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
+    "isWeapon": null
+  },
+  {
+    "id": "magnetron",
+    "name": {
+      "en": "Magnetron"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "magnetic_accelerator": 1,
+      "steel_spring": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/magnetron.png",
+    "isWeapon": null
+  },
+  {
+    "id": "major_aivas_patch",
+    "name": {
+      "en": "Major Aiva's Patch"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/major_aivas_patch.png",
+    "isWeapon": null
+  },
+  {
+    "id": "matriarch_reactor",
+    "name": {
+      "en": "Matriarch Reactor"
+    },
+    "type": "Material",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "power_rod": 1,
+      "magnetic_accelerator": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "power_rod": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/matriarch_reactor.png",
+    "isWeapon": null
+  },
+  {
+    "id": "mechanical_components",
+    "name": {
+      "en": "Mechanical Components"
+    },
+    "type": "Refined Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 3,
+      "rubber_parts": 2
+    },
+    "recipe": {
+      "metal_parts": 7,
+      "rubber_parts": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
+    "isWeapon": null
+  },
+  {
+    "id": "medium_ammo",
+    "name": {
+      "en": "Medium Ammo"
+    },
+    "type": "Ammunition",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "metal_parts": 3,
+      "chemicals": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/medium_ammo.png",
+    "isWeapon": null
+  },
+  {
+    "id": "medium_gun_parts_blueprint",
+    "name": {
+      "en": "Medium Gun Parts Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "medium_gun_parts",
+    "name": {
+      "en": "Medium Gun Parts"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "simple_gun_parts": 2
+    },
+    "recipe": {
+      "simple_gun_parts": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "medium_shield",
+    "name": {
+      "en": "Medium Shield"
+    },
+    "type": "Shield",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_circuitry": 1
+    },
+    "recipe": {
+      "arc_circuitry": 1,
+      "battery": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/medium_shield.png",
+    "isWeapon": null
+  },
+  {
+    "id": "metal_brackets",
+    "name": {
+      "en": "Metal Brackets"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/metal_brackets.png",
+    "isWeapon": null
+  },
+  {
+    "id": "metal_parts",
+    "name": {
+      "en": "Metal Parts"
+    },
+    "type": "Basic Material",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "microscope",
+    "name": {
+      "en": "Microscope"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "magnet": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
+    "isWeapon": null
+  },
+  {
+    "id": "mini_centrifuge",
+    "name": {
+      "en": "Mini Centrifuge"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "canister": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
+    "isWeapon": null
+  },
+  {
+    "id": "mod_components",
+    "name": {
+      "en": "Mod Components"
+    },
+    "type": "Refined Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "steel_spring": 1
+    },
+    "recipe": {
+      "steel_spring": 2,
+      "mechanical_components": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
+    "isWeapon": null
+  },
+  {
+    "id": "moss",
+    "name": {
+      "en": "Moss"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "assorted_seeds": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "assorted_seeds": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/moss.png",
+    "isWeapon": null
+  },
+  {
+    "id": "motor",
+    "name": {
+      "en": "Motor"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "oil": 2,
+      "mechanical_components": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "oil": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/motor.png",
+    "isWeapon": null
+  },
+  {
+    "id": "mushroom",
+    "name": {
+      "en": "Mushroom"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/mushroom.png",
+    "isWeapon": null
+  },
+  {
+    "id": "music_album",
+    "name": {
+      "en": "Music Album"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/music_album.png",
+    "isWeapon": null
+  },
+  {
+    "id": "music_box",
+    "name": {
+      "en": "Music Box"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/music_box.png",
+    "isWeapon": null
+  },
+  {
+    "id": "muzzle_brake_i",
+    "name": {
+      "en": "Muzzle Brake I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 5
+    },
+    "recipe": {
+      "metal_parts": 6,
+      "wires": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "muzzle_brake_ii_blueprint",
+    "name": {
+      "en": "Muzzle Brake II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "muzzle_brake_ii",
+    "name": {
+      "en": "Muzzle Brake II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "wires": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "muzzle_brake_iii_blueprint",
+    "name": {
+      "en": "Muzzle Brake III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "muzzle_brake_iii",
+    "name": {
+      "en": "Muzzle Brake III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "wires": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "noisemaker",
+    "name": {
+      "en": "Noisemaker"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "speaker_component": 1,
+      "plastic_parts": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/noisemaker.png",
+    "isWeapon": null
+  },
+  {
+    "id": "number_plate",
+    "name": {
+      "en": "Number Plate"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/number_plate.png",
+    "isWeapon": null
+  },
+  {
+    "id": "oil",
+    "name": {
+      "en": "Oil"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/oil.png",
+    "isWeapon": null
+  },
+  {
+    "id": "olives",
+    "name": {
+      "en": "Olives"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/olives.png",
+    "isWeapon": null
+  },
+  {
+    "id": "osprey_blueprint",
+    "name": {
+      "en": "Osprey Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/osprey_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "osprey_i",
+    "name": {
+      "en": "Osprey I"
+    },
+    "type": "Sniper Rifle",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3,
+      "wires": 7
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "isWeapon": true
+  },
+  {
+    "id": "osprey_ii",
+    "name": {
+      "en": "Osprey II"
+    },
+    "type": "Sniper Rifle",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "isWeapon": true
+  },
+  {
+    "id": "osprey_iii",
+    "name": {
+      "en": "Osprey III"
+    },
+    "type": "Sniper Rifle",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "isWeapon": true
+  },
+  {
+    "id": "osprey_iv",
+    "name": {
+      "en": "Osprey IV"
+    },
+    "type": "Sniper Rifle",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
+    "isWeapon": true
+  },
+  {
+    "id": "padded_stock_blueprint",
+    "name": {
+      "en": "Padded Stock Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
+    "isWeapon": null
+  },
+  {
+    "id": "padded_stock",
+    "name": {
+      "en": "Padded Stock"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "duct_tape": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
+    "isWeapon": null
+  },
+  {
+    "id": "painted_box",
+    "name": {
+      "en": "Painted Box"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/painted_box.png",
+    "isWeapon": null
+  },
+  {
+    "id": "patrol_car_key",
+    "name": {
+      "en": "Patrol Car Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/patrol_car_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "photoelectric_cloak",
+    "name": {
+      "en": "Photoelectric Cloak"
+    },
+    "type": "Quick Use",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "speaker_component": 1
+    },
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "speaker_component": 4
+    },
+    "salvagesInto": {
+      "advanced_electrical_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/photoelectric_cloak.png",
+    "isWeapon": null
+  },
+  {
+    "id": "plastic_parts",
+    "name": {
+      "en": "Plastic Parts"
+    },
+    "type": "Basic Material",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "playing_cards",
+    "name": {
+      "en": "Playing Cards"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/playing_cards.png",
+    "isWeapon": null
+  },
+  {
+    "id": "polluted_air_filter",
+    "name": {
+      "en": "Polluted Air Filter"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "fabric": 6,
+      "oil": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "oil": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/polluted_air_filter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "pop_trigger",
+    "name": {
+      "en": "Pop Trigger"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "crude_explosives": 1,
+      "arc_alloy": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/pop_trigger.png",
+    "isWeapon": null
+  },
+  {
+    "id": "portable_tv",
+    "name": {
+      "en": "Portable TV"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "battery": 2,
+      "wires": 6
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/portable_tv.png",
+    "isWeapon": null
+  },
+  {
+    "id": "poster_of_natural_wonders",
+    "name": {
+      "en": "Poster of Natural Wonders"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/poster_of_natural_wonders.png",
+    "isWeapon": null
+  },
+  {
+    "id": "pottery",
+    "name": {
+      "en": "Pottery"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/pottery.png",
+    "isWeapon": null
+  },
+  {
+    "id": "power_bank",
+    "name": {
+      "en": "Power Bank"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "battery": 2,
+      "wires": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "battery": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/power_bank.png",
+    "isWeapon": null
+  },
+  {
+    "id": "power_cable",
+    "name": {
+      "en": "Power Cable"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "wires": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/power_cable.png",
+    "isWeapon": null
+  },
+  {
+    "id": "power_rod",
+    "name": {
+      "en": "Power Rod"
+    },
+    "type": "Refined Material",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "arc_circuitry": 1
+    },
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "arc_circuitry": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/power_rod.png",
+    "isWeapon": null
+  },
+  {
+    "id": "prickly_pear",
+    "name": {
+      "en": "Prickly Pear"
+    },
+    "type": "Nature",
+    "rarity": "Common",
+    "recyclesInto": {
+      "assorted_seeds": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/prickly_pear.png",
+    "isWeapon": null
+  },
+  {
+    "id": "processor",
+    "name": {
+      "en": "Processor"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "wires": 1,
+      "plastic_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/processor.png",
+    "isWeapon": null
+  },
+  {
+    "id": "projector",
+    "name": {
+      "en": "Projector"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "wires": 2,
+      "processor": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "processor": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/projector.png",
+    "isWeapon": null
+  },
+  {
+    "id": "pulse_mine_blueprint",
+    "name": {
+      "en": "Pulse Mine Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "pulse_mine",
+    "name": {
+      "en": "Pulse Mine"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 6
+    },
+    "recipe": {
+      "crude_explosives": 1,
+      "wires": 1
+    },
+    "salvagesInto": {
+      "chemicals": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+    "isWeapon": null
+  },
+  {
+    "id": "queen_reactor",
+    "name": {
+      "en": "Queen Reactor"
+    },
+    "type": "Recyclable",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "power_rod": 1,
+      "magnetic_accelerator": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
+    "isWeapon": null
+  },
+  {
+    "id": "radio_relay",
+    "name": {
+      "en": "Radio Relay"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "speaker_component": 2,
+      "sensors": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/radio_relay.png",
+    "isWeapon": null
+  },
+  {
+    "id": "radio_renegade",
+    "name": {
+      "en": "Radio Renegade"
+    },
+    "type": "Outfit",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/radio_renegade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "radio",
+    "name": {
+      "en": "Radio"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "speaker_component": 1,
+      "sensors": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "speaker_component": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/radio.png",
+    "isWeapon": null
+  },
+  {
+    "id": "raider_hatch_key",
+    "name": {
+      "en": "Raider Hatch Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": {
+      "advanced_electrical_components": 1,
+      "sensors": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/raider_hatch_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rattler_i",
+    "name": {
+      "en": "Rattler I"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": {
+      "metal_parts": 16,
+      "rubber_parts": 12
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "isWeapon": true
+  },
+  {
+    "id": "rattler_ii",
+    "name": {
+      "en": "Rattler II"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 12
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 8
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "isWeapon": true
+  },
+  {
+    "id": "rattler_iii",
+    "name": {
+      "en": "Rattler III"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "isWeapon": true
+  },
+  {
+    "id": "rattler_iv",
+    "name": {
+      "en": "Rattler IV"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "recyclesInto": {
+      "mechanical_components": 4,
+      "simple_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 14
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
+    "isWeapon": true
+  },
+  {
+    "id": "recorder",
+    "name": {
+      "en": "Recorder"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 10
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/recorder.png",
+    "isWeapon": null
+  },
+  {
+    "id": "red_coral_jewelry",
+    "name": {
+      "en": "Red Coral Jewelry"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png",
+    "isWeapon": null
+  },
+  {
+    "id": "red_light_stick_blueprint",
+    "name": {
+      "en": "Red Light Stick Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "red_light_stick",
+    "name": {
+      "en": "Red Light Stick"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1
+    },
+    "recipe": {
+      "chemicals": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "remote_control",
+    "name": {
+      "en": "Remote Control"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 7,
+      "sensors": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "sensors": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/remote_control.png",
+    "isWeapon": null
+  },
+  {
+    "id": "remote_raider_flare_blueprint",
+    "name": {
+      "en": "Remote Raider Flare Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
+    "isWeapon": null
+  },
+  {
+    "id": "remote_raider_flare",
+    "name": {
+      "en": "Remote Raider Flare"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1,
+      "rubber_parts": 1
+    },
+    "recipe": {
+      "chemicals": 2,
+      "rubber_parts": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
+    "isWeapon": null
+  },
+  {
+    "id": "renegade_i",
+    "name": {
+      "en": "Renegade I"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3,
+      "oil": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "isWeapon": true
+  },
+  {
+    "id": "renegade_ii",
+    "name": {
+      "en": "Renegade II"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "isWeapon": true
+  },
+  {
+    "id": "renegade_iii",
+    "name": {
+      "en": "Renegade III"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "isWeapon": true
+  },
+  {
+    "id": "renegade_iv",
+    "name": {
+      "en": "Renegade IV"
+    },
+    "type": "Battle Rifle",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+    "isWeapon": true
+  },
+  {
+    "id": "resin",
+    "name": {
+      "en": "Resin"
+    },
+    "type": "Nature",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/resin.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ripped_safety_vest",
+    "name": {
+      "en": "Ripped Safety Vest"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "durable_cloth": 1,
+      "magnet": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "fabric": 8
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ripped_safety_vest.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rocket_thruster",
+    "name": {
+      "en": "Rocket Thruster"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "synthesized_fuel": 2,
+      "metal_parts": 6
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rocket_thruster.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rocketeer_driver",
+    "name": {
+      "en": "Rocketeer Driver"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 2,
+      "arc_alloy": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rocketeer_driver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "roots",
+    "name": {
+      "en": "Roots"
+    },
+    "type": "Nature",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "assorted_seeds": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/roots.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rope",
+    "name": {
+      "en": "Rope"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "fabric": 5
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rope.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rosary",
+    "name": {
+      "en": "Rosary"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rosary.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rotary_encoder",
+    "name": {
+      "en": "Rotary Encoder"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "electrical_components": 2,
+      "processor": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rotary_encoder.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rubber_duck",
+    "name": {
+      "en": "Rubber Duck"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rubber_duck.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rubber_pad",
+    "name": {
+      "en": "Rubber Pad"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 18
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 9
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/rubber_pad.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rubber_parts",
+    "name": {
+      "en": "Rubber Parts"
+    },
+    "type": "Basic Material",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_accordion",
+    "name": {
+      "en": "Ruined Accordion"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 18,
+      "steel_spring": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 13
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_accordion.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_augment",
+    "name": {
+      "en": "Ruined Augment"
+    },
+    "type": "Recyclable",
+    "rarity": "Common",
+    "recyclesInto": {
+      "plastic_parts": 2,
+      "rubber_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_augment.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_baton",
+    "name": {
+      "en": "Ruined Baton"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 6,
+      "rubber_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_baton.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_handcuffs",
+    "name": {
+      "en": "Ruined Handcuffs"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_handcuffs.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_parachute",
+    "name": {
+      "en": "Ruined Parachute"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "fabric": 10
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "fabric": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_parachute.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_riot_shield",
+    "name": {
+      "en": "Ruined Riot Shield"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 10,
+      "rubber_parts": 6
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "plastic_parts": 10
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_riot_shield.png",
+    "isWeapon": null
+  },
+  {
+    "id": "ruined_tactical_vest",
+    "name": {
+      "en": "Ruined Tactical Vest"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "fabric": 5,
+      "magnet": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "fabric": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/ruined_tactical_vest.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rusted_bolts",
+    "name": {
+      "en": "Rusted Bolts"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_bolts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rusted_gear",
+    "name": {
+      "en": "Rusted Gear"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 4,
+      "mechanical_components": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_gear.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rusted_shut_medical_kit",
+    "name": {
+      "en": "Rusted Shut Medical Kit"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "syringe": 2,
+      "antiseptic": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rusted_tools",
+    "name": {
+      "en": "Rusted Tools"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 8,
+      "steel_spring": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 7
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_tools.png",
+    "isWeapon": null
+  },
+  {
+    "id": "rusty_arc_steel",
+    "name": {
+      "en": "Rusty ARC Steel"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 8
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/rusty_arc_steel.png",
+    "isWeapon": null
+  },
+  {
+    "id": "sample_cleaner",
+    "name": {
+      "en": "Sample Cleaner"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "electrical_components": 2,
+      "assorted_seeds": 14
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/sample_cleaner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "seeker_grenade_blueprint",
+    "name": {
+      "en": "Seeker Grenade Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "seeker_grenade",
+    "name": {
+      "en": "Seeker Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 1
+    },
+    "recipe": {
+      "crude_explosives": 1,
+      "arc_alloy": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "sensors",
+    "name": {
+      "en": "Sensors"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "wires": 1,
+      "metal_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "wires": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/sensors.png",
+    "isWeapon": null
+  },
+  {
+    "id": "sentinel_firing_core",
+    "name": {
+      "en": "Sentinel Firing Core"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_alloy": 2,
+      "mechanical_components": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/sentinel_firing_core.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shaker",
+    "name": {
+      "en": "Shaker"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shaker.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shield_recharger",
+    "name": {
+      "en": "Shield Recharger"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "rubber_parts": 4
+    },
+    "recipe": {
+      "rubber_parts": 5,
+      "arc_powercell": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shield_recharger.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_ammo",
+    "name": {
+      "en": "Shotgun Ammo"
+    },
+    "type": "Ammunition",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "metal_parts": 3,
+      "chemicals": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_ammo.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_choke_i",
+    "name": {
+      "en": "Shotgun Choke I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "metal_parts": 6,
+      "wires": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_choke_ii_blueprint",
+    "name": {
+      "en": "Shotgun Choke II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_choke_ii",
+    "name": {
+      "en": "Shotgun Choke II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "wires": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_choke_iii_blueprint",
+    "name": {
+      "en": "Shotgun Choke III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_choke_iii",
+    "name": {
+      "en": "Shotgun Choke III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "wires": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_silencer_blueprint",
+    "name": {
+      "en": "Shotgun Silencer Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shotgun_silencer",
+    "name": {
+      "en": "Shotgun Silencer"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "wires": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "showstopper_blueprint",
+    "name": {
+      "en": "Showstopper Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/showstopper.png",
+    "isWeapon": null
+  },
+  {
+    "id": "showstopper",
+    "name": {
+      "en": "Showstopper"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "electrical_components": 1,
+      "battery": 2
+    },
+    "recipe": {
+      "advanced_electrical_components": 1,
+      "voltage_converter": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/showstopper.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shrapnel_grenade",
+    "name": {
+      "en": "Shrapnel Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "crude_explosives": 1,
+      "metal_parts": 1
+    },
+    "recipe": {
+      "crude_explosives": 1,
+      "steel_spring": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "shredder_gyro",
+    "name": {
+      "en": "Shredder Gyro"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mechanical_components": 3,
+      "arc_alloy": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
+    "isWeapon": null
+  },
+  {
+    "id": "signal_amplifier",
+    "name": {
+      "en": "Signal Amplifier"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "electrical_components": 2,
+      "voltage_converter": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/signal_amplifier.png",
+    "isWeapon": null
+  },
+  {
+    "id": "silencer_i_blueprint",
+    "name": {
+      "en": "Silencer I Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "silencer_i",
+    "name": {
+      "en": "Silencer I"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": {
+      "mechanical_components": 2,
+      "wires": 4
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "silencer_ii_blueprint",
+    "name": {
+      "en": "Silencer II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/silencer_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "silencer_ii",
+    "name": {
+      "en": "Silencer II"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "wires": 8
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/silencer_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "silencer_iii",
+    "name": {
+      "en": "Silencer III"
+    },
+    "type": "Modification",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "mod_components": 1,
+      "wires": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "mod_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/silencer_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "silver_teaspoon_set",
+    "name": {
+      "en": "Silver Teaspoon Set"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/silver_teaspoon_set.png",
+    "isWeapon": null
+  },
+  {
+    "id": "simple_gun_parts",
+    "name": {
+      "en": "Simple Gun Parts"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/simple_gun_parts.png",
+    "isWeapon": null
+  },
+  {
+    "id": "smoke_grenade_blueprint",
+    "name": {
+      "en": "Smoke Grenade Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "smoke_grenade_trap",
+    "name": {
+      "en": "Smoke Grenade Trap"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "smoke_grenade": 1,
+      "wires": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade_trap.png",
+    "isWeapon": null
+  },
+  {
+    "id": "smoke_grenade",
+    "name": {
+      "en": "Smoke Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 2,
+      "canister": 1
+    },
+    "recipe": {
+      "chemicals": 14,
+      "canister": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "snap_blast_grenade",
+    "name": {
+      "en": "Snap Blast Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 1,
+      "magnet": 1
+    },
+    "recipe": {
+      "crude_explosives": 2,
+      "magnet": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/snap_blast_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "snap_hook_blueprint",
+    "name": {
+      "en": "Snap Hook Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+    "isWeapon": null
+  },
+  {
+    "id": "snap_hook",
+    "name": {
+      "en": "Snap Hook"
+    },
+    "type": "Quick Use",
+    "rarity": "Legendary",
+    "recyclesInto": {
+      "power_rod": 1,
+      "rope": 3
+    },
+    "recipe": {
+      "power_rod": 2,
+      "rope": 3,
+      "exodus_modules": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+    "isWeapon": null
+  },
+  {
+    "id": "snitch_scanner",
+    "name": {
+      "en": "Snitch Scanner"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "arc_alloy": 1,
+      "electrical_components": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "electrical_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/snitch_scanner.png",
+    "isWeapon": null
+  },
+  {
+    "id": "snowball",
+    "name": {
+      "en": "Snowball"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/snowball.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spaceport_container_storage_key",
+    "name": {
+      "en": "Spaceport Container Storage Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spaceport_control_tower_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spaceport_control_tower_key",
+    "name": {
+      "en": "Spaceport Control Tower Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spaceport_control_tower_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spaceport_trench_tower_key",
+    "name": {
+      "en": "Spaceport Trench Tower Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spaceport_trench_tower_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spaceport_warehouse_key",
+    "name": {
+      "en": "Spaceport Warehouse Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spaceport_trench_tower_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "speaker_component",
+    "name": {
+      "en": "Speaker Component"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 2,
+      "rubber_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spectrometer",
+    "name": {
+      "en": "Spectrometer"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "sensors": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spectrometer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spectrum_analyzer",
+    "name": {
+      "en": "Spectrum Analyzer"
+    },
+    "type": "Recyclable",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "sensors": 1,
+      "exodus_modules": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spectrum_analyzer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spotter_relay",
+    "name": {
+      "en": "Spotter Relay"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "electrical_components": 2,
+      "arc_alloy": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/spotter_relay.png",
+    "isWeapon": null
+  },
+  {
+    "id": "spring_cushion",
+    "name": {
+      "en": "Spring Cushion"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "durable_cloth": 2,
+      "steel_spring": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "steel_spring": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/spring_cushion.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stable_stock_i",
+    "name": {
+      "en": "Stable Stock I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": {
+      "rubber_parts": 6
+    },
+    "recipe": {
+      "rubber_parts": 6,
+      "duct_tape": 1
+    },
+    "salvagesInto": {
+      "rubber_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/stable_stock_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stable_stock_ii_blueprint",
+    "name": {
+      "en": "Stable Stock II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stable_stock_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stable_stock_ii",
+    "name": {
+      "en": "Stable Stock II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "duct_tape": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "duct_tape": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stable_stock_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stable_stock_iii_blueprint",
+    "name": {
+      "en": "Stable Stock III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stable_stock_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stable_stock_iii",
+    "name": {
+      "en": "Stable Stock III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "duct_tape": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stable_stock_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "statuette",
+    "name": {
+      "en": "Statuette"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/statuette.png",
+    "isWeapon": null
+  },
+  {
+    "id": "steel_spring",
+    "name": {
+      "en": "Steel Spring"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/steel_spring.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stella_montis_archives_key",
+    "name": {
+      "en": "Stella Montis Archives Key"
+    },
+    "type": "Key",
+    "rarity": "Epic",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stella_montis_archives_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stella_montis_assembly_admin_key",
+    "name": {
+      "en": "Stella Montis Assembly Admin Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stella_montis_assembly_admin_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stella_montis_medical_storage_key",
+    "name": {
+      "en": "Stella Montis Medical Storage Key"
+    },
+    "type": "Key",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stella_montis_medical_storage_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stella_montis_security_checkpoint_key",
+    "name": {
+      "en": "Stella Montis Security Checkpoint Key"
+    },
+    "type": "Key",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/stella_montis_security_checkpoint_key.png",
+    "isWeapon": null
+  },
+  {
+    "id": "sterilized_bandage",
+    "name": {
+      "en": "Sterilized Bandage"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "antiseptic": 1,
+      "durable_cloth": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/sterilized_bandage.png",
+    "isWeapon": null
+  },
+  {
+    "id": "stitcher_i",
+    "name": {
+      "en": "Stitcher I"
+    },
+    "type": "SMG",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 3,
+      "rubber_parts": 2
+    },
+    "recipe": {
+      "metal_parts": 8,
+      "rubber_parts": 4
+    },
+    "salvagesInto": {
+      "metal_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
+    "isWeapon": true
+  },
+  {
+    "id": "stitcher_ii",
+    "name": {
+      "en": "Stitcher II"
+    },
+    "type": "SMG",
+    "rarity": "Common",
+    "recyclesInto": {
+      "metal_parts": 6,
+      "rubber_parts": 6
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "metal_parts": 6
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
+    "isWeapon": true
+  },
+  {
+    "id": "stitcher_iii",
+    "name": {
+      "en": "Stitcher III"
+    },
+    "type": "SMG",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "metal_parts": 12,
+      "simple_gun_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
+    "isWeapon": true
+  },
+  {
+    "id": "stitcher_iv",
+    "name": {
+      "en": "Stitcher IV"
+    },
+    "type": "SMG",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
+    "isWeapon": true
+  },
+  {
+    "id": "surge_shield_recharger",
+    "name": {
+      "en": "Surge Shield Recharger"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "electrical_components": 1
+    },
+    "recipe": {
+      "electrical_components": 1,
+      "advanced_arc_powercell": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/surge_shield_recharger.png",
+    "isWeapon": null
+  },
+  {
+    "id": "surveyor_vault",
+    "name": {
+      "en": "Surveyor Vault"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "arc_alloy": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/surveyor_vault.png",
+    "isWeapon": null
+  },
+  {
+    "id": "synthesized_fuel",
+    "name": {
+      "en": "Synthesized Fuel"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "oil": 1,
+      "plastic_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/synthesized_fuel.png",
+    "isWeapon": null
+  },
+  {
+    "id": "syringe",
+    "name": {
+      "en": "Syringe"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 3,
+      "chemicals": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "plastic_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/syringe.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tactical_mk1",
+    "name": {
+      "en": "Tactical Mk. 1"
+    },
+    "type": "Augment",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "plastic_parts": 3,
+      "rubber_parts": 3
+    },
+    "recipe": {
+      "plastic_parts": 6,
+      "rubber_parts": 6
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tactical_mk2",
+    "name": {
+      "en": "Tactical Mk. 2"
+    },
+    "type": "Augment",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "magnet": 1
+    },
+    "recipe": {
+      "electrical_components": 2,
+      "magnet": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tactical_mk3_defensive_blueprint",
+    "name": {
+      "en": "Tactical Mk. 3 (Defensive) Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tactical_mk3_defensive",
+    "name": {
+      "en": "Tactical Mk. 3 (Defensive)"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "processor": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tactical_mk3_healing_blueprint",
+    "name": {
+      "en": "Tactical Mk. 3 (Healing) Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tactical_mk3_healing",
+    "name": {
+      "en": "Tactical Mk. 3 (Healing)"
+    },
+    "type": "Augment",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "recipe": {
+      "advanced_electrical_components": 2,
+      "processor": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tagging_grenade_blueprint",
+    "name": {
+      "en": "Tagging Grenade Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tagging_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tagging_grenade",
+    "name": {
+      "en": "Tagging Grenade"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 1,
+      "sensors": 1
+    },
+    "recipe": {
+      "electrical_components": 1,
+      "sensors": 1
+    },
+    "salvagesInto": {
+      "sensors": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/tagging_grenade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tattered_arc_lining",
+    "name": {
+      "en": "Tattered Arc Lining"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "fabric": 12
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tattered_arc_lining.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tattered_clothes",
+    "name": {
+      "en": "Tattered Clothes"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "fabric": 11
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "fabric": 5
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
+    "isWeapon": null
+  },
+  {
+    "id": "telemetry_transceiver",
+    "name": {
+      "en": "Telemetry Transceiver"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/telemetry_transceiver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tempest_blueprint",
+    "name": {
+      "en": "Tempest Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tempest_i",
+    "name": {
+      "en": "Tempest I"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "recipe": {
+      "exodus_modules": 2,
+      "magnetic_accelerator": 1,
+      "medium_gun_parts": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+    "isWeapon": true
+  },
+  {
+    "id": "tempest_ii",
+    "name": {
+      "en": "Tempest II"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+    "isWeapon": true
+  },
+  {
+    "id": "tempest_iii",
+    "name": {
+      "en": "Tempest III"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 4,
+      "medium_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+    "isWeapon": true
+  },
+  {
+    "id": "tempest_iv",
+    "name": {
+      "en": "Tempest IV"
+    },
+    "type": "Assault Rifle",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 5,
+      "medium_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+    "isWeapon": true
+  },
+  {
+    "id": "thermostat",
+    "name": {
+      "en": "Thermostat"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 7,
+      "sensors": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "sensors": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/thermostat.png",
+    "isWeapon": null
+  },
+  {
+    "id": "tick_pod",
+    "name": {
+      "en": "Tick Pod"
+    },
+    "type": "Recyclable",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "chemicals": 2,
+      "arc_alloy": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/tick_pod.png",
+    "isWeapon": null
+  },
+  {
+    "id": "toaster",
+    "name": {
+      "en": "Toaster"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "plastic_parts": 5,
+      "wires": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "wires": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/toaster.png",
+    "isWeapon": null
+  },
+  {
+    "id": "torn_blanket",
+    "name": {
+      "en": "Torn Blanket"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "fabric": 12
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torn_blanket.png",
+    "isWeapon": null
+  },
+  {
+    "id": "torn_book",
+    "name": {
+      "en": "Torn Book"
+    },
+    "type": "Trinket",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torn_book.png",
+    "isWeapon": null
+  },
+  {
+    "id": "torrente_blueprint",
+    "name": {
+      "en": "Torrente Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
+    "isWeapon": null
+  },
+  {
+    "id": "torrente_i",
+    "name": {
+      "en": "Torrente I"
+    },
+    "type": "LMG",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3,
+      "steel_spring": 6
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
+    "isWeapon": true
+  },
+  {
+    "id": "torrente_ii",
+    "name": {
+      "en": "Torrente II"
+    },
+    "type": "LMG",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
+    "isWeapon": true
+  },
+  {
+    "id": "torrente_iii",
+    "name": {
+      "en": "Torrente III"
+    },
+    "type": "LMG",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
+    "isWeapon": true
+  },
+  {
+    "id": "torrente_iv",
+    "name": {
+      "en": "Torrente IV"
+    },
+    "type": "LMG",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
+    "isWeapon": true
+  },
+  {
+    "id": "trailblazer_blueprint",
+    "name": {
+      "en": "Trailblazer Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "trailblazer",
+    "name": {
+      "en": "Trailblazer"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "crude_explosives": 2
+    },
+    "recipe": {
+      "synthesized_fuel": 1,
+      "explosive_compound": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
+    "isWeapon": null
+  },
+  {
+    "id": "trigger_nade_blueprint",
+    "name": {
+      "en": "Trigger Nade Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/trigger_nade_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "trigger_nade",
+    "name": {
+      "en": "Trigger 'Nade"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 1,
+      "processor": 1
+    },
+    "recipe": {
+      "crude_explosives": 2,
+      "processor": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/trigger_nade.png",
+    "isWeapon": null
+  },
+  {
+    "id": "turbo_pump",
+    "name": {
+      "en": "Turbo Pump"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "oil": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/turbo_pump.png",
+    "isWeapon": null
+  },
+  {
+    "id": "unusable_weapon",
+    "name": {
+      "en": "Unusable Weapon"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 4,
+      "simple_gun_parts": 5
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "simple_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/unusable_weapon.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vase",
+    "name": {
+      "en": "Vase"
+    },
+    "type": "Trinket",
+    "rarity": "Rare",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vase.png",
+    "isWeapon": null
+  },
+  {
+    "id": "venator_blueprint",
+    "name": {
+      "en": "Venator Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/venator.png",
+    "isWeapon": null
+  },
+  {
+    "id": "venator_i",
+    "name": {
+      "en": "Venator I"
+    },
+    "type": "Pistol",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "recipe": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3,
+      "magnet": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/venator.png",
+    "isWeapon": true
+  },
+  {
+    "id": "venator_ii",
+    "name": {
+      "en": "Venator II"
+    },
+    "type": "Pistol",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/venator.png",
+    "isWeapon": true
+  },
+  {
+    "id": "venator_iii",
+    "name": {
+      "en": "Venator III"
+    },
+    "type": "Pistol",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/venator.png",
+    "isWeapon": true
+  },
+  {
+    "id": "venator_iv",
+    "name": {
+      "en": "Venator IV"
+    },
+    "type": "Pistol",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/venator.png",
+    "isWeapon": true
+  },
+  {
+    "id": "vertical_grip_i",
+    "name": {
+      "en": "Vertical Grip I"
+    },
+    "type": "Modification",
+    "rarity": "Common",
+    "recyclesInto": null,
+    "recipe": {
+      "plastic_parts": 6,
+      "duct_tape": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_i.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vertical_grip_ii_blueprint",
+    "name": {
+      "en": "Vertical Grip II Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vertical_grip_ii",
+    "name": {
+      "en": "Vertical Grip II"
+    },
+    "type": "Modification",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "duct_tape": 1
+    },
+    "recipe": {
+      "mechanical_components": 2,
+      "duct_tape": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_ii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vertical_grip_iii_blueprint",
+    "name": {
+      "en": "Vertical Grip III Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vertical_grip_iii",
+    "name": {
+      "en": "Vertical Grip III"
+    },
+    "type": "Modification",
+    "rarity": "Rare",
+    "recyclesInto": null,
+    "recipe": {
+      "mod_components": 2,
+      "duct_tape": 5
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii.png",
+    "isWeapon": null
+  },
+  {
+    "id": "very_comfortable_pillow",
+    "name": {
+      "en": "Very Comfortable Pillow"
+    },
+    "type": "Trinket",
+    "rarity": "Uncommon",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/very_comfortable_pillow.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vita_shot_blueprint",
+    "name": {
+      "en": "Vita Shot Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vita_shot",
+    "name": {
+      "en": "Vita Shot"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "chemicals": 4,
+      "syringe": 1
+    },
+    "recipe": {
+      "antiseptic": 2,
+      "syringe": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vita_spray_blueprint",
+    "name": {
+      "en": "Vita Spray Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vita_spray.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vita_spray",
+    "name": {
+      "en": "Vita Spray"
+    },
+    "type": "Quick Use",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "antiseptic": 1,
+      "canister": 2
+    },
+    "recipe": {
+      "antiseptic": 3,
+      "canister": 1
+    },
+    "salvagesInto": {
+      "antiseptic": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/vita_spray.png",
+    "isWeapon": null
+  },
+  {
+    "id": "volcanic_rock",
+    "name": {
+      "en": "Volcanic Rock"
+    },
+    "type": "Misc",
+    "rarity": "Common",
+    "recyclesInto": {},
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/volcanic_rock.png",
+    "isWeapon": null
+  },
+  {
+    "id": "voltage_converter",
+    "name": {
+      "en": "Voltage Converter"
+    },
+    "type": "Topside Material",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "wires": 1,
+      "rubber_parts": 1
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/voltage_converter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vulcano_blueprint",
+    "name": {
+      "en": "Vulcano Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
+    "isWeapon": null
+  },
+  {
+    "id": "vulcano_i",
+    "name": {
+      "en": "Vulcano I"
+    },
+    "type": "Shotgun",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
+    "recipe": {
+      "magnetic_accelerator": 1,
+      "heavy_gun_parts": 3,
+      "exodus_modules": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
+    "isWeapon": true
+  },
+  {
+    "id": "vulcano_ii",
+    "name": {
+      "en": "Vulcano II"
+    },
+    "type": "Shotgun",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 3
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
+    "isWeapon": true
+  },
+  {
+    "id": "vulcano_iii",
+    "name": {
+      "en": "Vulcano III"
+    },
+    "type": "Shotgun",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "heavy_gun_parts": 4
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
+    "isWeapon": true
+  },
+  {
+    "id": "vulcano_iv",
+    "name": {
+      "en": "Vulcano IV"
+    },
+    "type": "Shotgun",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "advanced_mechanical_components": 4,
+      "heavy_gun_parts": 5
+    },
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
+    "isWeapon": true
+  },
+  {
+    "id": "wasp_driver",
+    "name": {
+      "en": "Wasp Driver"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "arc_alloy": 1,
+      "electrical_components": 1
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "electrical_components": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png",
+    "isWeapon": null
+  },
+  {
+    "id": "water_filter",
+    "name": {
+      "en": "Water Filter"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rubber_parts": 2,
+      "canister": 3
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "canister": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/water_filter.png",
+    "isWeapon": null
+  },
+  {
+    "id": "water_pump",
+    "name": {
+      "en": "Water Pump"
+    },
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "metal_parts": 4,
+      "oil": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "oil": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/water_pump.png",
+    "isWeapon": null
+  },
+  {
+    "id": "wires",
+    "name": {
+      "en": "Wires"
+    },
+    "type": "Topside Material",
+    "rarity": "Uncommon",
+    "recyclesInto": {
+      "rubber_parts": 2
+    },
+    "recipe": null,
+    "salvagesInto": {
+      "rubber_parts": 1
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/wires.png",
+    "isWeapon": null
+  },
+  {
+    "id": "wolfpack_blueprint",
+    "name": {
+      "en": "Wolfpack Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/wolfpack_blueprint.png",
+    "isWeapon": null
+  },
+  {
+    "id": "wolfpack",
+    "name": {
+      "en": "Wolfpack"
+    },
+    "type": "Quick Use",
+    "rarity": "Epic",
+    "recyclesInto": {
+      "crude_explosives": 1,
+      "arc_motion_core": 1
+    },
+    "recipe": {
+      "explosive_compound": 3,
+      "arc_motion_core": 2
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/wolfpack.png",
+    "isWeapon": null
+  },
+  {
+    "id": "yellow_light_stick_blueprint",
+    "name": {
+      "en": "Yellow Light Stick Blueprint"
+    },
+    "type": "Blueprint",
+    "rarity": "Legendary",
+    "recyclesInto": null,
+    "recipe": null,
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "yellow_light_stick",
+    "name": {
+      "en": "Yellow Light Stick"
+    },
+    "type": "Quick Use",
+    "rarity": "Common",
+    "recyclesInto": {
+      "chemicals": 1
+    },
+    "recipe": {
+      "chemicals": 3
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
+    "isWeapon": null
+  },
+  {
+    "id": "zipline",
+    "name": {
+      "en": "Zipline"
+    },
+    "type": "Quick Use",
+    "rarity": "Rare",
+    "recyclesInto": {
+      "rope": 1,
+      "metal_parts": 1
+    },
+    "recipe": {
+      "rope": 1,
+      "mechanical_components": 1
+    },
+    "salvagesInto": null,
+    "imageFilename": "https://cdn.arctracker.io/items/zipline.png",
+    "isWeapon": null
+  }
+]
