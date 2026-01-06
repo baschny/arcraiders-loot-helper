@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
-import type { ItemsMap } from '../types/item';
+import type { ItemsMap, ItemRarity } from '../types/item';
 import type { ReverseMap } from '../utils/craftingChain';
 import { ItemHierarchy } from './ItemHierarchy';
 import { ItemIconWithInfo } from './ItemIconWithInfo';
 import { getRarityClass } from '../utils/dataLoader';
-import { loadEnabledTypes, saveEnabledTypes } from '../utils/storage';
+import { loadEnabledTypes, saveEnabledTypes, loadEnabledRarities, saveEnabledRarities } from '../utils/storage';
 
 interface AccordionListProps {
   itemsMap: ItemsMap;
@@ -16,6 +16,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedItemId, setExpandedItemId] = useState<string | null>(null);
   const [enabledTypes, setEnabledTypes] = useState<Set<string>>(new Set());
+  const [enabledRarities, setEnabledRarities] = useState<Set<ItemRarity>>(new Set());
   const itemRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   // Get all items that are in the reverse map (i.e., needed for crafting)
@@ -35,6 +36,12 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
     new Set(sortedItems.map((item) => item.type))
   ).sort();
 
+  // Get all unique rarities from sorted items
+  const rarityOrder: ItemRarity[] = ['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary'];
+  const allRarities = Array.from(
+    new Set(sortedItems.map((item) => item.rarity))
+  ).sort((a, b) => rarityOrder.indexOf(a) - rarityOrder.indexOf(b));
+
   // Initialize enabled types from localStorage or default to all types
   useEffect(() => {
     if (allTypes.length > 0 && enabledTypes.size === 0) {
@@ -51,7 +58,23 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
     }
   }, [allTypes.length]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Filter based on search term and enabled types
+  // Initialize enabled rarities from localStorage or default to all rarities
+  useEffect(() => {
+    if (allRarities.length > 0 && enabledRarities.size === 0) {
+      const savedRarities = loadEnabledRarities();
+      if (savedRarities && savedRarities.size > 0) {
+        // Use saved rarities, but only include rarities that exist in current list
+        const validSavedRarities = new Set(
+          Array.from(savedRarities).filter((rarity) => allRarities.includes(rarity as ItemRarity))
+        ) as Set<ItemRarity>;
+        setEnabledRarities(validSavedRarities.size > 0 ? validSavedRarities : new Set(allRarities));
+      } else {
+        setEnabledRarities(new Set(allRarities));
+      }
+    }
+  }, [allRarities.length]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Filter based on search term, enabled types, and enabled rarities
   const filteredItems = sortedItems.filter((item) => {
     // Filter by search term
     if (searchTerm.trim() && !item.name.en.toLowerCase().includes(searchTerm.toLowerCase())) {
@@ -59,6 +82,10 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
     }
     // Filter by type
     if (!enabledTypes.has(item.type)) {
+      return false;
+    }
+    // Filter by rarity
+    if (!enabledRarities.has(item.rarity)) {
       return false;
     }
     return true;
@@ -108,6 +135,29 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
     const emptySet = new Set<string>();
     setEnabledTypes(emptySet);
     saveEnabledTypes(emptySet);
+  };
+
+  const handleToggleRarity = (rarity: ItemRarity) => {
+    const newEnabledRarities = new Set(enabledRarities);
+    if (newEnabledRarities.has(rarity)) {
+      newEnabledRarities.delete(rarity);
+    } else {
+      newEnabledRarities.add(rarity);
+    }
+    setEnabledRarities(newEnabledRarities);
+    saveEnabledRarities(newEnabledRarities);
+  };
+
+  const handleEnableAllRarities = () => {
+    const allRaritiesSet = new Set(allRarities);
+    setEnabledRarities(allRaritiesSet);
+    saveEnabledRarities(allRaritiesSet);
+  };
+
+  const handleDisableAllRarities = () => {
+    const emptySet = new Set<ItemRarity>();
+    setEnabledRarities(emptySet);
+    saveEnabledRarities(emptySet);
   };
 
   if (sortedItems.length === 0) {
@@ -161,6 +211,43 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap }: AccordionLi
                 }`}
               >
                 {type}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {allRarities.length > 0 && (
+        <div className="accordion-rarity-filter">
+          <div className="accordion-rarity-filter-header">
+            <span className="accordion-rarity-filter-label">Filter by Rarity:</span>
+            <div className="accordion-rarity-filter-actions">
+              <button
+                onClick={handleEnableAllRarities}
+                className="accordion-rarity-filter-action"
+                disabled={enabledRarities.size === allRarities.length}
+              >
+                Enable All
+              </button>
+              <button
+                onClick={handleDisableAllRarities}
+                className="accordion-rarity-filter-action"
+                disabled={enabledRarities.size === 0}
+              >
+                Disable All
+              </button>
+            </div>
+          </div>
+          <div className="accordion-rarity-filter-rarities">
+            {allRarities.map((rarity) => (
+              <button
+                key={rarity}
+                onClick={() => handleToggleRarity(rarity)}
+                className={`accordion-rarity-filter-rarity rarity-${rarity.toLowerCase()} ${
+                  enabledRarities.has(rarity) ? 'enabled' : 'disabled'
+                }`}
+              >
+                {rarity}
               </button>
             ))}
           </div>

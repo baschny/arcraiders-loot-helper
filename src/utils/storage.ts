@@ -72,3 +72,23 @@ export function saveEnabledTypes(enabledTypes: Set<string>): void {
     console.error('Failed to save enabled types to localStorage:', error);
   }
 }
+
+const ENABLED_RARITIES_KEY = 'what-to-loot-enabled-rarities';
+
+export function loadEnabledRarities(): Set<string> | null {
+  try {
+    const stored = localStorage.getItem(ENABLED_RARITIES_KEY);
+    return stored ? new Set(JSON.parse(stored)) : null;
+  } catch (error) {
+    console.error('Failed to load enabled rarities from localStorage:', error);
+    return null;
+  }
+}
+
+export function saveEnabledRarities(enabledRarities: Set<string>): void {
+  try {
+    localStorage.setItem(ENABLED_RARITIES_KEY, JSON.stringify(Array.from(enabledRarities)));
+  } catch (error) {
+    console.error('Failed to save enabled rarities to localStorage:', error);
+  }
+}
