@@ -172,6 +172,7 @@
     }
 
     &-name {
+      font-family: $font-heading;
       flex: 1;
       font-size: $font-md;
       color: $text-primary;
@@ -294,6 +295,7 @@
     }
 
     &-name {
+      font-family: $font-heading;
       flex: 1;
       font-size: $font-md;
       color: $text-primary;

@@ -74,6 +74,7 @@
   gap: $spacing-sm;
 
   h3 {
+    font-family: $font-heading;
     margin: 0;
     font-size: 1.25rem;
     font-weight: 600;
@@ -244,6 +245,7 @@
 }
 
 .material-name {
+  font-family: $font-heading;
   flex: 1;
   font-size: 0.875rem;
   color: $text-primary;

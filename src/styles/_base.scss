@@ -13,6 +13,10 @@ body {
   color: $text-primary;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+}
+
 #root {
   width: 100vw;
   height: 100vh;
@@ -37,7 +41,6 @@ body {
   justify-content: center;
 
   h1 {
-    font-family: 'Urbanist', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: $text-primary;
