@@ -26,6 +26,8 @@ export interface Item {
   recipe?: Record<string, number>;
   recyclesInto?: Record<string, number>;
   salvagesInto?: Record<string, number>;
+  upgradeCost?: Record<string, number>;
+  tier?: number;
   craftBench?: string;
   stationLevelRequired?: number;
   blueprintLocked?: boolean;

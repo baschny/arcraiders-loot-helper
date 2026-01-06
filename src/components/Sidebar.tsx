@@ -5,23 +5,31 @@ import { getRarityClass } from '../utils/dataLoader';
 interface SidebarProps {
   itemsMap: ItemsMap;
   goalItemIds: string[];
+  disabledItemIds: Set<string>;
   onAddGoalItem: (itemId: string) => void;
   onRemoveGoalItem: (itemId: string) => void;
-  combineTrees: boolean;
-  onToggleCombineTrees: () => void;
+  onToggleGoalItem: (itemId: string) => void;
+  onReorderGoalItems: (reorderedIds: string[]) => void;
+  onEnableAllGoalItems: () => void;
+  onDisableAllGoalItems: () => void;
 }
 
 export function Sidebar({
   itemsMap,
   goalItemIds,
+  disabledItemIds,
   onAddGoalItem,
   onRemoveGoalItem,
-  combineTrees,
-  onToggleCombineTrees,
+  onToggleGoalItem,
+  onReorderGoalItems,
+  onEnableAllGoalItems,
+  onDisableAllGoalItems,
 }: SidebarProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredItems, setFilteredItems] = useState<Item[]>([]);
   const [showDropdown, setShowDropdown] = useState(false);
+  const [draggedItemId, setDraggedItemId] = useState<string | null>(null);
+  const [dropTargetId, setDropTargetId] = useState<string | null>(null);
   const searchTimeoutRef = useRef<number | undefined>(undefined);
 
   // Debounced search
@@ -39,9 +47,13 @@ export function Sidebar({
     searchTimeoutRef.current = window.setTimeout(() => {
       const searchLower = searchTerm.toLowerCase();
       const results = Object.values(itemsMap)
-        .filter((item) => 
-          item.name.en.toLowerCase().includes(searchLower)
-        )
+        .filter((item) => {
+          if (!item.name.en.toLowerCase().includes(searchLower)) {
+            return false;
+          }
+          // Only show craftable items (must have recipe with at least one ingredient)
+          return item.recipe && Object.keys(item.recipe).length > 0;
+        })
         .slice(0, 20); // Limit results
       
       setFilteredItems(results);
@@ -59,6 +71,55 @@ export function Sidebar({
     onAddGoalItem(itemId);
     setSearchTerm('');
     setShowDropdown(false);
+  };
+
+  const handleDragStart = (e: React.DragEvent, itemId: string) => {
+    setDraggedItemId(itemId);
+    e.dataTransfer.effectAllowed = 'move';
+  };
+
+  const handleDragOver = (e: React.DragEvent, targetItemId: string) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    
+    if (draggedItemId && draggedItemId !== targetItemId) {
+      setDropTargetId(targetItemId);
+    }
+  };
+
+  const handleDragLeave = () => {
+    setDropTargetId(null);
+  };
+
+  const handleDrop = (e: React.DragEvent, targetItemId: string) => {
+    e.preventDefault();
+    
+    if (!draggedItemId || draggedItemId === targetItemId) {
+      setDraggedItemId(null);
+      return;
+    }
+
+    const draggedIndex = goalItemIds.indexOf(draggedItemId);
+    const targetIndex = goalItemIds.indexOf(targetItemId);
+
+    if (draggedIndex === -1 || targetIndex === -1) {
+      setDraggedItemId(null);
+      return;
+    }
+
+    // Create new array with reordered items
+    const newOrder = [...goalItemIds];
+    newOrder.splice(draggedIndex, 1);
+    newOrder.splice(targetIndex, 0, draggedItemId);
+
+    onReorderGoalItems(newOrder);
+    setDraggedItemId(null);
+    setDropTargetId(null);
+  };
+
+  const handleDragEnd = () => {
+    setDraggedItemId(null);
+    setDropTargetId(null);
   };
 
   const goalItems = goalItemIds
@@ -112,50 +173,77 @@ export function Sidebar({
 
         {/* Goal Items List */}
         <div className="sidebar-section">
-          <div className="sidebar-section-title">Your Goals</div>
+          <div className="sidebar-section-header">
+            <div className="sidebar-section-title">Your Goals</div>
+            {goalItems.length > 0 && (
+              <div className="sidebar-section-actions">
+                <button
+                  onClick={onEnableAllGoalItems}
+                  className="sidebar-section-action"
+                  disabled={disabledItemIds.size === 0}
+                  title="Enable all goal items"
+                >
+                  Enable All
+                </button>
+                <button
+                  onClick={onDisableAllGoalItems}
+                  className="sidebar-section-action"
+                  disabled={disabledItemIds.size === goalItems.length}
+                  title="Disable all goal items"
+                >
+                  Disable All
+                </button>
+              </div>
+            )}
+          </div>
           {goalItems.length === 0 ? (
             <div className="goal-items-list-empty">
               No goal items yet. Search and add items above.
             </div>
           ) : (
             <div className="goal-items-list">
-              {goalItems.map((item) => (
-                <div key={item.id} className="goal-items-list-item">
-                  {item.imageFilename && (
-                    <img
-                      src={item.imageFilename}
-                      alt={item.name.en}
-                      className={`goal-items-list-item-icon ${getRarityClass(item.rarity)}`}
-                    />
-                  )}
-                  <span className="goal-items-list-item-name">{item.name.en}</span>
-                  <button
-                    className="goal-items-list-item-remove"
-                    onClick={() => onRemoveGoalItem(item.id)}
-                    title="Remove from goals"
+              {goalItems.map((item) => {
+                const isDisabled = disabledItemIds.has(item.id);
+                const isDragging = draggedItemId === item.id;
+                const isDropTarget = dropTargetId === item.id;
+                return (
+                  <div
+                    key={item.id}
+                    className={`goal-items-list-item ${isDisabled ? 'disabled' : ''} ${isDragging ? 'dragging' : ''} ${isDropTarget ? 'drop-target' : ''}`}
+                    draggable
+                    onDragStart={(e) => handleDragStart(e, item.id)}
+                    onDragOver={(e) => handleDragOver(e, item.id)}
+                    onDragLeave={handleDragLeave}
+                    onDrop={(e) => handleDrop(e, item.id)}
+                    onDragEnd={handleDragEnd}
                   >
-                    ×
-                  </button>
-                </div>
-              ))}
+                    <div
+                      className="goal-items-list-item-content"
+                      onClick={() => onToggleGoalItem(item.id)}
+                      title={isDisabled ? 'Click to enable' : 'Click to disable'}
+                    >
+                      {item.imageFilename && (
+                        <img
+                          src={item.imageFilename}
+                          alt={item.name.en}
+                          className={`goal-items-list-item-icon ${getRarityClass(item.rarity)}`}
+                        />
+                      )}
+                      <span className="goal-items-list-item-name">{item.name.en}</span>
+                    </div>
+                    <button
+                      className="goal-items-list-item-remove"
+                      onClick={() => onRemoveGoalItem(item.id)}
+                      title="Remove from goals"
+                    >
+                      ×
+                    </button>
+                  </div>
+                );
+              })}
             </div>
           )}
         </div>
-
-        {/* Combine Toggle */}
-        {goalItems.length > 1 && (
-          <div className="sidebar-section">
-            <div className="combine-toggle">
-              <input
-                type="checkbox"
-                id="combine-toggle"
-                checked={combineTrees}
-                onChange={onToggleCombineTrees}
-              />
-              <label htmlFor="combine-toggle">Combine Trees</label>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

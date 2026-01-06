@@ -1,96 +1,23 @@
-import { useState, useEffect, useCallback } from 'react';
-import ReactFlow, { Background, Controls, MiniMap, ReactFlowProvider, applyNodeChanges, applyEdgeChanges } from 'reactflow';
-import type { NodeChange, EdgeChange } from 'reactflow';
+import { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Sidebar } from './components/Sidebar';
-import { ItemNode } from './components/ItemNode';
+import { AccordionList } from './components/AccordionList';
 import { loadAllItems } from './utils/dataLoader';
-import { loadGoalItems, saveGoalItems } from './utils/storage';
-import { buildCraftingTree } from './utils/craftingChain';
-import { buildSeparateGraphs, buildCombinedGraph } from './utils/graphBuilder';
+import { loadGoalItems, saveGoalItems, loadDisabledItems, saveDisabledItems } from './utils/storage';
+import { buildCraftingTree, buildReverseMap } from './utils/craftingChain';
 import type { ItemsMap } from './types/item';
+import type { ReverseMap } from './utils/craftingChain';
 import './styles/main.scss';
-
-const nodeTypes = {
-  itemNode: ItemNode,
-};
-
-function FlowContent({ 
-  nodes, 
-  edges, 
-  onNodesChange, 
-  onEdgesChange,
-  setNodesDirectly,
-  setEdgesDirectly
-}: { 
-  nodes: any[]; 
-  edges: any[]; 
-  onNodesChange: (changes: NodeChange[]) => void;
-  onEdgesChange: (changes: EdgeChange[]) => void;
-  setNodesDirectly: (nodes: any[]) => void;
-  setEdgesDirectly: (edges: any[]) => void;
-}) {
-  const handlePaneClick = useCallback(() => {
-    console.log('Background clicked - clearing highlights');
-    // Clear all highlights when clicking on background
-    const updatedNodes = nodes.map(node => {
-      const { isHighlighted, ...restData } = node.data;
-      return {
-        ...node,
-        data: restData,
-      };
-    });
-    const updatedEdges = edges.map(edge => ({
-      ...edge,
-      animated: false,
-      style: {
-        ...edge.style,
-        stroke: edge.style?.stroke || '#555',
-        strokeWidth: 2,
-      },
-    }));
-    setNodesDirectly(updatedNodes);
-    setEdgesDirectly(updatedEdges);
-  }, [nodes, edges, setNodesDirectly, setEdgesDirectly]);
-
-  return (
-    <ReactFlow
-      nodes={nodes}
-      edges={edges}
-      nodeTypes={nodeTypes}
-      onNodesChange={onNodesChange}
-      onEdgesChange={onEdgesChange}
-      fitView
-      minZoom={0.1}
-      maxZoom={2}
-      onPaneClick={handlePaneClick}
-    >
-      <Background />
-      <Controls />
-      <MiniMap />
-    </ReactFlow>
-  );
-}
+import './styles/accordion.scss';
 
 function App() {
   const [itemsMap, setItemsMap] = useState<ItemsMap | null>(null);
   const [goalItemIds, setGoalItemIds] = useState<string[]>([]);
-  const [combineTrees, setCombineTrees] = useState(false);
+  const [disabledItemIds, setDisabledItemIds] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [nodes, setNodes] = useState<any[]>([]);
-  const [edges, setEdges] = useState<any[]>([]);
-
-  const onNodesChange = useCallback(
-    (changes: NodeChange[]) => setNodes((nds) => applyNodeChanges(changes, nds)),
-    []
-  );
-
-  const onEdgesChange = useCallback(
-    (changes: EdgeChange[]) => setEdges((eds) => applyEdgeChanges(changes, eds)),
-    []
-  );
+  const [reverseMap, setReverseMap] = useState<ReverseMap>(new Map());
 
   // Load items on mount
   useEffect(() => {
@@ -98,6 +25,7 @@ function App() {
       .then((items) => {
         setItemsMap(items);
         setGoalItemIds(loadGoalItems());
+        setDisabledItemIds(loadDisabledItems());
         setLoading(false);
       })
       .catch((err) => {
@@ -107,27 +35,29 @@ function App() {
       });
   }, []);
 
-  // Build crafting trees and graph
+  // Build crafting trees and reverse map
   useEffect(() => {
     if (!itemsMap || goalItemIds.length === 0) {
-      setNodes([]);
-      setEdges([]);
+      setReverseMap(new Map());
       return;
     }
 
-    // Build crafting trees for all goal items
-    const trees = goalItemIds.map((itemId) =>
+    // Build crafting trees only for enabled goal items
+    const enabledGoalIds = goalItemIds.filter((id) => !disabledItemIds.has(id));
+    
+    if (enabledGoalIds.length === 0) {
+      setReverseMap(new Map());
+      return;
+    }
+
+    const trees = enabledGoalIds.map((itemId) =>
       buildCraftingTree(itemId, itemsMap, goalItemIds)
     );
 
-    // Generate React Flow graph
-    const graph = combineTrees
-      ? buildCombinedGraph(trees, itemsMap)
-      : buildSeparateGraphs(trees, itemsMap);
-    
-    setNodes(graph.nodes);
-    setEdges(graph.edges);
-  }, [itemsMap, goalItemIds, combineTrees]);
+    // Build reverse map for accordion display
+    const reverseMapData = buildReverseMap(trees, itemsMap);
+    setReverseMap(reverseMapData);
+  }, [itemsMap, goalItemIds, disabledItemIds]);
 
   const handleAddGoalItem = (itemId: string) => {
     if (!goalItemIds.includes(itemId)) {
@@ -141,11 +71,42 @@ function App() {
     const updated = goalItemIds.filter((id) => id !== itemId);
     setGoalItemIds(updated);
     saveGoalItems(updated);
+    
+    // Also remove from disabled set
+    const newDisabled = new Set(disabledItemIds);
+    newDisabled.delete(itemId);
+    setDisabledItemIds(newDisabled);
+    saveDisabledItems(newDisabled);
   };
 
-  const handleToggleCombineTrees = () => {
-    setCombineTrees(!combineTrees);
+  const handleToggleGoalItem = (itemId: string) => {
+    const newDisabled = new Set(disabledItemIds);
+    if (newDisabled.has(itemId)) {
+      newDisabled.delete(itemId);
+    } else {
+      newDisabled.add(itemId);
+    }
+    setDisabledItemIds(newDisabled);
+    saveDisabledItems(newDisabled);
   };
+
+  const handleReorderGoalItems = (reorderedIds: string[]) => {
+    setGoalItemIds(reorderedIds);
+    saveGoalItems(reorderedIds);
+  };
+
+  const handleEnableAllGoalItems = () => {
+    const newDisabled = new Set<string>();
+    setDisabledItemIds(newDisabled);
+    saveDisabledItems(newDisabled);
+  };
+
+  const handleDisableAllGoalItems = () => {
+    const newDisabled = new Set(goalItemIds);
+    setDisabledItemIds(newDisabled);
+    saveDisabledItems(newDisabled);
+  };
+
 
   if (loading) {
     return (
@@ -208,10 +169,13 @@ function App() {
         <Sidebar
           itemsMap={itemsMap}
           goalItemIds={goalItemIds}
+          disabledItemIds={disabledItemIds}
           onAddGoalItem={handleAddGoalItem}
           onRemoveGoalItem={handleRemoveGoalItem}
-          combineTrees={combineTrees}
-          onToggleCombineTrees={handleToggleCombineTrees}
+          onToggleGoalItem={handleToggleGoalItem}
+          onReorderGoalItems={handleReorderGoalItems}
+          onEnableAllGoalItems={handleEnableAllGoalItems}
+          onDisableAllGoalItems={handleDisableAllGoalItems}
         />
         <div className="graph-container">
           {goalItemIds.length === 0 ? (
@@ -228,13 +192,10 @@ function App() {
               Add goal items from the sidebar to see what materials you need to loot.
             </div>
           ) : (
-            <FlowContent 
-              nodes={nodes} 
-              edges={edges} 
-              onNodesChange={onNodesChange}
-              onEdgesChange={onEdgesChange}
-              setNodesDirectly={setNodes}
-              setEdgesDirectly={setEdges}
+            <AccordionList
+              itemsMap={itemsMap}
+              goalItemIds={goalItemIds.filter((id) => !disabledItemIds.has(id))}
+              reverseMap={reverseMap}
             />
           )}
         </div>
@@ -244,10 +205,4 @@ function App() {
   );
 }
 
-export function FlowWrapper() {
-  return (
-    <ReactFlowProvider>
-      <App />
-    </ReactFlowProvider>
-  );
-}
+export default App;

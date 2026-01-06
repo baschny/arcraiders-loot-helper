@@ -1,4 +1,5 @@
 const GOAL_ITEMS_KEY = 'what-to-loot-goal-items';
+const DISABLED_ITEMS_KEY = 'what-to-loot-disabled-items';
 
 export function loadGoalItems(): string[] {
   try {
@@ -18,6 +19,24 @@ export function saveGoalItems(itemIds: string[]): void {
   }
 }
 
+export function loadDisabledItems(): Set<string> {
+  try {
+    const stored = localStorage.getItem(DISABLED_ITEMS_KEY);
+    return stored ? new Set(JSON.parse(stored)) : new Set();
+  } catch (error) {
+    console.error('Failed to load disabled items from localStorage:', error);
+    return new Set();
+  }
+}
+
+export function saveDisabledItems(disabledIds: Set<string>): void {
+  try {
+    localStorage.setItem(DISABLED_ITEMS_KEY, JSON.stringify(Array.from(disabledIds)));
+  } catch (error) {
+    console.error('Failed to save disabled items to localStorage:', error);
+  }
+}
+
 export function addGoalItem(itemId: string): string[] {
   const items = loadGoalItems();
   if (!items.includes(itemId)) {
@@ -32,4 +51,24 @@ export function removeGoalItem(itemId: string): string[] {
   const filtered = items.filter((id) => id !== itemId);
   saveGoalItems(filtered);
   return filtered;
+}
+
+const ENABLED_TYPES_KEY = 'what-to-loot-enabled-types';
+
+export function loadEnabledTypes(): Set<string> | null {
+  try {
+    const stored = localStorage.getItem(ENABLED_TYPES_KEY);
+    return stored ? new Set(JSON.parse(stored)) : null;
+  } catch (error) {
+    console.error('Failed to load enabled types from localStorage:', error);
+    return null;
+  }
+}
+
+export function saveEnabledTypes(enabledTypes: Set<string>): void {
+  try {
+    localStorage.setItem(ENABLED_TYPES_KEY, JSON.stringify(Array.from(enabledTypes)));
+  } catch (error) {
+    console.error('Failed to save enabled types to localStorage:', error);
+  }
 }

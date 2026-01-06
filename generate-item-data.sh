@@ -25,7 +25,7 @@ mkdir -p "$DEST_DIR"
 
 # Generate consolidated items.json with only needed properties
 echo "Processing item files..."
-jq -s 'map({id, name: {en: .name.en}, type, rarity, recyclesInto, recipe, salvagesInto, imageFilename, isWeapon})' "$SOURCE_DIR"/*.json > "$OUTPUT_FILE"
+jq -s 'map({id, name: {en: .name.en}, type, rarity, recyclesInto, recipe, salvagesInto, upgradeCost, tier, imageFilename, isWeapon})' "$SOURCE_DIR"/*.json > "$OUTPUT_FILE"
 
 # Count items
 ITEM_COUNT=$(jq 'length' "$OUTPUT_FILE")

@@ -12,6 +12,15 @@ export interface CraftingTree {
   root: CraftingNode;
 }
 
+export interface UsageInfo {
+  parentItemId: string;
+  quantity: number;
+  relationship: 'recipe' | 'salvage' | 'recycle';
+  goalItemIds: string[];
+}
+
+export type ReverseMap = Map<string, UsageInfo[]>;
+
 /**
  * Builds a crafting tree for a goal item, resolving all recipe dependencies
  * and including salvageable sources
@@ -156,4 +165,91 @@ export function combineCraftingTrees(trees: CraftingTree[]): Map<string, number>
   }
 
   return combinedMaterials;
+}
+
+/**
+ * Builds a reverse lookup map showing what each item is used for
+ * Maps itemId -> array of usage info (what items use it and how)
+ */
+export function buildReverseMap(
+  trees: CraftingTree[],
+  _itemsMap: ItemsMap
+): ReverseMap {
+  const reverseMap: ReverseMap = new Map();
+  const itemsUsedInRecipes = new Set<string>(); // Track items used directly in recipes
+
+  function addUsage(
+    itemId: string,
+    parentItemId: string,
+    quantity: number,
+    relationship: 'recipe' | 'salvage' | 'recycle',
+    goalItemId: string
+  ) {
+    if (!reverseMap.has(itemId)) {
+      reverseMap.set(itemId, []);
+    }
+    
+    const usages = reverseMap.get(itemId)!;
+    
+    // Check if we already have a usage entry for this parent
+    const existing = usages.find(
+      (u) => u.parentItemId === parentItemId && u.relationship === relationship
+    );
+    
+    if (existing) {
+      // Add goal item if not already present
+      if (!existing.goalItemIds.includes(goalItemId)) {
+        existing.goalItemIds.push(goalItemId);
+      }
+      // Update quantity (use max to show worst case)
+      existing.quantity = Math.max(existing.quantity, quantity);
+    } else {
+      // Add new usage entry
+      usages.push({
+        parentItemId,
+        quantity,
+        relationship,
+        goalItemIds: [goalItemId],
+      });
+    }
+  }
+
+  // First pass: collect all items used directly in recipes
+  trees.forEach((tree) => {
+    function collectRecipeItems(node: CraftingNode) {
+      itemsUsedInRecipes.add(node.itemId);
+      node.children.forEach((child) => collectRecipeItems(child));
+    }
+    collectRecipeItems(tree.root);
+  });
+
+  // Second pass: build reverse map
+  trees.forEach((tree) => {
+    const goalItemId = tree.goalItemId;
+
+    function traverse(node: CraftingNode, parentNode?: CraftingNode) {
+      // If this node has a parent, record the usage
+      if (parentNode) {
+        addUsage(node.itemId, parentNode.itemId, node.quantity, 'recipe', goalItemId);
+      }
+
+      // Process salvageable sources
+      // But skip if the salvageable item itself is used directly in recipes
+      if (node.salvageableFrom) {
+        node.salvageableFrom.forEach(({ itemId: salvageItemId, method }) => {
+          // Only add if the salvageable item is NOT used directly in any recipe
+          if (!itemsUsedInRecipes.has(salvageItemId)) {
+            addUsage(salvageItemId, node.itemId, 1, method, goalItemId);
+          }
+        });
+      }
+
+      // Traverse children
+      node.children.forEach((child) => traverse(child, node));
+    }
+
+    traverse(tree.root);
+  });
+
+  return reverseMap;
 }
