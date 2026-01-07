@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { ChevronUp, ChevronDown } from 'lucide-react';
 import type { ItemsMap, ItemRarity } from '../types/item';
 import type { ReverseMap } from '../utils/craftingChain';
 import { ItemHierarchy } from './ItemHierarchy';
@@ -328,7 +329,9 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
                         ×{goalCount}
                       </span>
                     )}
-                    <span className="accordion-item-toggle">{isExpanded ? '−' : '+'}</span>
+                    <span className="accordion-item-toggle">
+                      {isExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                    </span>
                   </div>
                 </div>
 
@@ -355,8 +358,13 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
             className="accordion-stash-header"
             onClick={() => setStashSectionExpanded(!stashSectionExpanded)}
           >
-            <h3 className="accordion-stash-title">Already Enough in Stash</h3>
-            <span className="accordion-stash-toggle">{stashSectionExpanded ? '−' : '+'}</span>
+            <div className="accordion-stash-header-content">
+              <h3 className="accordion-stash-title">Already Enough in Stash</h3>
+              <span className="accordion-stash-count-badge">{stashItems.length}</span>
+            </div>
+            <span className="accordion-stash-toggle">
+              {stashSectionExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+            </span>
           </div>
 
           {stashSectionExpanded && (

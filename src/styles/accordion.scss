@@ -573,6 +573,12 @@
   }
 }
 
+.accordion-stash-header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .accordion-stash-title {
   @include urbanist-title;
   font-size: 16px;
@@ -581,6 +587,21 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+.accordion-stash-count-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 20px;
+  padding: 0 8px;
+  background: #3c3c3c;
+  color: #888;
+  border: 1px solid #555;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .accordion-stash-toggle {
@@ -592,6 +613,8 @@
 
 .accordion-stash-items {
   padding: 8px;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .accordion-stash-item {
