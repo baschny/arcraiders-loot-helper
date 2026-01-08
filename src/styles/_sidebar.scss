@@ -79,6 +79,40 @@
   position: relative;
   margin-bottom: $spacing-lg;
 
+  .search-box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: $spacing-xs;
+
+    label {
+      margin-bottom: 0;
+    }
+  }
+
+  .help-icon-button {
+    background: $bg-tertiary;
+    border: $border-width-thin solid $border-light;
+    color: $text-secondary;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: $transition-default;
+    padding: 0;
+    line-height: 1;
+
+    &:hover {
+      background: $bg-quaternary;
+      border-color: $text-accent;
+      color: $text-primary;
+    }
+  }
+
   label {
     display: block;
     font-size: $font-sm;

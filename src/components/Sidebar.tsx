@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import type { Item, ItemsMap } from '../types/item';
 import { getRarityClass } from '../utils/dataLoader';
 import { ItemIconWithInfo } from './ItemIconWithInfo';
+import { HelpDialog } from './HelpDialog';
 
 interface SidebarProps {
   itemsMap: ItemsMap;
@@ -29,6 +30,7 @@ export function Sidebar({
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredItems, setFilteredItems] = useState<Item[]>([]);
   const [showDropdown, setShowDropdown] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
   const [draggedItemId, setDraggedItemId] = useState<string | null>(null);
   const [dropTargetId, setDropTargetId] = useState<string | null>(null);
   const searchTimeoutRef = useRef<number | undefined>(undefined);
@@ -133,7 +135,16 @@ export function Sidebar({
         {/* Search Section */}
         <div className="sidebar-section">
           <div className="search-box">
-            <label>Goal Items</label>
+            <div className="search-box-header">
+              <label>Goal Items</label>
+              <button 
+                className="help-icon-button" 
+                onClick={() => setShowHelp(true)}
+                title="How to use"
+              >
+                ?
+              </button>
+            </div>
             <input
               type="text"
               placeholder="Search items..."
@@ -246,6 +257,7 @@ export function Sidebar({
           )}
         </div>
       </div>
+      {showHelp && <HelpDialog onClose={() => setShowHelp(false)} />}
     </div>
   );
 }
