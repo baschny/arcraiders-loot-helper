@@ -39,11 +39,7 @@
     }
 
     &-title {
-      font-size: $font-md;
-      font-weight: 600;
-      color: $text-light;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+      @include section-title;
     }
 
     &-actions {
@@ -115,11 +111,8 @@
 
   label {
     display: block;
-    font-size: $font-sm;
-    color: $text-secondary;
     margin-bottom: $spacing-xs;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
 
   input {

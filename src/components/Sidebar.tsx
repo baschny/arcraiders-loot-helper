@@ -136,7 +136,7 @@ export function Sidebar({
         <div className="sidebar-section">
           <div className="search-box">
             <div className="search-box-header">
-              <label>Goal Items</label>
+              <label className="sidebar-section-title">Goal Items</label>
               <button 
                 className="help-icon-button" 
                 onClick={() => setShowHelp(true)}

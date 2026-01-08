@@ -186,7 +186,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
       {allTypes.length > 0 && (
         <div className="accordion-type-filter">
           <div className="accordion-type-filter-header">
-            <span className="accordion-type-filter-label">Filter by Type:</span>
+            <span className="accordion-type-filter-label">Filter by Type</span>
             <div className="accordion-type-filter-actions">
               <button
                 onClick={handleEnableAllTypes}
@@ -223,7 +223,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
       {allRarities.length > 0 && (
         <div className="accordion-rarity-filter">
           <div className="accordion-rarity-filter-header">
-            <span className="accordion-rarity-filter-label">Filter by Rarity:</span>
+            <span className="accordion-rarity-filter-label">Filter by Rarity</span>
             <div className="accordion-rarity-filter-actions">
               <button
                 onClick={handleEnableAllRarities}

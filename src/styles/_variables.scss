@@ -89,6 +89,15 @@ $font-heading: 'Urbanist', sans-serif;
   text-transform: uppercase;
 }
 
+// Mixin for section titles
+@mixin section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: $text-light;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 // Sidebar
 $sidebar-width: 300px;
 
