@@ -197,7 +197,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
         ) : enabledTypes.size < allTypes.length ? (
           <div className="filter-summary-badges">
             {Array.from(enabledTypes).sort().map((type) => (
-              <span key={type} className="filter-summary-badge type-badge">
+              <span key={type} className={`filter-summary-badge type-badge ${filtersExpanded ? 'faded' : ''}`}>
                 {type}
               </span>
             ))}
@@ -213,7 +213,7 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
             ).map((rarity) => (
               <span 
                 key={rarity} 
-                className={`filter-summary-badge rarity-badge rarity-${rarity.toLowerCase()}`}
+                className={`filter-summary-badge rarity-badge rarity-${rarity.toLowerCase()} ${filtersExpanded ? 'faded' : ''}`}
               >
                 {rarity}
               </span>

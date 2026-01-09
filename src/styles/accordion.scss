@@ -67,6 +67,12 @@
   font-size: 10px;
   font-weight: 600;
   white-space: nowrap;
+  transition: filter 0.2s, opacity 0.2s;
+  
+  &.faded {
+    filter: grayscale(0.6) brightness(0.7);
+    opacity: 0.5;
+  }
   
   &.type-badge {
     background: #4fc3f7;
