@@ -12,9 +12,14 @@
     "value": 7000,
     "weightKg": 1,
     "stackSize": 1,
-    "recyclesInto": {},
+    "recyclesInto": {
+      "metal_parts": 4,
+      "wires": 6
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "wires": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/acoustic_guitar.png",
@@ -66,7 +71,9 @@
       "arc_powercell": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_powercell": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/advanced_arc_powercell.png",
@@ -116,13 +123,15 @@
     "stackSize": 5,
     "recyclesInto": {
       "mechanical_components": 1,
-      "wires": 1
+      "steel_spring": 1
     },
     "recipe": {
       "steel_spring": 2,
       "mechanical_components": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
@@ -141,9 +150,13 @@
     "value": 1000,
     "weightKg": 0.2,
     "stackSize": 10,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "assorted_seeds": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/agave.png",
@@ -209,12 +222,16 @@
     "value": 640,
     "weightKg": 0.25,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "plastic_parts": 6
+    },
     "recipe": {
       "plastic_parts": 6,
       "duct_tape": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/angled_grip_i.png",
@@ -262,7 +279,9 @@
       "mechanical_components": 2,
       "duct_tape": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
@@ -310,7 +329,9 @@
       "mod_components": 2,
       "duct_tape": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
@@ -336,7 +357,9 @@
       "chemicals": 10,
       "great_mullein": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
@@ -497,7 +520,9 @@
       "processor": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/anvil_splitter.png",
@@ -571,7 +596,9 @@
       "assorted_seeds": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/apricot.png",
@@ -594,7 +621,9 @@
       "metal_parts": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/arc_alloy.png",
@@ -619,7 +648,9 @@
     "recipe": {
       "arc_alloy": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/arc_circuitry.png",
@@ -694,7 +725,9 @@
     "recipe": {
       "arc_alloy": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/arc_motion_core.png",
@@ -764,7 +797,7 @@
     },
     "recipe": null,
     "salvagesInto": {
-      "plastic_parts": 8
+      "plastic_parts": 9
     },
     "upgradeCost": null,
     "tier": null,
@@ -809,12 +842,17 @@
     "value": 5500,
     "weightKg": 7,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
     "recipe": {
       "mechanical_components": 6,
       "simple_gun_parts": 6
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
@@ -833,9 +871,14 @@
     "value": 8000,
     "weightKg": 7,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 3
+    },
     "upgradeCost": {
       "mechanical_components": 4,
       "simple_gun_parts": 1
@@ -857,9 +900,14 @@
     "value": 11500,
     "weightKg": 7,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 4,
+      "simple_gun_parts": 4
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 4
+    },
     "upgradeCost": {
       "mechanical_components": 5,
       "medium_gun_parts": 1
@@ -886,7 +934,9 @@
       "simple_gun_parts": 5
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 5
+    },
     "upgradeCost": {
       "mechanical_components": 5,
       "medium_gun_parts": 1
@@ -977,7 +1027,9 @@
     "recipe": {
       "fabric": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/bandage.png",
@@ -1023,7 +1075,9 @@
     "recipe": {
       "mechanical_components": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
@@ -1114,13 +1168,18 @@
     "value": 8000,
     "weightKg": 11,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
     "recipe": {
       "advanced_mechanical_components": 3,
       "heavy_gun_parts": 3,
       "canister": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/bettina.png",
@@ -1139,9 +1198,14 @@
     "value": 11000,
     "weightKg": 11,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 2
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 2
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
@@ -1163,9 +1227,14 @@
     "value": 14000,
     "weightKg": 11,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "heavy_gun_parts": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
@@ -1187,9 +1256,14 @@
     "value": 17000,
     "weightKg": 11,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "heavy_gun_parts": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 4
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 2
@@ -1245,7 +1319,9 @@
       "plastic_parts": 8,
       "rubber_parts": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/binoculars.png",
@@ -1317,7 +1393,9 @@
       "explosive_compound": 1,
       "oil": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "oil": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade.png",
@@ -1468,7 +1546,9 @@
     "recipe": {
       "chemicals": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/blue_light_stick.png",
@@ -1747,7 +1827,9 @@
       "wires": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "sensors": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/broken_handheld_radio.png",
@@ -1771,7 +1853,9 @@
       "wires": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "battery": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/broken_taser.png",
@@ -1924,7 +2008,9 @@
       "mechanical_components": 3,
       "simple_gun_parts": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
@@ -1948,14 +2034,16 @@
       "simple_gun_parts": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
     "upgradeCost": {
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-    "isWeapon": null
+    "isWeapon": true
   },
   {
     "id": "burletta_iii",
@@ -1975,14 +2063,16 @@
       "simple_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 3
+    },
     "upgradeCost": {
       "mechanical_components": 3,
       "simple_gun_parts": 1
     },
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-    "isWeapon": null
+    "isWeapon": true
   },
   {
     "id": "burletta_iv",
@@ -2002,14 +2092,16 @@
       "simple_gun_parts": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 3
+    },
     "upgradeCost": {
       "mechanical_components": 4,
       "light_gun_parts": 1
     },
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-    "isWeapon": null
+    "isWeapon": true
   },
   {
     "id": "burned_arc_circuitry",
@@ -2147,7 +2239,9 @@
       "plastic_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/canister.png",
@@ -2300,7 +2394,9 @@
       "plastic_parts": 6,
       "rubber_parts": 6
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
@@ -2327,7 +2423,9 @@
       "electrical_components": 2,
       "magnet": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/combat_i.png",
@@ -2375,7 +2473,9 @@
       "advanced_electrical_components": 2,
       "processor": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
@@ -2423,7 +2523,9 @@
       "advanced_electrical_components": 2,
       "processor": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
@@ -2499,7 +2601,9 @@
       "mechanical_components": 2,
       "wires": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
@@ -2540,14 +2644,16 @@
     "weightKg": 0.75,
     "stackSize": null,
     "recyclesInto": {
-      "mechanical_components": 1,
-      "wires": 2
+      "wires": 2,
+      "mod_components": 1
     },
     "recipe": {
       "mod_components": 2,
       "wires": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
@@ -2595,7 +2701,9 @@
       "medium_gun_parts": 2,
       "heavy_gun_parts": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts.png",
@@ -2645,7 +2753,9 @@
       "steel_spring": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "steel_spring": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
@@ -2669,7 +2779,9 @@
       "wires": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "wires": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
@@ -2693,7 +2805,9 @@
       "battery": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "battery": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
@@ -2870,11 +2984,11 @@
     "weightKg": 0.25,
     "stackSize": 5,
     "recyclesInto": {
-      "arc_alloy": 2
+      "arc_alloy": 3
     },
     "recipe": null,
     "salvagesInto": {
-      "arc_alloy": 1
+      "arc_alloy": 2
     },
     "upgradeCost": null,
     "tier": null,
@@ -2923,7 +3037,9 @@
       "arc_alloy": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/damaged_fireball_burner.png",
@@ -2997,7 +3113,9 @@
       "arc_alloy": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_alloy": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/damaged_rocketeer_driver.png",
@@ -3130,13 +3248,16 @@
     "weightKg": 1,
     "stackSize": 1,
     "recyclesInto": {
-      "explosive_compound": 1
+      "explosive_compound": 1,
+      "arc_circuitry": 1
     },
     "recipe": {
       "explosive_compound": 3,
       "arc_circuitry": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "explosive_compound": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
@@ -3184,7 +3305,9 @@
       "plastic_parts": 9,
       "moss": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
@@ -3204,7 +3327,8 @@
     "weightKg": 0.8,
     "stackSize": 3,
     "recyclesInto": {
-      "rubber_parts": 15
+      "rubber_parts": 9,
+      "fabric": 9
     },
     "recipe": null,
     "salvagesInto": {
@@ -3257,7 +3381,9 @@
       "rubber_parts": 12
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "rubber_parts": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/diving_goggles.png",
@@ -3309,7 +3435,9 @@
       "metal_parts": 3,
       "rubber_parts": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/door_blocker.png",
@@ -3332,7 +3460,9 @@
       "plastic_parts": 9
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/dried_out_arc_resin.png",
@@ -3355,7 +3485,9 @@
       "fabric": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/duct_tape.png",
@@ -3380,7 +3512,9 @@
     "recipe": {
       "fabric": 14
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/durable_cloth.png",
@@ -3689,14 +3823,16 @@
     "weightKg": 0.5,
     "stackSize": 3,
     "recyclesInto": {
-      "chemicals": 1,
-      "sensors": 1
+      "sensors": 1,
+      "oil": 2
     },
     "recipe": {
       "explosive_compound": 1,
       "sensors": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "oil": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
@@ -3744,7 +3880,9 @@
       "mod_components": 2,
       "wires": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_barrel.png",
@@ -3820,7 +3958,9 @@
       "mechanical_components": 2,
       "steel_spring": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_ii.png",
@@ -3868,7 +4008,9 @@
       "mod_components": 2,
       "steel_spring": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_iii.png",
@@ -3887,12 +4029,16 @@
     "value": 640,
     "weightKg": 0.25,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "plastic_parts": 6
+    },
     "recipe": {
       "plastic_parts": 6,
       "steel_spring": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_i.png",
@@ -3932,12 +4078,17 @@
     "value": 2000,
     "weightKg": 0.5,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "steel_spring": 1
+    },
     "recipe": {
       "mechanical_components": 2,
       "steel_spring": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii.png",
@@ -3985,7 +4136,9 @@
       "mod_components": 2,
       "steel_spring": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_iii.png",
@@ -4011,7 +4164,9 @@
       "plastic_parts": 6,
       "steel_spring": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_i.png",
@@ -4051,12 +4206,17 @@
     "value": 2000,
     "weightKg": 0.5,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "steel_spring": 1
+    },
     "recipe": {
       "mechanical_components": 2,
       "steel_spring": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_ii.png",
@@ -4096,9 +4256,14 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mod_components": 1,
+      "steel_spring": 2
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": {
       "mod_components": 2,
       "steel_spring": 5
@@ -4196,7 +4361,9 @@
       "rubber_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 2
+    },
     "upgradeCost": {
       "metal_parts": 7
     },
@@ -4222,7 +4389,9 @@
       "simple_gun_parts": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
     "upgradeCost": {
       "metal_parts": 9,
       "simple_gun_parts": 1
@@ -4250,7 +4419,7 @@
     },
     "recipe": null,
     "salvagesInto": {
-      "metal_parts": 2
+      "simple_gun_parts": 2
     },
     "upgradeCost": {
       "mechanical_components": 1,
@@ -4277,7 +4446,9 @@
       "assorted_seeds": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/fertilizer.png",
@@ -4343,7 +4514,9 @@
       "chemicals": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/fireball_burner.png",
@@ -4502,12 +4675,17 @@
     "value": 640,
     "weightKg": 1,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "canister": 1,
+      "fireball_burner": 1
+    },
     "recipe": {
       "air_freshener": 1,
       "fireball_burner": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fireball_burner": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
@@ -4531,7 +4709,9 @@
       "sensors": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
@@ -4575,7 +4755,9 @@
       "explosive_compound": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "explosive_compound": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/fossilized_lightning.png",
@@ -4620,7 +4802,9 @@
       "speaker_component": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/frequency_modulation_box.png",
@@ -4772,7 +4956,9 @@
       "chemicals": 4,
       "rubber_parts": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/gas_grenade.png",
@@ -4820,7 +5006,9 @@
       "chemicals": 4,
       "rubber_parts": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
@@ -4844,7 +5032,9 @@
       "exodus_modules": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "battery": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/geiger_counter.png",
@@ -4867,7 +5057,9 @@
       "assorted_seeds": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png",
@@ -4907,11 +5099,15 @@
     "value": 150,
     "weightKg": 0.15,
     "stackSize": 5,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "chemicals": 1
+    },
     "recipe": {
       "chemicals": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/green_light_stick.png",
@@ -4961,7 +5157,7 @@
     "stackSize": null,
     "recyclesInto": {
       "metal_parts": 4,
-      "plastic_parts": 4
+      "rubber_parts": 3
     },
     "recipe": null,
     "salvagesInto": {
@@ -5050,7 +5246,9 @@
       "speaker_component": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "speaker_component": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/headphones.png",
@@ -5101,7 +5299,9 @@
       "explosive_compound": 1,
       "canister": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "crude_explosives": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/heavy_fuze_grenade.png",
@@ -5147,7 +5347,9 @@
     "recipe": {
       "simple_gun_parts": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
@@ -5166,12 +5368,17 @@
     "value": 5500,
     "weightKg": 9,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "arc_circuitry": 2,
+      "voltage_converter": 1
+    },
     "recipe": {
       "power_rod": 1,
       "voltage_converter": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_alloy": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/heavy_shield.png",
@@ -5198,7 +5405,9 @@
       "durable_cloth": 1,
       "great_mullein": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 8
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/herbal_bandage.png",
@@ -5297,7 +5506,9 @@
       "chemicals": 11
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/household_cleaner.png",
@@ -5346,7 +5557,9 @@
       "heavy_gun_parts": 3,
       "exodus_modules": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
@@ -5428,7 +5641,9 @@
       "heavy_gun_parts": 5
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 5
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 3
@@ -5455,7 +5670,9 @@
       "wires": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "canister": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/humidifier.png",
@@ -5528,7 +5745,9 @@
       "mechanical_components": 5,
       "simple_gun_parts": 6
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
@@ -5547,9 +5766,14 @@
     "value": 7000,
     "weightKg": 8,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 3
+    },
     "upgradeCost": {
       "mechanical_components": 3,
       "simple_gun_parts": 1
@@ -5576,7 +5800,9 @@
       "simple_gun_parts": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 4
+    },
     "upgradeCost": {
       "mechanical_components": 4,
       "heavy_gun_parts": 1
@@ -5603,7 +5829,9 @@
       "simple_gun_parts": 5
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 5
+    },
     "upgradeCost": {
       "mechanical_components": 4,
       "heavy_gun_parts": 1
@@ -5629,7 +5857,9 @@
       "chemicals": 12
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/impure_arc_coolant.png",
@@ -5731,7 +5961,9 @@
       "exodus_modules": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "exodus_modules": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/ion_sputter.png",
@@ -5779,7 +6011,9 @@
       "electrical_components": 1,
       "battery": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "battery": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
@@ -5871,14 +6105,16 @@
     "weightKg": 7,
     "stackSize": null,
     "recyclesInto": {
-      "plastic_parts": 3,
-      "rubber_parts": 2
+      "rubber_parts": 2,
+      "metal_parts": 3
     },
     "recipe": {
       "metal_parts": 6,
       "rubber_parts": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
@@ -5898,15 +6134,17 @@
     "weightKg": 7,
     "stackSize": null,
     "recyclesInto": {
-      "plastic_parts": 6,
-      "rubber_parts": 6
+      "rubber_parts": 6,
+      "metal_parts": 6
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 6
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-    "isWeapon": null
+    "isWeapon": true
   },
   {
     "id": "kettle_iii",
@@ -5921,9 +6159,14 @@
     "value": 3000,
     "weightKg": 7,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "metal_parts": 12,
+      "simple_gun_parts": 1
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
@@ -5942,9 +6185,14 @@
     "value": 5000,
     "weightKg": 7,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 2,
+      "simple_gun_parts": 2
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
@@ -5968,7 +6216,9 @@
       "duct_tape": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/kinetic_converter.png",
@@ -5988,11 +6238,13 @@
     "weightKg": 3,
     "stackSize": null,
     "recyclesInto": {
-      "chemicals": 2,
-      "crude_explosives": 2
+      "chemicals": 16,
+      "crude_explosives": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "crude_explosives": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
@@ -6061,7 +6313,9 @@
       "arc_alloy": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/leaper_pulse_unit.png",
@@ -6084,7 +6338,9 @@
       "assorted_seeds": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/lemon.png",
@@ -6196,7 +6452,9 @@
     "recipe": {
       "simple_gun_parts": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts.png",
@@ -6251,7 +6509,9 @@
       "arc_alloy": 2,
       "plastic_parts": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_alloy": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/light_shield.png",
@@ -6291,12 +6551,17 @@
     "value": 5000,
     "weightKg": 0.25,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "duct_tape": 1,
+      "mod_components": 1
+    },
     "recipe": {
       "mod_components": 2,
       "duct_tape": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/lightweight_stock.png",
@@ -6323,7 +6588,9 @@
       "chemicals": 5,
       "plastic_parts": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/lil_smoke_grenade.png",
@@ -6350,7 +6617,9 @@
       "plastic_parts": 6,
       "rubber_parts": 6
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
@@ -6377,7 +6646,9 @@
       "electrical_components": 2,
       "magnet": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk2.png",
@@ -6396,12 +6667,17 @@
     "value": 5000,
     "weightKg": 3,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_electrical_components": 1,
+      "processor": 1
+    },
     "recipe": {
       "advanced_electrical_components": 2,
       "processor": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_cautious.png",
@@ -6449,7 +6725,9 @@
       "advanced_mechanical_components": 2,
       "processor": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
@@ -6520,7 +6798,9 @@
       "speaker_component": 1,
       "electrical_components": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "speaker_component": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
@@ -6540,10 +6820,12 @@
     "weightKg": 0.25,
     "stackSize": 15,
     "recyclesInto": {
-      "metal_parts": 3
+      "metal_parts": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/magnet.png",
@@ -6570,7 +6852,9 @@
       "advanced_mechanical_components": 2,
       "arc_motion_core": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
@@ -6594,7 +6878,9 @@
       "steel_spring": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/magnetron.png",
@@ -6668,7 +6954,9 @@
       "metal_parts": 7,
       "rubber_parts": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
@@ -6738,7 +7026,9 @@
     "recipe": {
       "simple_gun_parts": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "simple_gun_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
@@ -6834,7 +7124,9 @@
       "magnet": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
@@ -6858,7 +7150,9 @@
       "canister": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
@@ -6885,7 +7179,9 @@
       "steel_spring": 2,
       "mechanical_components": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
@@ -7025,7 +7321,9 @@
       "metal_parts": 6,
       "wires": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_i.png",
@@ -7073,7 +7371,9 @@
       "mechanical_components": 2,
       "wires": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
@@ -7113,12 +7413,17 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mod_components": 1,
+      "wires": 2
+    },
     "recipe": {
       "mod_components": 2,
       "wires": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_iii.png",
@@ -7137,12 +7442,16 @@
     "value": 640,
     "weightKg": 0.3,
     "stackSize": 3,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "speaker_component": 1
+    },
     "recipe": {
       "speaker_component": 1,
       "plastic_parts": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "speaker_component": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/noisemaker.png",
@@ -7166,7 +7475,7 @@
     },
     "recipe": null,
     "salvagesInto": {
-      "metal_parts": 1
+      "metal_parts": 2
     },
     "upgradeCost": null,
     "tier": null,
@@ -7190,7 +7499,9 @@
       "chemicals": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/oil.png",
@@ -7213,7 +7524,9 @@
       "assorted_seeds": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/olives.png",
@@ -7253,13 +7566,18 @@
     "value": 7000,
     "weightKg": 7,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
     "recipe": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3,
       "wires": 7
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
@@ -7386,12 +7704,17 @@
     "value": 5000,
     "weightKg": 0.5,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "duct_tape": 1,
+      "mod_components": 1
+    },
     "recipe": {
       "mod_components": 2,
       "duct_tape": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
@@ -7554,7 +7877,9 @@
       "arc_alloy": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "crude_explosives": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/pop_trigger.png",
@@ -7578,7 +7903,9 @@
       "wires": 6
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "wires": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/portable_tv.png",
@@ -7669,7 +7996,9 @@
       "wires": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "wires": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/power_cable.png",
@@ -7696,7 +8025,9 @@
       "advanced_electrical_components": 2,
       "arc_circuitry": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_electrical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/power_rod.png",
@@ -7719,7 +8050,9 @@
       "assorted_seeds": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/prickly_pear.png",
@@ -7743,7 +8076,9 @@
       "plastic_parts": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/processor.png",
@@ -7842,7 +8177,9 @@
       "magnetic_accelerator": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "power_rod": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
@@ -7866,7 +8203,9 @@
       "sensors": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "sensors": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/radio_relay.png",
@@ -7963,7 +8302,9 @@
       "metal_parts": 16,
       "rubber_parts": 12
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
@@ -8009,9 +8350,14 @@
     "value": 5000,
     "weightKg": 6,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 3,
+      "simple_gun_parts": 1
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 12
+    },
     "upgradeCost": {
       "mechanical_components": 2,
       "simple_gun_parts": 1
@@ -8066,7 +8412,9 @@
       "plastic_parts": 10
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/recorder.png",
@@ -8133,7 +8481,9 @@
     "recipe": {
       "chemicals": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/red_light_stick.png",
@@ -8207,7 +8557,9 @@
       "chemicals": 2,
       "rubber_parts": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
@@ -8235,7 +8587,9 @@
       "medium_gun_parts": 3,
       "oil": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
@@ -8254,9 +8608,14 @@
     "value": 10000,
     "weightKg": 10,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 2
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -8278,9 +8637,14 @@
     "value": 13000,
     "weightKg": 10,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 2,
+      "medium_gun_parts": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -8302,9 +8666,14 @@
     "value": 17000,
     "weightKg": 10,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "advanced_mechanical_components": 3,
+      "medium_gun_parts": 3
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -8378,7 +8747,9 @@
       "metal_parts": 6
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "synthesized_fuel": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rocket_thruster.png",
@@ -8402,7 +8773,9 @@
       "arc_alloy": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "arc_circuitry": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rocketeer_driver.png",
@@ -8425,7 +8798,9 @@
       "assorted_seeds": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/roots.png",
@@ -8448,7 +8823,9 @@
       "fabric": 5
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rope.png",
@@ -8493,7 +8870,9 @@
       "processor": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "processor": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rotary_encoder.png",
@@ -8634,7 +9013,9 @@
       "rubber_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/ruined_baton.png",
@@ -8657,7 +9038,9 @@
       "metal_parts": 8
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/ruined_handcuffs.png",
@@ -8783,7 +9166,9 @@
       "mechanical_components": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 12
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rusted_gear.png",
@@ -8807,7 +9192,9 @@
       "antiseptic": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "syringe": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png",
@@ -8882,7 +9269,9 @@
       "assorted_seeds": 14
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "assorted_seeds": 12
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/sample_cleaner.png",
@@ -8923,13 +9312,15 @@
     "weightKg": 0.2,
     "stackSize": 5,
     "recyclesInto": {
-      "chemicals": 1
+      "crude_explosives": 1
     },
     "recipe": {
       "crude_explosives": 1,
       "arc_alloy": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
@@ -9000,9 +9391,13 @@
     "value": 1000,
     "weightKg": 0.2,
     "stackSize": 1,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "plastic_parts": 10
+    },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 4
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shaker.png",
@@ -9028,7 +9423,9 @@
       "rubber_parts": 5,
       "arc_powercell": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "rubber_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shield_recharger.png",
@@ -9071,12 +9468,16 @@
     "value": 640,
     "weightKg": 0.25,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "metal_parts": 5
+    },
     "recipe": {
       "metal_parts": 6,
       "wires": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_i.png",
@@ -9124,7 +9525,9 @@
       "mechanical_components": 2,
       "wires": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_ii.png",
@@ -9164,12 +9567,17 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mod_components": 1,
+      "wires": 2
+    },
     "recipe": {
       "mod_components": 2,
       "wires": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shotgun_choke_iii.png",
@@ -9209,12 +9617,17 @@
     "value": 5000,
     "weightKg": 0.5,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mod_components": 1,
+      "wires": 1
+    },
     "recipe": {
       "mod_components": 2,
       "wires": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
@@ -9262,7 +9675,9 @@
       "advanced_electrical_components": 1,
       "voltage_converter": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "battery": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/showstopper.png",
@@ -9289,7 +9704,9 @@
       "crude_explosives": 1,
       "steel_spring": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "crude_explosives": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png",
@@ -9313,7 +9730,9 @@
       "arc_alloy": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
@@ -9337,7 +9756,9 @@
       "voltage_converter": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "voltage_converter": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/signal_amplifier.png",
@@ -9377,12 +9798,17 @@
     "value": 2000,
     "weightKg": 0.25,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mechanical_components": 1,
+      "wires": 1
+    },
     "recipe": {
       "mechanical_components": 2,
       "wires": 4
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png",
@@ -9422,12 +9848,17 @@
     "value": 5000,
     "weightKg": 0.5,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "mod_components": 1,
+      "wires": 2
+    },
     "recipe": {
       "mod_components": 2,
       "wires": 8
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/silencer_ii.png",
@@ -9452,7 +9883,7 @@
     },
     "recipe": null,
     "salvagesInto": {
-      "mod_components": 1
+      "mod_components": 2
     },
     "upgradeCost": null,
     "tier": null,
@@ -9497,7 +9928,9 @@
       "metal_parts": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "metal_parts": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/simple_gun_parts.png",
@@ -9569,7 +10002,9 @@
       "chemicals": 14,
       "canister": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade.png",
@@ -9596,7 +10031,9 @@
       "crude_explosives": 2,
       "magnet": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/snap_blast_grenade.png",
@@ -9645,7 +10082,9 @@
       "rope": 3,
       "exodus_modules": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "advanced_electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
@@ -9670,7 +10109,7 @@
     },
     "recipe": null,
     "salvagesInto": {
-      "electrical_components": 1
+      "electrical_components": 2
     },
     "upgradeCost": null,
     "tier": null,
@@ -9800,7 +10239,9 @@
       "rubber_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
@@ -9824,7 +10265,9 @@
       "sensors": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/spectrometer.png",
@@ -9848,7 +10291,9 @@
       "exodus_modules": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "processor": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/spectrum_analyzer.png",
@@ -9974,7 +10419,9 @@
       "mechanical_components": 2,
       "duct_tape": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/stable_stock_ii.png",
@@ -10014,12 +10461,17 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "duct_tape": 2,
+      "mod_components": 1
+    },
     "recipe": {
       "mod_components": 2,
       "duct_tape": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/stable_stock_iii.png",
@@ -10064,7 +10516,7 @@
     },
     "recipe": null,
     "salvagesInto": {
-      "metal_parts": 2
+      "metal_parts": 1
     },
     "upgradeCost": null,
     "tier": null,
@@ -10168,12 +10620,17 @@
     "value": 2000,
     "weightKg": 0.2,
     "stackSize": 3,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "antiseptic": 1,
+      "fabric": 1
+    },
     "recipe": {
       "antiseptic": 1,
       "durable_cloth": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "durable_cloth": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/sterilized_bandage.png",
@@ -10315,7 +10772,9 @@
       "electrical_components": 1,
       "advanced_arc_powercell": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/surge_shield_recharger.png",
@@ -10365,7 +10824,9 @@
       "plastic_parts": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "oil": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/synthesized_fuel.png",
@@ -10418,7 +10879,9 @@
       "plastic_parts": 6,
       "rubber_parts": 6
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
@@ -10438,14 +10901,16 @@
     "weightKg": 2,
     "stackSize": null,
     "recyclesInto": {
-      "advanced_electrical_components": 1,
-      "magnet": 1
+      "magnet": 1,
+      "electrical_components": 1
     },
     "recipe": {
       "electrical_components": 2,
       "magnet": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/tactical_i.png",
@@ -10493,7 +10958,9 @@
       "advanced_electrical_components": 2,
       "processor": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
@@ -10541,7 +11008,9 @@
       "advanced_electrical_components": 2,
       "processor": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
@@ -10614,7 +11083,9 @@
       "fabric": 12
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/tattered_arc_lining.png",
@@ -10663,7 +11134,9 @@
       "processor": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "electrical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/telemetry_transceiver.png",
@@ -10712,7 +11185,9 @@
       "magnetic_accelerator": 1,
       "medium_gun_parts": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
@@ -10736,7 +11211,9 @@
       "medium_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3
@@ -10763,7 +11240,9 @@
       "medium_gun_parts": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 4
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 4,
       "medium_gun_parts": 4
@@ -10790,7 +11269,9 @@
       "medium_gun_parts": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 5
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 3
@@ -10894,7 +11375,9 @@
       "fabric": 12
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "fabric": 5
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/torn_blanket.png",
@@ -10964,7 +11447,9 @@
       "medium_gun_parts": 3,
       "steel_spring": 6
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
@@ -10988,7 +11473,9 @@
       "medium_gun_parts": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -11015,7 +11502,9 @@
       "medium_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -11042,7 +11531,9 @@
       "medium_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -11092,7 +11583,9 @@
       "synthesized_fuel": 1,
       "explosive_compound": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "crude_explosives": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
@@ -11140,7 +11633,9 @@
       "crude_explosives": 2,
       "processor": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "processor": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/trigger_nade.png",
@@ -11164,7 +11659,9 @@
       "oil": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "steel_spring": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/turbo_pump.png",
@@ -11260,7 +11757,9 @@
       "medium_gun_parts": 3,
       "magnet": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/venator.png",
@@ -11284,7 +11783,9 @@
       "medium_gun_parts": 2
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 2
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -11311,7 +11812,9 @@
       "medium_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "medium_gun_parts": 2
@@ -11338,7 +11841,9 @@
       "medium_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "medium_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "medium_gun_parts": 2
@@ -11360,12 +11865,16 @@
     "value": 640,
     "weightKg": 0.25,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "plastic_parts": 6
+    },
     "recipe": {
       "plastic_parts": 6,
       "duct_tape": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "plastic_parts": 3
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_i.png",
@@ -11413,7 +11922,9 @@
       "mechanical_components": 2,
       "duct_tape": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_ii.png",
@@ -11453,12 +11964,17 @@
     "value": 5000,
     "weightKg": 0.75,
     "stackSize": null,
-    "recyclesInto": null,
+    "recyclesInto": {
+      "duct_tape": 2,
+      "mechanical_components": 2
+    },
     "recipe": {
       "mod_components": 2,
       "duct_tape": 5
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "mechanical_components": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii.png",
@@ -11527,7 +12043,9 @@
       "antiseptic": 2,
       "syringe": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "syringe": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
@@ -11622,7 +12140,9 @@
       "rubber_parts": 1
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "rubber_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/voltage_converter.png",
@@ -11671,7 +12191,9 @@
       "heavy_gun_parts": 3,
       "exodus_modules": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
@@ -11695,7 +12217,9 @@
       "heavy_gun_parts": 3
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 3
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 1,
       "heavy_gun_parts": 2
@@ -11722,7 +12246,9 @@
       "heavy_gun_parts": 4
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 4
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 1
@@ -11749,7 +12275,9 @@
       "heavy_gun_parts": 5
     },
     "recipe": null,
-    "salvagesInto": null,
+    "salvagesInto": {
+      "heavy_gun_parts": 5
+    },
     "upgradeCost": {
       "advanced_mechanical_components": 2,
       "heavy_gun_parts": 3
@@ -11850,7 +12378,7 @@
     "weightKg": 0.25,
     "stackSize": 15,
     "recyclesInto": {
-      "rubber_parts": 2
+      "rubber_parts": 3
     },
     "recipe": null,
     "salvagesInto": {
@@ -11896,14 +12424,16 @@
     "weightKg": 1,
     "stackSize": 1,
     "recyclesInto": {
-      "crude_explosives": 1,
-      "arc_motion_core": 1
+      "arc_motion_core": 1,
+      "explosive_compound": 1
     },
     "recipe": {
       "explosive_compound": 3,
       "arc_motion_core": 2
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "explosive_compound": 2
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/wolfpack.png",
@@ -11949,7 +12479,9 @@
     "recipe": {
       "chemicals": 3
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "chemicals": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
@@ -11976,7 +12508,9 @@
       "rope": 1,
       "mechanical_components": 1
     },
-    "salvagesInto": null,
+    "salvagesInto": {
+      "rope": 1
+    },
     "upgradeCost": null,
     "tier": null,
     "imageFilename": "https://cdn.arctracker.io/items/zipline.png",
