@@ -6,67 +6,154 @@
   flex-shrink: 0;
 }
 
-.accordion-list-empty {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: #888;
-  font-size: 16px;
-}
-
-.accordion-search {
-  padding: 16px 20px;
-}
-
-.accordion-search-input {
-  width: 100%;
-  padding: 10px 14px;
-  background: #1a1a1a;
-  border: 1px solid #444;
-  border-radius: 6px;
-  color: #e0e0e0;
-  font-size: 14px;
-  outline: none;
-  transition: border-color 0.2s;
-
-  &::placeholder {
-    color: #666;
-  }
-
-  &:focus {
-    border-color: #4fc3f7;
-  }
-}
-
-.accordion-type-filter {
-  padding: 12px 20px 16px;
-  border-bottom: 1px solid #333;
-}
-
-.accordion-type-filter-header {
+.filters-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  padding: 10px 16px;
+  background: #2a2a2a;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-bottom: 1px solid #333;
+
+  &:hover {
+    background: #303030;
+  }
 }
 
-.accordion-type-filter-label {
-  @include section-title;
-}
-
-.accordion-type-filter-actions {
+.filters-header-content {
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 10px;
+  color: #4fc3f7;
+  font-size: 13px;
+  font-weight: 500;
+  flex: 1;
+  min-width: 0;
 }
 
-.accordion-type-filter-action {
-  padding: 4px 10px;
+.filters-summary-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.filter-summary-search {
+  color: #e0e0e0;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.filter-summary-none {
+  color: #e53935;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.filter-summary-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-summary-badge {
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  
+  &.type-badge {
+    background: #4fc3f7;
+    color: #1a1a1a;
+  }
+  
+  &.rarity-badge {
+    border: 1px solid;
+    
+    &.rarity-common {
+      background: #9e9e9e;
+      border-color: #9e9e9e;
+      color: #1a1a1a;
+    }
+    
+    &.rarity-uncommon {
+      background: #4caf50;
+      border-color: #4caf50;
+      color: #1a1a1a;
+    }
+    
+    &.rarity-rare {
+      background: #2196f3;
+      border-color: #2196f3;
+      color: #1a1a1a;
+    }
+    
+    &.rarity-epic {
+      background: #9c27b0;
+      border-color: #9c27b0;
+      color: white;
+    }
+    
+    &.rarity-legendary {
+      background: #ff9800;
+      border-color: #ff9800;
+      color: #1a1a1a;
+    }
+  }
+}
+
+.filters-toggle {
+  color: #888;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.filters-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 16px;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 32px;
+}
+
+.filter-label {
+  @include section-title;
+  font-size: 12px;
+  min-width: 60px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 1;
+  align-items: center;
+}
+
+.filter-action-button {
+  padding: 3px 8px;
   background: #2c2c2c;
   border: 1px solid #444;
-  border-radius: 4px;
+  border-radius: 3px;
   color: #e0e0e0;
-  font-size: 11px;
+  font-size: 10px;
   cursor: pointer;
   transition: all 0.2s;
 
@@ -81,21 +168,15 @@
   }
 }
 
-.accordion-type-filter-types {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.accordion-type-filter-type {
-  padding: 6px 12px;
+.filter-button {
+  padding: 4px 10px;
   background: #2c2c2c;
   border: 1px solid #444;
-  border-radius: 4px;
+  border-radius: 3px;
   color: #e0e0e0;
-  font-size: 12px;
+  font-size: 11px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.15s;
   user-select: none;
 
   &.enabled {
@@ -114,120 +195,84 @@
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
+
+  &.filter-rarity {
+    border-width: 2px;
+    font-weight: 600;
+
+    &.rarity-common {
+      border-color: #9e9e9e;
+
+      &.enabled {
+        background: #9e9e9e;
+        color: #1a1a1a;
+      }
+    }
+
+    &.rarity-uncommon {
+      border-color: #4caf50;
+
+      &.enabled {
+        background: #4caf50;
+        color: #1a1a1a;
+      }
+    }
+
+    &.rarity-rare {
+      border-color: #2196f3;
+
+      &.enabled {
+        background: #2196f3;
+        color: #1a1a1a;
+      }
+    }
+
+    &.rarity-epic {
+      border-color: #9c27b0;
+
+      &.enabled {
+        background: #9c27b0;
+        color: white;
+      }
+    }
+
+    &.rarity-legendary {
+      border-color: #ff9800;
+
+      &.enabled {
+        background: #ff9800;
+        color: #1a1a1a;
+      }
+    }
+  }
 }
 
-.accordion-rarity-filter {
-  padding: 12px 20px 16px;
-}
-
-.accordion-rarity-filter-header {
+.accordion-list-empty {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  height: 100%;
+  color: #888;
+  font-size: 16px;
 }
 
-.accordion-rarity-filter-label {
-  @include section-title;
-}
-
-.accordion-rarity-filter-actions {
-  display: flex;
-  gap: 8px;
-}
-
-.accordion-rarity-filter-action {
-  padding: 4px 10px;
-  background: #2c2c2c;
-  border: 1px solid #444;
-  border-radius: 4px;
-  color: #e0e0e0;
-  font-size: 11px;
-  cursor: pointer;
-  transition: all 0.2s;
-
-  &:hover:not(:disabled) {
-    background: #3c3c3c;
-    border-color: #4fc3f7;
-  }
-
-  &:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
-}
-
-.accordion-rarity-filter-rarities {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.accordion-rarity-filter-rarity {
+.accordion-search-input {
+  flex: 1;
   padding: 6px 12px;
-  background: #2c2c2c;
-  border: 2px solid #444;
-  border-radius: 4px;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 3px;
   color: #e0e0e0;
-  font-size: 12px;
-  cursor: pointer;
-  transition: all 0.2s;
-  user-select: none;
-  font-weight: 600;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
 
-  &.rarity-common {
-    border-color: #9e9e9e;
-
-    &.enabled {
-      background: #9e9e9e;
-      color: #1a1a1a;
-    }
+  &::placeholder {
+    color: #666;
   }
 
-  &.rarity-uncommon {
-    border-color: #4caf50;
-
-    &.enabled {
-      background: #4caf50;
-      color: #1a1a1a;
-    }
-  }
-
-  &.rarity-rare {
-    border-color: #2196f3;
-
-    &.enabled {
-      background: #2196f3;
-      color: #1a1a1a;
-    }
-  }
-
-  &.rarity-epic {
-    border-color: #9c27b0;
-
-    &.enabled {
-      background: #9c27b0;
-      color: white;
-    }
-  }
-
-  &.rarity-legendary {
-    border-color: #ff9800;
-
-    &.enabled {
-      background: #ff9800;
-      color: #1a1a1a;
-    }
-  }
-
-  &.disabled {
-    opacity: 0.4;
-    background: #1e1e1e;
-  }
-
-  &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  &:focus {
+    border-color: #4fc3f7;
   }
 }
 

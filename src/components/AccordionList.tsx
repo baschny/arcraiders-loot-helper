@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { ChevronUp, ChevronDown } from 'lucide-react';
+import { ChevronUp, ChevronDown, Filter } from 'lucide-react';
 import type { ItemsMap, ItemRarity } from '../types/item';
 import type { ReverseMap } from '../utils/craftingChain';
 import { ItemHierarchy } from './ItemHierarchy';
@@ -21,7 +21,9 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
   const [enabledTypes, setEnabledTypes] = useState<Set<string>>(new Set());
   const [enabledRarities, setEnabledRarities] = useState<Set<ItemRarity>>(new Set());
   const [stashSectionExpanded, setStashSectionExpanded] = useState(false);
+  const [filtersExpanded, setFiltersExpanded] = useState(true);
   const itemRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   // Get all items that are in the reverse map (i.e., needed for crafting)
   // Exclude goal items and stash items from the list
@@ -170,92 +172,155 @@ export function AccordionList({ itemsMap, goalItemIds, reverseMap, stashItemIds,
     saveEnabledRarities(emptySet);
   };
 
+  const handleToggleFilters = () => {
+    const newExpanded = !filtersExpanded;
+    setFiltersExpanded(newExpanded);
+    
+    // Focus search input when expanding
+    if (newExpanded) {
+      setTimeout(() => {
+        searchInputRef.current?.focus();
+      }, 50);
+    }
+  };
+
+  // Build summary for collapsed state
+  const getFilterSummary = () => {
+    return (
+      <div className="filters-summary-content">
+        {searchTerm.trim() && (
+          <span className="filter-summary-search">"{searchTerm}"</span>
+        )}
+        
+        {enabledTypes.size === 0 ? (
+          <span className="filter-summary-none">nothing</span>
+        ) : enabledTypes.size < allTypes.length ? (
+          <div className="filter-summary-badges">
+            {Array.from(enabledTypes).sort().map((type) => (
+              <span key={type} className="filter-summary-badge type-badge">
+                {type}
+              </span>
+            ))}
+          </div>
+        ) : null}
+        
+        {enabledRarities.size === 0 ? (
+          <span className="filter-summary-none">nothing</span>
+        ) : enabledRarities.size < allRarities.length ? (
+          <div className="filter-summary-badges">
+            {Array.from(enabledRarities).sort((a, b) => 
+              rarityOrder.indexOf(a) - rarityOrder.indexOf(b)
+            ).map((rarity) => (
+              <span 
+                key={rarity} 
+                className={`filter-summary-badge rarity-badge rarity-${rarity.toLowerCase()}`}
+              >
+                {rarity}
+              </span>
+            ))}
+          </div>
+        ) : null}
+      </div>
+    );
+  };
+
   return (
     <>
       <div className="filters-section">
-        <div className="accordion-search">
-        <input
-          type="text"
-          placeholder="Search items..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="accordion-search-input"
-        />
-      </div>
-
-      {allTypes.length > 0 && (
-        <div className="accordion-type-filter">
-          <div className="accordion-type-filter-header">
-            <span className="accordion-type-filter-label">Filter by Type</span>
-            <div className="accordion-type-filter-actions">
-              <button
-                onClick={handleEnableAllTypes}
-                className="accordion-type-filter-action"
-                disabled={enabledTypes.size === allTypes.length}
-              >
-                Enable All
-              </button>
-              <button
-                onClick={handleDisableAllTypes}
-                className="accordion-type-filter-action"
-                disabled={enabledTypes.size === 0}
-              >
-                Disable All
-              </button>
-            </div>
+        <div 
+          className="filters-header"
+          onClick={handleToggleFilters}
+        >
+          <div className="filters-header-content">
+            <Filter size={16} />
+            {getFilterSummary()}
           </div>
-          <div className="accordion-type-filter-types">
-            {allTypes.map((type) => (
-              <button
-                key={type}
-                onClick={() => handleToggleType(type)}
-                className={`accordion-type-filter-type ${
-                  enabledTypes.has(type) ? 'enabled' : 'disabled'
-                }`}
-              >
-                {type}
-              </button>
-            ))}
-          </div>
+          <span className="filters-toggle">
+            {filtersExpanded ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+          </span>
         </div>
-      )}
 
-      {allRarities.length > 0 && (
-        <div className="accordion-rarity-filter">
-          <div className="accordion-rarity-filter-header">
-            <span className="accordion-rarity-filter-label">Filter by Rarity</span>
-            <div className="accordion-rarity-filter-actions">
-              <button
-                onClick={handleEnableAllRarities}
-                className="accordion-rarity-filter-action"
-                disabled={enabledRarities.size === allRarities.length}
-              >
-                Enable All
-              </button>
-              <button
-                onClick={handleDisableAllRarities}
-                className="accordion-rarity-filter-action"
-                disabled={enabledRarities.size === 0}
-              >
-                Disable All
-              </button>
+        {filtersExpanded && (
+          <div className="filters-controls">
+            <div className="filter-row">
+              <label className="filter-label">Search</label>
+              <input
+                ref={searchInputRef}
+                type="text"
+                placeholder="Type to search items..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="accordion-search-input"
+              />
             </div>
+
+            {allTypes.length > 0 && (
+              <div className="filter-row">
+                <label className="filter-label">Type</label>
+                <div className="filter-buttons">
+                  <button
+                    onClick={handleEnableAllTypes}
+                    className="filter-action-button"
+                    disabled={enabledTypes.size === allTypes.length}
+                  >
+                    All
+                  </button>
+                  <button
+                    onClick={handleDisableAllTypes}
+                    className="filter-action-button"
+                    disabled={enabledTypes.size === 0}
+                  >
+                    None
+                  </button>
+                  {allTypes.map((type) => (
+                    <button
+                      key={type}
+                      onClick={() => handleToggleType(type)}
+                      className={`filter-button ${
+                        enabledTypes.has(type) ? 'enabled' : 'disabled'
+                      }`}
+                    >
+                      {type}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {allRarities.length > 0 && (
+              <div className="filter-row">
+                <label className="filter-label">Rarity</label>
+                <div className="filter-buttons">
+                  <button
+                    onClick={handleEnableAllRarities}
+                    className="filter-action-button"
+                    disabled={enabledRarities.size === allRarities.length}
+                  >
+                    All
+                  </button>
+                  <button
+                    onClick={handleDisableAllRarities}
+                    className="filter-action-button"
+                    disabled={enabledRarities.size === 0}
+                  >
+                    None
+                  </button>
+                  {allRarities.map((rarity) => (
+                    <button
+                      key={rarity}
+                      onClick={() => handleToggleRarity(rarity)}
+                      className={`filter-button filter-rarity rarity-${rarity.toLowerCase()} ${
+                        enabledRarities.has(rarity) ? 'enabled' : 'disabled'
+                      }`}
+                    >
+                      {rarity}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
-          <div className="accordion-rarity-filter-rarities">
-            {allRarities.map((rarity) => (
-              <button
-                key={rarity}
-                onClick={() => handleToggleRarity(rarity)}
-                className={`accordion-rarity-filter-rarity rarity-${rarity.toLowerCase()} ${
-                  enabledRarities.has(rarity) ? 'enabled' : 'disabled'
-                }`}
-              >
-                {rarity}
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
+        )}
       </div>
 
       <div className="accordion-items">
