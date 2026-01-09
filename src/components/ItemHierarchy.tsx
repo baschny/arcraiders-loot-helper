@@ -96,14 +96,20 @@ export function ItemHierarchy({
             
             let relationshipText: string;
             let relationshipIcon: React.ReactNode = null;
+            let quantityToShow = 1;
             
             if (usage.relationship === 'recycle') {
+              quantityToShow = item.recyclesInto?.[usage.parentItemId] || 1;
               relationshipText = 'recycles into';
               relationshipIcon = <Recycle size={14} strokeWidth={2} className="hierarchy-relationship-icon" />;
             } else if (usage.relationship === 'salvage') {
+              // Check salvagesInto first, then fall back to recyclesInto for database inconsistency
+              quantityToShow = item.salvagesInto?.[usage.parentItemId] || item.recyclesInto?.[usage.parentItemId] || 1;
               relationshipText = safeSalvage ? 'salvages into (safe)' : 'salvages into';
               relationshipIcon = <Wrench size={14} strokeWidth={2} className="hierarchy-relationship-icon" />;
             } else {
+              // For recipes: show how many of current material needed to build ONE parent item
+              quantityToShow = parentItem.recipe?.[itemId] || 1;
               relationshipText = 'used to build';
             }
 
@@ -114,6 +120,9 @@ export function ItemHierarchy({
               <div key={`${usage.parentItemId}-${index}`} className="hierarchy-branch">
                 <div className="hierarchy-item">
                   <span className="hierarchy-relationship">
+                    {usage.relationship === 'recipe' && quantityToShow > 1 && (
+                      <span className="hierarchy-item-quantity">×{quantityToShow}</span>
+                    )}
                     {relationshipIcon}
                     {relationshipText}:
                   </span>
@@ -129,8 +138,8 @@ export function ItemHierarchy({
                       />
                     )}
                     <span className="hierarchy-item-name">{parentItem.name.en}</span>
-                    {usage.quantity > 1 && (
-                      <span className="hierarchy-item-quantity">×{usage.quantity}</span>
+                    {(usage.relationship === 'salvage' || usage.relationship === 'recycle') && quantityToShow > 0 && (
+                      <span className="hierarchy-item-quantity">×{quantityToShow}</span>
                     )}
                   </div>
                   {parentIsGoal && (
